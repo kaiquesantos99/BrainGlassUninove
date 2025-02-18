@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Playables;
 
 public class QuizController : MonoBehaviour
 {
@@ -21,11 +22,18 @@ public class QuizController : MonoBehaviour
     // Objeto que exibe a questão e seu componente
     public GameObject questao; private TextMeshProUGUI textoQuestao;
 
+    // Timeline
+    public GameObject timeline;
+    private PlayableDirector cutsceneMorte;
+
     // Efeitos Sonoros
     private AudioSource[] aud;
     public AudioClip somX;
     public AudioClip somO;
     public AudioClip mingleInstrumental;
+
+    // Quiz Options
+    public GameObject quizOptions;
 
     // Botões das alternativas
     public GameObject btnAlt1;
@@ -83,6 +91,8 @@ public class QuizController : MonoBehaviour
         buttonBtn2 = btnAlt2.GetComponent<Button>();
         buttonBtn3 = btnAlt3.GetComponent<Button>();
         buttonBtn4 = btnAlt4.GetComponent<Button>();
+
+        cutsceneMorte = timeline.GetComponent<PlayableDirector>();
 
         // Toca a música de fundo
         aud[1].clip = mingleInstrumental;
@@ -212,6 +222,8 @@ public class QuizController : MonoBehaviour
             buttonBtn4.enabled = false;
 
             totErros++;
+
+            HideQuizWithDelay();
         }
     }
 
@@ -303,6 +315,24 @@ public class QuizController : MonoBehaviour
         }
 
         
+    }
+
+
+    public void ShowQuizOptions()
+    {
+        quizOptions.SetActive(true);
+    }
+
+    public void HideQuizWithDelay()
+    {
+        StartCoroutine(DisableAfterSeconds(2f));
+    }
+
+    private IEnumerator DisableAfterSeconds(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        quizOptions.SetActive(false);
+        cutsceneMorte.Play();
     }
 }
 
