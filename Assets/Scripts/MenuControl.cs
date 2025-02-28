@@ -21,4 +21,9 @@ public class MenuControl : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void FecharJogo()
+    {
+        Application.Quit();
+    }
 }
