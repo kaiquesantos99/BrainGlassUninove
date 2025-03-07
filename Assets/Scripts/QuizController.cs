@@ -8,6 +8,7 @@ using UnityEngine.UI;
 using UnityEngine.Playables;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
+using System.Collections.Specialized;
 
 
 public class QuizController : MonoBehaviour
@@ -22,6 +23,14 @@ public class QuizController : MonoBehaviour
 
     // Lista de Questões
     List<Questions> questoes = new List<Questions>();
+
+    // Virtual Cameras
+    public GameObject objCamTheWall;
+    private Cinemachine.CinemachineVirtualCamera camTheWall;
+
+    // Objetos - The Wall
+    public GameObject ball; private float ballX = 366.865f, ballY = 37.38f;
+    public GameObject[] objResults;
 
     // Objeto - Vidro inteiro
     public GameObject vidro;
@@ -54,8 +63,9 @@ public class QuizController : MonoBehaviour
     public AudioClip somO;
     public AudioClip mingleInstrumental;
 
-    // Quiz Options
+    // Screens options
     public GameObject quizOptions;
+    public GameObject wallOptions;
 
     // Botão de pular introdução
     public GameObject btnSkip;
@@ -129,6 +139,8 @@ public class QuizController : MonoBehaviour
         cutsceneMorteLonga = timelineMorteLonga.GetComponent<PlayableDirector>();
 
         deadVideo = objDeadVideo.GetComponent<VideoPlayer>();
+
+        camTheWall = objCamTheWall.GetComponent<Cinemachine.CinemachineVirtualCamera>();
 
         // Criar listerner para o fim da cena de introdução e partir para o quiz
         if (sceneIntroduction != null)
@@ -298,6 +310,7 @@ public class QuizController : MonoBehaviour
     void OnIntroductionFinished(PlayableDirector obj)
     {
         quizOptions.SetActive(true);
+        btnSkip.SetActive(false);
         vidro.SetActive(false);
         sceneIntroduction.stopped -= OnIntroductionFinished; // Remove o listener para evitar chamadas duplicadas
     }
@@ -384,7 +397,9 @@ public class QuizController : MonoBehaviour
 
             totErros++;
 
-            HideQuizWithDelay();
+            StartCoroutine(HideQuestionsAfterError(2f));
+
+
         }
     }
 
@@ -477,17 +492,22 @@ public class QuizController : MonoBehaviour
         }
     }
 
+    public void Ball1()
+    {
+        float zAleatorio = Random.Range(-4.308f, -4.043f);
+
+        ball.transform.position = new Vector3(ballX, ballY, zAleatorio);
+        ball.SetActive(true);
+    }
+
     public void ShowQuizOptions()
     {
         quizOptions.SetActive(true);
         btnSkip.SetActive(false);
     }
 
-    public void HideQuizWithDelay()
-    {
-        StartCoroutine(DisableAfterSeconds(2f));
-    }
 
+    /*
     private IEnumerator DisableAfterSeconds(float delay)
     {
         yield return new WaitForSeconds(delay);
@@ -542,6 +562,32 @@ public class QuizController : MonoBehaviour
                 // Cria um listener
                 cutsceneMorteLonga.stopped += OnDeadFinished;
             }
+        }
+    }
+    */
+
+
+
+    private IEnumerator HideQuestionsAfterError(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        quizOptions.SetActive(false);
+        camTheWall.Priority = 11;
+        wallOptions.SetActive(true);
+
+        List<int> conseq = new List<int> {-1, -1, -1, -1, -1, 0,0,0,0, 1,1,1,1, 2,2};
+
+        for (int c = 0; c < 15; c++)
+        {
+            
+            System.Random random = new System.Random();
+            int aleatorio = random.Next(0, conseq.Count - 1);
+
+
+            objResults[c].GetComponent<PontoColisao>().consequencia = conseq[aleatorio];
+            objResults[c].GetComponent<PontoColisao>().AlterarFundo();
+            conseq.RemoveAt(aleatorio);
+
         }
     }
 
