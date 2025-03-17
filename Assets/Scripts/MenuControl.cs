@@ -19,7 +19,7 @@ public class MenuControl : MonoBehaviour
 
     public void CarregarJogo()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Loading");
     }
 
     public void FecharJogo()
