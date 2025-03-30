@@ -1,1052 +1,1402 @@
 [
-  {
-    "questao": "O que o modificador 'static' faz em um método ou variável em C#?",
-    "alt1": "Torna o membro acessível sem precisar instanciar a classe",
-    "alt2": "Permite que o membro seja sobrescrito em heranças",
-    "alt3": "Cria uma instância automaticamente",
-    "alt4": "Torna o membro privado"
-  },
-  {
-    "questao": "Para que serve o método GetComponent no Unity?",
-    "alt1": "Acessar um componente acoplado a um GameObject",
-    "alt2": "Instanciar um novo GameObject na cena",
-    "alt3": "Destruir um componente de outro GameObject",
-    "alt4": "Alterar o nome do GameObject"
-  },
-  {
-    "questao": "O que significa 'FromJson' em C# com Unity?",
-    "alt1": "Converte uma string JSON em um objeto de uma classe",
-    "alt2": "Transforma uma imagem em formato JSON",
-    "alt3": "Gera um arquivo XML a partir de um JSON",
-    "alt4": "Exporta dados da Unity para o navegador"
-  },
-  {
-    "questao": "Qual é a saída do código: int x = 5; x += 3; print(x);",
-    "alt1": "8",
-    "alt2": "5",
-    "alt3": "3",
-    "alt4": "Erro de compilação"
-  },
-  {
-    "questao": "Como usar um loop 'foreach' corretamente em C#?",
-    "alt1": "foreach(string nome in nomes) { Debug.Log(nome); }",
-    "alt2": "foreach(string in nome nomes) { print(nome); }",
-    "alt3": "foreach(nomes in string nome) { return nome; }",
-    "alt4": "for(string nome in nomes) { }"
-  },
-  {
-    "questao": "Para que serve o comando 'git status' no Git?",
-    "alt1": "Mostra os arquivos modificados e o estado do repositório",
-    "alt2": "Cria um novo branch",
-    "alt3": "Envia arquivos para o GitHub",
-    "alt4": "Salva alterações no repositório local"
-  },
-  {
-    "questao": "O que faz o comando 'git commit -m \"mensagem\"'?",
-    "alt1": "Salva as mudanças no histórico local com uma mensagem descritiva",
-    "alt2": "Cria uma branch com o nome 'mensagem'",
-    "alt3": "Envia arquivos para o repositório remoto",
-    "alt4": "Desfaz alterações não salvas"
-  },
-  {
-    "questao": "Qual estrutura representa corretamente uma função em C#?",
-    "alt1": "public int Somar(int a, int b) { return a + b; }",
-    "alt2": "int public Somar(a, b) { return a + b }",
-    "alt3": "function Somar(a, b) { return a + b }",
-    "alt4": "Somar public(int a, int b): return a + b;"
-  },
-  {
-    "questao": "Como criar um array de inteiros com 5 posições em C#?",
-    "alt1": "int[] numeros = new int[5];",
-    "alt2": "int numeros = [5];",
-    "alt3": "int[5] numeros;",
-    "alt4": "array<int> numeros = new array(5);"
-  },
-  {
-    "questao": "Em Unity, qual comando usamos para carregar um arquivo JSON da pasta Resources?",
-    "alt1": "TextAsset jsonFile = Resources.Load<TextAsset>(\"arquivo\");",
-    "alt2": "var json = File.Load(\"Resources/arquivo.json\");",
-    "alt3": "Resources.jsonFile(\"arquivo\")",
-    "alt4": "JsonAsset arquivo = GetResource<TextAsset>(\"json\")"
-  },
-  {
-    "questao": "Qual palavra-chave em C# define uma classe como base que outras classes podem herdar?",
-    "alt1": "public",
-    "alt2": "override",
-    "alt3": "sealed",
-    "alt4": "internal"
-  },
-  {
-    "questao": "Em C#, o que significa a instrução 'foreach'?",
-    "alt1": "Percorrer todos os elementos de uma coleção",
-    "alt2": "Criar uma nova coleção",
-    "alt3": "Ordenar uma coleção automaticamente",
-    "alt4": "Comparar elementos de uma lista"
-  },
-  {
-    "questao": "O que faz o comando 'git clone'?",
-    "alt1": "Copia um repositório remoto para sua máquina local",
-    "alt2": "Remove o repositório local",
-    "alt3": "Atualiza o repositório remoto com seu código",
-    "alt4": "Cria uma nova branch no projeto"
-  },
-  {
-    "questao": "Para que serve o 'JsonUtility.FromJson<T>()' no Unity?",
-    "alt1": "Converter uma string JSON em um objeto do tipo T",
-    "alt2": "Salvar arquivos JSON no disco",
-    "alt3": "Remover dados de um arquivo JSON",
-    "alt4": "Gerar um JSON vazio"
-  },
-  {
-    "questao": "O que é necessário para que uma classe possa ser serializada no Unity?",
-    "alt1": "Atributo [System.Serializable] na classe",
-    "alt2": "Herdar de MonoBehaviour obrigatoriamente",
-    "alt3": "Nome da classe começar com Json",
-    "alt4": "Adicionar o atributo [NonSerialized]"
-  },
-  {
-    "questao": "O que faz o comando 'git commit'?",
-    "alt1": "Registra alterações no repositório local",
-    "alt2": "Sincroniza alterações com o repositório remoto",
-    "alt3": "Baixa o histórico do repositório remoto",
-    "alt4": "Exclui os arquivos não versionados"
-  },
-  {
-    "questao": "Qual o objetivo da Programação Orientada a Objetos (POO)?",
-    "alt1": "Organizar o código em objetos com propriedades e comportamentos",
-    "alt2": "Evitar o uso de funções em linguagens modernas",
-    "alt3": "Utilizar exclusivamente estruturas condicionais",
-    "alt4": "Gerar classes sem métodos"
-  },
-  {
-    "questao": "No Unity, o que acontece quando usamos GetComponent<Rigidbody>()?",
-    "alt1": "Pega o componente Rigidbody do GameObject",
-    "alt2": "Cria um novo Rigidbody na cena",
-    "alt3": "Remove todos os componentes do tipo Rigidbody",
-    "alt4": "Pega o Rigidbody do objeto pai"
-  },
-  {
-    "questao": "O que significa a palavra-chave 'override' em C#?",
-    "alt1": "Sobrescreve um método virtual da classe base",
-    "alt2": "Declara um novo método sem herança",
-    "alt3": "Impede que um método seja herdado",
-    "alt4": "Executa métodos em paralelo"
-  },
-  {
-    "questao": "Para que serve o método JsonUtility.ToJson() no Unity?",
-    "alt1": "Converte um objeto para string JSON",
-    "alt2": "Salva o arquivo JSON no disco automaticamente",
-    "alt3": "Importa arquivos JSON da internet",
-    "alt4": "Compara dois arquivos JSON"
-  },
-  {
-    "questao": "O que representa uma variável marcada como 'private' em C#?",
-    "alt1": "Só pode ser acessada dentro da própria classe",
-    "alt2": "É acessível de qualquer parte do código",
-    "alt3": "Só pode ser acessada pela subclasse",
-    "alt4": "É compartilhada entre todas as instâncias"
-  },
-  {
-    "questao": "Qual comando Git envia as alterações locais para o repositório remoto?",
-    "alt1": "git push",
-    "alt2": "git fetch",
-    "alt3": "git status",
-    "alt4": "git init"
-  },
-  {
-    "questao": "O que significa 'Deserialize' em programação?",
-    "alt1": "Converter um JSON ou outro formato em objeto utilizável",
-    "alt2": "Transformar um objeto em string compactada",
-    "alt3": "Criar um novo objeto a partir de uma classe abstrata",
-    "alt4": "Excluir atributos de uma estrutura"
-  },
-  {
-    "questao": "Como evitar erros ao usar GetComponent em Unity?",
-    "alt1": "Certificando-se que o componente existe no GameObject",
-    "alt2": "Usando GetComponent fora do método Start",
-    "alt3": "Chamando o GetComponent várias vezes por frame",
-    "alt4": "Usando GameManager.GetComponent sempre"
-  },
-  {
-    "questao": "Em C#, o que é uma classe 'abstract'?",
-    "alt1": "Uma classe que não pode ser instanciada diretamente",
-    "alt2": "Uma classe que não pode ter métodos",
-    "alt3": "Uma classe com todos os métodos estáticos",
-    "alt4": "Uma classe usada apenas em scripts de interface"
-  },
-  {
-    "questao": "Qual comando Git cria uma nova branch?",
-    "alt1": "git branch nomeDaBranch",
-    "alt2": "git create nomeDaBranch",
-    "alt3": "git new-branch nome",
-    "alt4": "git checkout nome"
-  },
-  {
-    "questao": "O que a função 'Start()' representa no Unity?",
-    "alt1": "Método que roda uma vez no início da execução",
-    "alt2": "Método chamado a cada frame",
-    "alt3": "Método que inicia a aplicação Unity",
-    "alt4": "Função usada para definir as variáveis globais"
-  },
-  {
-    "questao": "O que é uma coroutine no Unity?",
-    "alt1": "Um método que permite executar ações ao longo do tempo",
-    "alt2": "Um tipo de classe herdada de MonoBehaviour",
-    "alt3": "Um evento chamado automaticamente ao iniciar",
-    "alt4": "Uma variável usada para contar frames"
-  },
-  {
-    "questao": "Como declarar uma lista genérica em C#?",
-    "alt1": "List<string> nomes = new List<string>();",
-    "alt2": "var nomes = [string];",
-    "alt3": "List = string();",
-    "alt4": "string<> nomes = List();"
-  },
-  {
-    "questao": "Para que serve o comando 'git status'?",
-    "alt1": "Exibir as alterações no repositório local",
-    "alt2": "Enviar o código para o GitHub",
-    "alt3": "Remover arquivos antigos do repositório",
-    "alt4": "Fazer o merge de duas branches"
-  },
-  {
-    "questao": "Em C#, o que a palavra-chave 'static' indica em um método?",
-    "alt1": "Que o método pertence à classe e não a uma instância",
-    "alt2": "Que o método só pode ser chamado uma vez",
-    "alt3": "Que o método é privado",
-    "alt4": "Que o método não pode ser modificado"
-  },
-  {
-    "questao": "O que acontece se você tentar acessar um componente com GetComponent<>() que não existe no GameObject?",
-    "alt1": "Retorna null",
-    "alt2": "Cria o componente automaticamente",
-    "alt3": "Gera um erro de compilação",
-    "alt4": "Trava o Unity"
-  },
-  {
-    "questao": "Qual o propósito do 'JsonUtility.ToJson()' no Unity?",
-    "alt1": "Transformar um objeto em uma string JSON",
-    "alt2": "Transformar um arquivo JSON em objeto",
-    "alt3": "Excluir campos nulos do JSON",
-    "alt4": "Sincronizar arquivos JSON no cloud"
-  },
-  {
-    "questao": "No Git, o que faz o comando 'git pull'?",
-    "alt1": "Atualiza seu repositório local com o conteúdo do repositório remoto",
-    "alt2": "Exclui sua branch local",
-    "alt3": "Envia alterações locais para o repositório remoto",
-    "alt4": "Cria um novo commit vazio"
-  },
-  {
-    "questao": "Em Unity, qual evento é chamado quando o GameObject é ativado na cena?",
-    "alt1": "OnEnable()",
-    "alt2": "Start()",
-    "alt3": "Awake()",
-    "alt4": "OnActive()"
-  },
-  {
-    "questao": "Qual estrutura é usada para repetir um bloco de código enquanto uma condição for verdadeira?",
-    "alt1": "while",
-    "alt2": "switch",
-    "alt3": "using",
-    "alt4": "return"
-  },
-  {
-    "questao": "Em C#, o que é um construtor?",
-    "alt1": "Um método especial chamado ao criar uma nova instância de uma classe",
-    "alt2": "Um método usado para destruir objetos",
-    "alt3": "Um atributo especial que define a classe",
-    "alt4": "Uma propriedade de tempo de execução"
-  },
-  {
-    "questao": "O que é 'Serialização' em programação?",
-    "alt1": "Converter um objeto em um formato que possa ser armazenado ou transmitido",
-    "alt2": "Conectar um script a outro",
-    "alt3": "Executar uma função várias vezes em paralelo",
-    "alt4": "Gerar logs em tempo real"
-  },
-  {
-    "questao": "Como aplicar um script a um GameObject no Unity?",
-    "alt1": "Arrastando o script para o GameObject na hierarquia",
-    "alt2": "Clicando com o botão direito e selecionando 'Add Script'",
-    "alt3": "Usando o menu Tools > Attach Script",
-    "alt4": "Copiando o código para dentro do componente Transform"
-  },
-  {
-    "questao": "Para que serve a palavra-chave 'void' em C#?",
-    "alt1": "Indica que o método não retorna nenhum valor",
-    "alt2": "Define que o método será chamado automaticamente",
-    "alt3": "Cria um loop infinito",
-    "alt4": "Marca a função como inválida"
-  },
-  {
-    "questao": "No Git, o que significa 'merge'?",
-    "alt1": "Combinar duas branches em uma só",
-    "alt2": "Remover arquivos duplicados",
-    "alt3": "Atualizar seu repositório remoto",
-    "alt4": "Excluir commits anteriores"
-  },
-  {
-    "questao": "Em Unity, o que a função 'Awake()' faz?",
-    "alt1": "É chamada antes do Start() quando o script é inicializado",
-    "alt2": "Roda sempre que o botão play é clicado",
-    "alt3": "Atualiza os valores da física do Rigidbody",
-    "alt4": "Chama um evento de animação"
-  },
-  {
-    "questao": "Qual comando Git cria um novo repositório local?",
-    "alt1": "git init",
-    "alt2": "git start",
-    "alt3": "git new",
-    "alt4": "git clone"
-  },
-  {
-    "questao": "O que representa 'List<T>' em C#?",
-    "alt1": "Uma lista genérica de elementos do tipo T",
-    "alt2": "Um array com tamanho fixo",
-    "alt3": "Uma variável constante",
-    "alt4": "Um componente de interface gráfica"
-  },
-  {
-    "questao": "Qual é a função da estrutura 'if' em C#?",
-    "alt1": "Executar um bloco de código baseado em uma condição booleana",
-    "alt2": "Repetir ações indefinidamente",
-    "alt3": "Encerrar a execução do programa",
-    "alt4": "Iniciar uma nova thread"
-  },
-  {
-    "questao": "No Unity, para acessar outro script em um GameObject, qual método é usado?",
-    "alt1": "GetComponent<NomeDoScript>()",
-    "alt2": "AccessScript<>()",
-    "alt3": "GetScript<>()",
-    "alt4": "FindObject<>()"
-  },
-  {
-    "questao": "Para que serve a classe 'TextAsset' no Unity?",
-    "alt1": "Carregar arquivos de texto ou JSON em tempo de execução",
-    "alt2": "Criar um novo arquivo de texto na cena",
-    "alt3": "Renderizar textos na UI",
-    "alt4": "Salvar dados do jogador em tempo real"
-  },
-  {
-    "questao": "Em C#, qual tipo de variável pode armazenar verdadeiro ou falso?",
-    "alt1": "bool",
-    "alt2": "int",
-    "alt3": "string",
-    "alt4": "char"
-  },
-  {
-    "questao": "Como definir um método público em C#?",
-    "alt1": "public void MetodoNome()",
-    "alt2": "void public MetodoNome()",
-    "alt3": "public MetodoNome void()",
-    "alt4": "method public void()"
-  },
-  {
-    "questao": "O que é um prefab no Unity?",
-    "alt1": "Um modelo reutilizável de GameObject",
-    "alt2": "Um script de controle de UI",
-    "alt3": "Um tipo de variável global",
-    "alt4": "Um componente exclusivo de física"
-  },
-  {
-    "questao": "O que o método 'FromJson<T>()' faz no Unity?",
-    "alt1": "Converte uma string JSON em um objeto do tipo T",
-    "alt2": "Transforma um GameObject em JSON",
-    "alt3": "Apaga um arquivo JSON do disco",
-    "alt4": "Cria um JSON criptografado a partir de um objeto"
-  },
-  {
-    "questao": "Para que serve o método 'ToJson()' da JsonUtility?",
-    "alt1": "Serializa um objeto para o formato JSON",
-    "alt2": "Converte um JSON em uma lista de strings",
-    "alt3": "Compacta um JSON para economizar memória",
-    "alt4": "Valida a estrutura de um JSON contra um schema"
-  },
-  {
-    "questao": "Qual comando Git é usado para enviar commits para o repositório remoto?",
-    "alt1": "git push",
-    "alt2": "git send",
-    "alt3": "git upload",
-    "alt4": "git publish"
-  },
-  {
-    "questao": "O que significa a palavra-chave 'override' em C#?",
-    "alt1": "Indica que um método está sobrescrevendo um método da classe base",
-    "alt2": "Impede que o método seja chamado fora da classe",
-    "alt3": "Cria um método novo com o mesmo nome",
-    "alt4": "Oculta completamente os métodos herdados"
-  },
-  {
-    "questao": "Em que situação você usaria 'foreach' em C#?",
-    "alt1": "Ao iterar por elementos de uma coleção sem precisar de índice",
-    "alt2": "Ao criar uma nova lista vazia",
-    "alt3": "Ao declarar variáveis globais",
-    "alt4": "Ao iniciar um novo projeto no Visual Studio"
-  },
-  {
-    "questao": "O que o comando 'git status' exibe?",
-    "alt1": "O estado atual do repositório local e arquivos modificados",
-    "alt2": "A branch remota ativa",
-    "alt3": "Os commits existentes no histórico",
-    "alt4": "Os arquivos que foram removidos definitivamente"
-  },
-  {
-    "questao": "O que 'private' indica em uma variável ou método em C#?",
-    "alt1": "Que só pode ser acessado dentro da própria classe",
-    "alt2": "Que pode ser acessado de qualquer lugar",
-    "alt3": "Que pertence ao namespace global",
-    "alt4": "Que será convertido em JSON automaticamente"
-  },
-  {
-    "questao": "Como você instancia um objeto de uma classe chamada 'Player' em C#?",
-    "alt1": "Player jogador = new Player();",
-    "alt2": "Player jogador = Player();",
-    "alt3": "jogador = class Player();",
-    "alt4": "new Player jogador();"
-  },
-  {
-    "questao": "Em Unity, como você acessa um componente chamado 'Rigidbody' de um GameObject?",
-    "alt1": "GetComponent<Rigidbody>()",
-    "alt2": "AccessComponent<Rigid>()",
-    "alt3": "Find<Rigid>()",
-    "alt4": "Component.Get<Rigidbody>()"
-  },
-  {
-    "questao": "No contexto de arquivos JSON, o que significa 'deserializar'?",
-    "alt1": "Converter um JSON para um objeto C#",
-    "alt2": "Salvar um arquivo JSON em disco",
-    "alt3": "Compactar dados para rede",
-    "alt4": "Excluir arquivos JSON temporários"
-  },
-  {
-    "questao": "O que o método 'Add()' faz em uma lista do tipo List<string> em C#?",
-    "alt1": "Adiciona um novo item ao final da lista",
-    "alt2": "Remove o primeiro item da lista",
-    "alt3": "Atualiza um item na posição zero",
-    "alt4": "Limpa todos os itens da lista"
-  },
-  {
-    "questao": "O que significa 'null' em C#?",
-    "alt1": "Ausência de valor ou referência",
-    "alt2": "Valor máximo de um inteiro",
-    "alt3": "Valor booleano falso",
-    "alt4": "Valor que representa um objeto vazio"
-  },
-  {
-    "questao": "Qual palavra-chave define que uma classe pode ser herdada em C#?",
-    "alt1": "public",
-    "alt2": "sealed",
-    "alt3": "static",
-    "alt4": "final"
-  },
-  {
-    "questao": "O que faz o comando 'git clone'?",
-    "alt1": "Copia um repositório remoto para sua máquina local",
-    "alt2": "Apaga a branch local atual",
-    "alt3": "Conecta dois repositórios remotos",
-    "alt4": "Cria uma nova branch"
-  },
-  {
-    "questao": "Como é feita a leitura de um JSON em Unity usando TextAsset?",
-    "alt1": "TextAsset json = Resources.Load<TextAsset>(\"nome\");",
-    "alt2": "string json = File.Read(\"nome.json\");",
-    "alt3": "LoadAsset<TextAsset>(json);",
-    "alt4": "json = GetComponent<TextAsset>();"
-  },
-  {
-    "questao": "No Unity, qual é o principal propósito do método Start()?",
-    "alt1": "Executar lógica uma vez no início do script",
-    "alt2": "Executar ações toda vez que uma tecla é pressionada",
-    "alt3": "Manter o objeto ativo",
-    "alt4": "Atualizar valores físicos do Rigidbody"
-  },
-  {
-    "questao": "Como salvar um objeto como JSON em C#?",
-    "alt1": "JsonUtility.ToJson(objeto)",
-    "alt2": "File.Serialize(objeto)",
-    "alt3": "JsonUtility.FromJson(objeto)",
-    "alt4": "Save.Json(objeto)"
-  },
-  {
-    "questao": "Em C#, o que significa a palavra-chave 'return'?",
-    "alt1": "Finaliza o método e retorna um valor",
-    "alt2": "Cria uma repetição dentro do método",
-    "alt3": "Remove variáveis da memória",
-    "alt4": "Chama outro script"
-  },
-  {
-    "questao": "Para que serve a palavra-chave 'using' em C#?",
-    "alt1": "Importar namespaces e gerenciar recursos automaticamente",
-    "alt2": "Definir o nome de uma classe",
-    "alt3": "Remover referências de memória",
-    "alt4": "Criar loops"
-  },
-  {
-    "questao": "Qual comando Git cria uma nova branch chamada 'dev'?",
-    "alt1": "git branch dev",
-    "alt2": "git new-branch dev",
-    "alt3": "git create dev",
-    "alt4": "git init dev"
-  },
-  {
-    "questao": "O que acontece se você tentar acessar um componente com GetComponent<T>() em um GameObject que não o possui?",
-    "alt1": "Retorna null",
-    "alt2": "Lança uma exceção",
-    "alt3": "Cria automaticamente o componente",
-    "alt4": "Reinicia a cena"
-  },
-  {
-    "questao": "No contexto de programação orientada a objetos, o que é uma classe abstrata?",
-    "alt1": "Uma classe que não pode ser instanciada diretamente",
-    "alt2": "Uma classe que só contém atributos",
-    "alt3": "Uma classe que herda tudo de outra sem alterar nada",
-    "alt4": "Uma classe que só serve para testes"
-  },
-  {
-    "questao": "Qual é o principal objetivo do método Awake() no Unity?",
-    "alt1": "Inicializar variáveis antes do Start",
-    "alt2": "Atualizar a física do objeto",
-    "alt3": "Criar novos GameObjects",
-    "alt4": "Chamar funções do Update manualmente"
-  },
-  {
-    "questao": "Como declarar um método assíncrono em C#?",
-    "alt1": "async void NomeDoMetodo()",
-    "alt2": "await void NomeDoMetodo()",
-    "alt3": "task NomeDoMetodo()",
-    "alt4": "public start NomeDoMetodo()"
-  },
-  {
-    "questao": "O que o comando 'git commit -m \"mensagem\"' faz?",
-    "alt1": "Cria um snapshot das mudanças com uma mensagem descritiva",
-    "alt2": "Envia as alterações para o repositório remoto",
-    "alt3": "Cria uma nova branch",
-    "alt4": "Remove arquivos do repositório"
-  },
-  {
-    "questao": "Para que serve a palavra-chave 'static' em C#?",
-    "alt1": "Define membros que pertencem à classe e não à instância",
-    "alt2": "Impede a herança da classe",
-    "alt3": "Indica que o método deve rodar em outra thread",
-    "alt4": "Cria uma variável temporária"
-  },
-  {
-    "questao": "Qual desses é um exemplo válido de foreach em C#?",
-    "alt1": "foreach (string nome in nomes) { Debug.Log(nome); }",
-    "alt2": "for each (nome in nomes) { print(nome); }",
-    "alt3": "foreach nome in nomes { }",
-    "alt4": "foreach: nome in nomes -> print(nome)"
-  },
-  {
-    "questao": "Qual método é usado para verificar se um JSON é nulo ou vazio antes de converter?",
-    "alt1": "string.IsNullOrEmpty(json)",
-    "alt2": "json == false",
-    "alt3": "json.NullCheck()",
-    "alt4": "json.Validate()"
-  },
-  {
-    "questao": "Qual comando Git recupera atualizações do repositório remoto?",
-    "alt1": "git pull",
-    "alt2": "git push",
-    "alt3": "git update",
-    "alt4": "git refresh"
-  },
-  {
-    "questao": "Como declarar uma variável que pode armazenar qualquer tipo de objeto em C#?",
-    "alt1": "object variavel = ...;",
-    "alt2": "var<> variavel = ...;",
-    "alt3": "all variavel = ...;",
-    "alt4": "universal variavel = ...;"
-  },
-  {
-    "questao": "Qual dessas estruturas define corretamente uma classe em C#?",
-    "alt1": "public class Jogador { }",
-    "alt2": "class: Jogador() {}",
-    "alt3": "def Jogador {}",
-    "alt4": "class Jogador: {}"
-  },
-  {
-    "questao": "O que o 'Content Size Fitter' faz em Unity?",
-    "alt1": "Ajusta o tamanho do objeto com base no conteúdo",
-    "alt2": "Reduz o lag na UI",
-    "alt3": "Impede que o objeto UI se mova",
-    "alt4": "Cria múltiplas cópias do conteúdo"
-  },
-  {
-    "questao": "Como você define um dicionário em C# com chave string e valor int?",
-    "alt1": "Dictionary<string, int> meuDicionario = new Dictionary<string, int>();",
-    "alt2": "var meuDicionario = List<string, int>();",
-    "alt3": "dict<string, int> meuDicionario;",
-    "alt4": "int<string> meuDicionario = dict();"
-  },
-  {
-    "questao": "Para que serve a função 'TryParse()' em C#?",
-    "alt1": "Converte strings em números com segurança, evitando exceções",
-    "alt2": "Cria strings a partir de números",
-    "alt3": "Gera exceções para strings inválidas",
-    "alt4": "Executa código condicional"
-  },
-  {
-    "questao": "Qual função do Git exibe o histórico de commits?",
-    "alt1": "git log",
-    "alt2": "git status",
-    "alt3": "git commits",
-    "alt4": "git track"
-  },
-  {
-    "questao": "Como impedir que um GameObject seja destruído ao trocar de cena?",
-    "alt1": "DontDestroyOnLoad(objeto);",
-    "alt2": "SetPersistent(objeto);",
-    "alt3": "KeepAlive(objeto);",
-    "alt4": "NoDestroy(objeto);"
-  },
-  {
-    "questao": "Como acessar uma variável pública de outro script em Unity?",
-    "alt1": "nomeScript.variavel",
-    "alt2": "public.nomeScript.variavel",
-    "alt3": "this.Get(variavel)",
-    "alt4": "ReadOnly(nomeScript)"
-  },
-  {
-    "questao": "Para que serve o método 'StartCoroutine' em Unity?",
-    "alt1": "Executar uma função de forma assíncrona no tempo",
-    "alt2": "Criar um novo GameObject",
-    "alt3": "Salvar um arquivo",
-    "alt4": "Interromper um processo"
-  },
-  {
-    "questao": "Como comparar se duas strings são iguais em C#?",
-    "alt1": "if (a == b)",
-    "alt2": "if (a.Equals(b) == false)",
-    "alt3": "if (a != b)",
-    "alt4": "compare(a, b)"
-  },
-  {
-    "questao": "Qual dos seguintes comandos Git desfaz as alterações em um arquivo modificado?",
-    "alt1": "git checkout -- nome-do-arquivo",
-    "alt2": "git remove nome-do-arquivo",
-    "alt3": "git clear nome-do-arquivo",
-    "alt4": "git undo nome-do-arquivo"
-  },
-  {
-    "questao": "O que o método FromJson<T>() faz em C# com Unity?",
-    "alt1": "Converte uma string JSON em um objeto do tipo T",
-    "alt2": "Transforma objetos em scripts",
-    "alt3": "Gera arquivos de imagem com dados JSON",
-    "alt4": "Desinstala componentes JSON do sistema"
-  },
-  {
-    "questao": "Como declarar uma propriedade automática em C#?",
-    "alt1": "public int Id { get; set; }",
-    "alt2": "int Id() => get set;",
-    "alt3": "var Id = property();",
-    "alt4": "property int Id;"
-  },
-  {
-    "questao": "No Unity, o que o método GetComponent<T>() retorna se o componente não existir?",
-    "alt1": "null",
-    "alt2": "0",
-    "alt3": "false",
-    "alt4": "Exceção"
-  },
-  {
-    "questao": "Para que serve a palavra-chave 'override' em C#?",
-    "alt1": "Sobrescreve um método virtual da classe base",
-    "alt2": "Cria uma nova classe a partir da atual",
-    "alt3": "Impede o uso de herança",
-    "alt4": "Transforma o método em estático"
-  },
-  {
-    "questao": "Como executar um comando apenas uma vez ao iniciar um objeto no Unity?",
-    "alt1": "Coloque o código no método Start()",
-    "alt2": "Coloque no método Update()",
-    "alt3": "Use o método FixedUpdate()",
-    "alt4": "Crie um botão com evento OnClick"
-  },
-  {
-    "questao": "O que o comando 'git init' faz?",
-    "alt1": "Cria um novo repositório Git local",
-    "alt2": "Envia as alterações para o GitHub",
-    "alt3": "Conecta com outro repositório",
-    "alt4": "Baixa alterações remotas"
-  },
-  {
-    "questao": "Como declarar um array de strings em C# com 3 posições?",
-    "alt1": "string[] nomes = new string[3];",
-    "alt2": "string nomes = {3};",
-    "alt3": "array<string> nomes = 3;",
-    "alt4": "string nomes[] = [3];"
-  },
-  {
-    "questao": "Qual das opções a seguir define corretamente uma interface em C#?",
-    "alt1": "public interface IVeiculo { void Mover(); }",
-    "alt2": "interface = IVeiculo() { Mover() }",
-    "alt3": "define interface IVeiculo { function Mover(); }",
-    "alt4": "interface IVeiculo { method Mover; }"
-  },
-  {
-    "questao": "O que acontece se você chamar Destroy(gameObject) no Unity?",
-    "alt1": "O GameObject será destruído da cena",
-    "alt2": "O objeto se torna invisível, mas continua ativo",
-    "alt3": "O componente Renderer é removido",
-    "alt4": "O GameObject muda de cena"
-  },
-  {
-    "questao": "Para que serve o método JsonUtility.ToJson(objeto)?",
-    "alt1": "Transforma um objeto em string JSON",
-    "alt2": "Executa um JSON em tempo real",
-    "alt3": "Verifica se um JSON tem erro",
-    "alt4": "Adiciona JSON ao console"
-  },
-  {
-    "questao": "Como declarar uma lista de inteiros em C#?",
-    "alt1": "List<int> numeros = new List<int>();",
-    "alt2": "list int numeros = {}",
-    "alt3": "List numeros<int> = []",
-    "alt4": "int list = (1,2,3);"
-  },
-  {
-    "questao": "O que o comando 'git status' exibe?",
-    "alt1": "Mostra arquivos modificados e prontos para commit",
-    "alt2": "Executa o commit atual",
-    "alt3": "Atualiza os arquivos do repositório",
-    "alt4": "Apaga arquivos desnecessários"
-  },
-  {
-    "questao": "O que acontece quando uma classe herda de outra em C#?",
-    "alt1": "Ela passa a ter acesso aos métodos e atributos da classe base",
-    "alt2": "A classe base é excluída",
-    "alt3": "A classe derivada é convertida em interface",
-    "alt4": "Não é possível acessar atributos públicos"
-  },
-  {
-    "questao": "Como instanciar um prefab no Unity por código?",
-    "alt1": "Instantiate(prefab);",
-    "alt2": "new(prefab);",
-    "alt3": "GameObject.Create(prefab);",
-    "alt4": "clone(prefab);"
-  },
-  {
-    "questao": "Qual é o retorno padrão de um método que não retorna nada em C#?",
-    "alt1": "void",
-    "alt2": "null",
-    "alt3": "return",
-    "alt4": "empty"
-  },
-  {
-    "questao": "Como impedir que um campo apareça no Inspector do Unity?",
-    "alt1": "[HideInInspector]",
-    "alt2": "[Invisible]",
-    "alt3": "[PrivateOnly]",
-    "alt4": "[SkipEditor]"
-  },
-  {
-    "questao": "Qual é a função da palavra 'public' em uma variável ou método?",
-    "alt1": "Permite acesso de qualquer outro script",
-    "alt2": "Deixa a variável só visível no Inspector",
-    "alt3": "Impede que o código rode automaticamente",
-    "alt4": "Cria uma variável temporária"
-  },
-  {
-    "questao": "O que acontece ao usar um foreach em uma lista?",
-    "alt1": "Percorre cada item da lista uma vez",
-    "alt2": "Cria uma nova lista",
-    "alt3": "Remove itens duplicados",
-    "alt4": "Garante que a lista fique em ordem"
-  },
-  {
-    "questao": "Qual comando Git cria uma nova branch?",
-    "alt1": "git branch nome-da-branch",
-    "alt2": "git new nome-da-branch",
-    "alt3": "git start nome-da-branch",
-    "alt4": "git create branch nome"
-  },
-  {
-    "questao": "Para que serve o operador '??' em C#?",
-    "alt1": "Define valor padrão caso o valor anterior seja nulo",
-    "alt2": "Verifica se uma string está vazia",
-    "alt3": "Compara dois números inteiros",
-    "alt4": "Concatena variáveis de texto"
-  },
-  {
-    "questao": "O que é encapsulamento na Programação Orientada a Objetos?",
-    "alt1": "É o ato de esconder os dados internos de um objeto e expô-los apenas por meio de métodos públicos",
-    "alt2": "É quando um objeto herda propriedades de outro",
-    "alt3": "É o uso de várias classes ao mesmo tempo",
-    "alt4": "É a organização do código em arquivos diferentes"
-  },
-  {
-    "questao": "Qual palavra-chave em C# define que uma classe pode ser herdada por outra?",
-    "alt1": "class",
-    "alt2": "extends",
-    "alt3": "inherits",
-    "alt4": "base"
-  },
-  {
-    "questao": "O que é polimorfismo em C#?",
-    "alt1": "É a capacidade de um método se comportar de diferentes formas dependendo do contexto",
-    "alt2": "É a criação de múltiplas instâncias de uma mesma classe",
-    "alt3": "É a exclusão de atributos da classe",
-    "alt4": "É a transformação de uma variável em constante"
-  },
-  {
-    "questao": "Como definimos um construtor em uma classe C#?",
-    "alt1": "Criando um método com o mesmo nome da classe, sem tipo de retorno",
-    "alt2": "Usando a palavra 'init'",
-    "alt3": "Criando um método chamado main",
-    "alt4": "Declarando o método como estático"
-  },
-  {
-    "questao": "O que é herança na POO?",
-    "alt1": "É quando uma classe deriva de outra e herda seus membros",
-    "alt2": "É quando duas classes compartilham um mesmo método",
-    "alt3": "É o processo de copiar métodos de uma classe para outra manualmente",
-    "alt4": "É quando usamos interfaces em vez de classes"
-  },
-  {
-    "questao": "Qual palavra-chave usamos para herdar uma classe em C#?",
-    "alt1": ":",
-    "alt2": "inherits",
-    "alt3": "extends",
-    "alt4": "->"
-  },
-  {
-    "questao": "Em C#, o que a palavra 'base' faz em uma classe filha?",
-    "alt1": "Acessa membros da classe pai",
-    "alt2": "Define que a classe é pai de outras",
-    "alt3": "Cria uma nova instância da classe pai",
-    "alt4": "Bloqueia a herança"
-  },
-  {
-    "questao": "Como declarar um método virtual que pode ser sobrescrito?",
-    "alt1": "public virtual void Metodo()",
-    "alt2": "override Metodo()",
-    "alt3": "new Metodo()",
-    "alt4": "abstract Metodo()"
-  },
-  {
-    "questao": "O que acontece se você tentar herdar de uma classe marcada como 'sealed'?",
-    "alt1": "Vai gerar erro de compilação",
-    "alt2": "Vai sobrescrever todos os métodos automaticamente",
-    "alt3": "Vai criar uma classe estática",
-    "alt4": "Vai apagar a classe original"
-  },
-  {
-    "questao": "O que a palavra-chave 'this' representa em C#?",
-    "alt1": "A instância atual da classe",
-    "alt2": "A classe pai",
-    "alt3": "Um objeto externo",
-    "alt4": "A thread principal"
-  },
-  {
-    "questao": "O que são propriedades em C#?",
-    "alt1": "Mecanismos que encapsulam campos, permitindo controle de leitura e escrita",
-    "alt2": "Atributos públicos da classe",
-    "alt3": "Parâmetros passados para métodos",
-    "alt4": "Objetos internos da classe"
-  },
-  {
-    "questao": "Qual a diferença entre 'public', 'private' e 'protected'?",
-    "alt1": "Eles definem o nível de acesso aos membros da classe",
-    "alt2": "Servem apenas para métodos estáticos",
-    "alt3": "Limitam o uso de namespaces",
-    "alt4": "Definem a ordem de execução dos métodos"
-  },
-  {
-    "questao": "O que define um método abstrato em C#?",
-    "alt1": "Ele não tem corpo e deve ser implementado pelas classes derivadas",
-    "alt2": "É opcional ser implementado",
-    "alt3": "É um método com retorno fixo",
-    "alt4": "Só pode ser usado em classes seladas"
-  },
-  {
-    "questao": "O que acontece se uma classe abstrata não tiver todos os métodos implementados?",
-    "alt1": "Ela não pode ser instanciada diretamente",
-    "alt2": "Ela executa mesmo assim",
-    "alt3": "Ela gera um erro de runtime",
-    "alt4": "Ela se transforma em interface"
-  },
-  {
-    "questao": "Para que servem interfaces na POO?",
-    "alt1": "Definem contratos que as classes devem seguir",
-    "alt2": "Executam métodos automaticamente",
-    "alt3": "Armazenam objetos de forma global",
-    "alt4": "Impedem que classes sejam instanciadas"
-  },
-  {
-    "questao": "O que é um método estático em C#?",
-    "alt1": "É acessado sem instanciar a classe",
-    "alt2": "É um método que não pode retornar valor",
-    "alt3": "É um método usado apenas por classes herdadas",
-    "alt4": "É um método que roda em segundo plano"
-  },
-  {
-    "questao": "É possível herdar múltiplas classes em C#?",
-    "alt1": "Não, mas é possível implementar várias interfaces",
-    "alt2": "Sim, usando vírgula para separar",
-    "alt3": "Sim, com a palavra 'multiple'",
-    "alt4": "Apenas em métodos estáticos"
-  },
-  {
-    "questao": "Qual o papel de um construtor?",
-    "alt1": "Inicializar os valores quando o objeto é criado",
-    "alt2": "Destruir objetos da memória",
-    "alt3": "Criar métodos internos",
-    "alt4": "Instanciar uma interface automaticamente"
-  },
-  {
-    "questao": "Como sobrescrever um método herdado?",
-    "alt1": "Usando 'override' na classe filha",
-    "alt2": "Declarando como 'new'",
-    "alt3": "Usando o mesmo nome sem modificador",
-    "alt4": "Escrevendo um novo método com mesmo corpo"
-  },
-  {
-    "questao": "Por que usar herança em C#?",
-    "alt1": "Para reaproveitar código entre classes relacionadas",
-    "alt2": "Para duplicar atributos",
-    "alt3": "Para criar instâncias múltiplas com o mesmo nome",
-    "alt4": "Para acessar a RAM de forma otimizada"
-  },
-  {
-    "questao": "O que será impresso no console?\n\nint[] numeros = {2, 4, 6};\nforeach (int num in numeros)\n{\n    Console.Write(num + \" \");\n}",
-    "alt1": "2 4 6 ",
-    "alt2": "246",
-    "alt3": "2\n4\n6",
-    "alt4": "Erro de compilação"
-  },
-  {
-    "questao": "Qual é o resultado da execução do código?\n\nint soma = 0;\nfor (int i = 1; i <= 3; i++)\n{\n    soma += i;\n}\nConsole.WriteLine(soma);",
-    "alt1": "6",
-    "alt2": "3",
-    "alt3": "10",
-    "alt4": "5"
-  },
-  {
-    "questao": "O que o código abaixo faz?\n\nint[] pares = new int[5];\nfor (int i = 0; i < pares.Length; i++)\n{\n    pares[i] = i * 2;\n}",
-    "alt1": "Preenche o array com os primeiros 5 números pares",
-    "alt2": "Imprime os pares no console",
-    "alt3": "Cria um array vazio",
-    "alt4": "Multiplica os valores do array original"
-  },
-  {
-    "questao": "Qual a saída do código?\n\nint a = 3, b = 4;\nif (a * b == 12)\n    Console.WriteLine(\"Correto\");\nelse\n    Console.WriteLine(\"Errado\");",
-    "alt1": "Correto",
-    "alt2": "Errado",
-    "alt3": "12",
-    "alt4": "Erro de sintaxe"
-  },
-  {
-    "questao": "Analise o código:\n\nint[] array = {1, 2, 3};\nConsole.WriteLine(array[3]);\n\nO que acontece?",
-    "alt1": "Lança exceção de índice fora do intervalo",
-    "alt2": "Imprime 3",
-    "alt3": "Imprime 0",
-    "alt4": "Compila mas não imprime nada"
-  },
-  {
-    "questao": "O que será impresso?\n\nint x = 0;\ndo\n{\n    x++;\n    Console.Write(x);\n} while (x < 3);",
-    "alt1": "123",
-    "alt2": "0123",
-    "alt3": "1234",
-    "alt4": "Erro"
-  },
-  {
-    "questao": "O que o código abaixo imprime?\n\nint n = 5;\nint f = 1;\nfor (int i = 1; i <= n; i++)\n{\n    f *= i;\n}\nConsole.WriteLine(f);",
-    "alt1": "120",
-    "alt2": "60",
-    "alt3": "25",
-    "alt4": "5"
-  },
-  {
-    "questao": "Dado o código:\n\nenum Dias { Domingo, Segunda, Terca, Quarta }\nConsole.WriteLine((int)Dias.Quarta);",
-    "alt1": "3",
-    "alt2": "4",
-    "alt3": "2",
-    "alt4": "1"
-  },
-  {
-    "questao": "O que será impresso?\n\nint[] v = {1, 1, 2, 3, 5};\nint total = 0;\nforeach (int i in v)\n{\n    total += i;\n}\nConsole.WriteLine(total);",
-    "alt1": "12",
-    "alt2": "15",
-    "alt3": "11",
-    "alt4": "13"
-  },
-  {
-    "questao": "Para que serve o comando 'break' em um laço de repetição?",
-    "alt1": "Encerra o laço imediatamente",
-    "alt2": "Pula uma iteração",
-    "alt3": "Volta ao início do loop",
-    "alt4": "Ignora a condição do loop"
-  },
-  {
-    "questao": "Qual seria o valor da variável 'x'?\n\nint x = 1;\nwhile (x < 3)\n{\n    x *= 2;\n}",
-    "alt1": "4",
-    "alt2": "2",
-    "alt3": "3",
-    "alt4": "1"
-  },
-  {
-    "questao": "Qual o resultado da tabuada de 2 neste trecho?\n\nfor (int i = 1; i <= 3; i++)\n{\n    Console.Write(2 * i + \" \");\n}",
-    "alt1": "2 4 6 ",
-    "alt2": "2 3 4 ",
-    "alt3": "1 2 3 ",
-    "alt4": "4 8 12 "
-  },
-  {
-    "questao": "Analise o código de Fibonacci:\n\nint a = 0, b = 1, c;\nfor (int i = 0; i < 5; i++)\n{\n    c = a + b;\n    Console.Write(c + \" \");\n    a = b;\n    b = c;\n}",
-    "alt1": "1 2 3 5 8 ",
-    "alt2": "1 1 2 3 5 ",
-    "alt3": "0 1 1 2 3 ",
-    "alt4": "2 3 5 8 13 "
-  },
-  {
-    "questao": "Qual o valor impresso?\n\nint x = 10;\nint y = 3;\nConsole.WriteLine(x % y);",
-    "alt1": "1",
-    "alt2": "3",
-    "alt3": "0",
-    "alt4": "10"
-  },
-  {
-    "questao": "Como chamamos um método em C# com valor de retorno int e sem parâmetros?",
-    "alt1": "public int Metodo()",
-    "alt2": "int Metodo(string a)",
-    "alt3": "static Metodo()",
-    "alt4": "void Metodo()"
-  },
-  {
-    "questao": "O que será impresso?\n\nstring nome = \"Kaique\";\nConsole.WriteLine(nome.Length);",
-    "alt1": "6",
-    "alt2": "5",
-    "alt3": "7",
-    "alt4": "Erro de compilação"
-  },
-  {
-    "questao": "Para que serve a palavra-chave 'return' em C#?",
-    "alt1": "Encerra a execução do método e retorna um valor",
-    "alt2": "Declara uma nova variável",
-    "alt3": "Cria um loop",
-    "alt4": "Cria uma nova classe"
-  },
-  {
-    "questao": "Qual a saída do código?\n\nint[] notas = {7, 8, 9};\nConsole.WriteLine(notas[1]);",
-    "alt1": "8",
-    "alt2": "7",
-    "alt3": "9",
-    "alt4": "1"
-  },
-  {
-    "questao": "Em C#, qual estrutura representa um grupo de valores nomeados inteiros?",
-    "alt1": "enum",
-    "alt2": "list",
-    "alt3": "array",
-    "alt4": "class"
-  },
-  {
-    "questao": "Como definimos um array de 3 elementos inteiros em C#?",
-    "alt1": "int[] numeros = new int[3];",
-    "alt2": "array numeros = [3];",
-    "alt3": "int numeros(3);",
-    "alt4": "new int numeros[3];"
-  }
+    {
+        "questao": "Qual a principal diferença entre o desenvolvimento tradicional e ágil?",
+        "alt1": "O modelo ágil é mais flexível e iterativo, enquanto o tradicional segue um planejamento rígido",
+        "alt2": "O modelo tradicional é mais rápido que o ágil",
+        "alt3": "O desenvolvimento ágil não precisa de planejamento",
+        "alt4": "O modelo tradicional não exige documentação"
+    },
+    {
+        "questao": "Qual é um dos principais problemas do modelo tradicional de desenvolvimento de software?",
+        "alt1": "Dificuldade em adaptar mudanças ao longo do projeto",
+        "alt2": "A falta de um planejamento detalhado",
+        "alt3": "Excesso de flexibilidade",
+        "alt4": "Menos custo para a empresa"
+    },
+    {
+        "questao": "No desenvolvimento ágil, como os requisitos do projeto são tratados?",
+        "alt1": "Eles podem ser modificados ao longo do desenvolvimento de acordo com a necessidade do cliente",
+        "alt2": "São definidos no início e não podem ser alterados",
+        "alt3": "São estabelecidos apenas pelo gerente do projeto",
+        "alt4": "Não há necessidade de requisitos"
+    },
+    {
+        "questao": "Qual das seguintes opções é uma característica do desenvolvimento ágil?",
+        "alt1": "Entrega incremental de funcionalidades",
+        "alt2": "Foco apenas na documentação",
+        "alt3": "Fases rígidas e sequenciais",
+        "alt4": "Apenas o gerente do projeto pode tomar decisões"
+    },
+    {
+        "questao": "Qual é a abordagem do modelo tradicional em relação às fases do projeto?",
+        "alt1": "As fases são sequenciais e rígidas, sem possibilidade de voltar para etapas anteriores",
+        "alt2": "O desenvolvimento ocorre em ciclos iterativos",
+        "alt3": "O cliente pode intervir a qualquer momento",
+        "alt4": "As equipes trabalham sem planejamento prévio"
+    },
+    {
+      "questao": "Por que o desenvolvimento ágil é considerado mais eficiente para projetos com requisitos dinâmicos?",
+      "alt1": "Porque permite ajustes contínuos e priorização do que é mais importante",
+      "alt2": "Porque elimina completamente a necessidade de documentação",
+      "alt3": "Porque não precisa do envolvimento do cliente",
+      "alt4": "Porque reduz a quantidade de reuniões entre a equipe"
+    },
+    {
+      "questao": "No modelo ágil, como o cliente participa do projeto?",
+      "alt1": "Ativamente, dando feedback constante e participando de reuniões frequentes",
+      "alt2": "Apenas no início, para definir os requisitos",
+      "alt3": "O cliente só participa na fase de testes",
+      "alt4": "O cliente não tem contato com a equipe durante o desenvolvimento"
+    },
+    {
+      "questao": "No modelo tradicional, qual é o principal objetivo antes de iniciar o desenvolvimento?",
+      "alt1": "Definir um planejamento detalhado e fixo",
+      "alt2": "Criar protótipos rapidamente",
+      "alt3": "Realizar testes antes do desenvolvimento",
+      "alt4": "Liberar o código antes de finalizar os requisitos"
+    },
+    {
+      "questao": "Qual dos seguintes modelos de desenvolvimento segue uma abordagem mais rígida e estruturada?",
+      "alt1": "Modelo Cascata",
+      "alt2": "Scrum",
+      "alt3": "Kanban",
+      "alt4": "Extreme Programming (XP)"
+    },
+    {
+      "questao": "Por que as empresas estão cada vez mais adotando o desenvolvimento ágil?",
+      "alt1": "Porque ele melhora a adaptação a mudanças e entrega valor rapidamente",
+      "alt2": "Porque reduz a necessidade de planejamento",
+      "alt3": "Porque não exige reuniões com o cliente",
+      "alt4": "Porque não precisa de documentação"
+    },
+    {
+      "questao": "O que é o Scrum no contexto de desenvolvimento ágil?",
+      "alt1": "Um framework para gerenciamento de projetos baseado em ciclos iterativos e incrementais",
+      "alt2": "Um método tradicional de desenvolvimento de software",
+      "alt3": "Um software de gestão de equipes",
+      "alt4": "Uma ferramenta para controle de versionamento"
+    },
+    {
+      "questao": "Qual é o nome do evento no Scrum onde a equipe planeja o trabalho para o próximo sprint?",
+      "alt1": "Sprint Planning",
+      "alt2": "Daily Scrum",
+      "alt3": "Sprint Review",
+      "alt4": "Sprint Retrospective"
+    },
+    {
+      "questao": "O que é um Product Backlog no Scrum?",
+      "alt1": "Uma lista priorizada de funcionalidades e requisitos do produto",
+      "alt2": "Um documento detalhado com todos os planos do projeto",
+      "alt3": "Um relatório de desempenho da equipe",
+      "alt4": "Um contrato de requisitos fixos entre o cliente e a equipe"
+    },
+    {
+      "questao": "Qual é o papel do Product Owner no Scrum?",
+      "alt1": "Definir e priorizar os itens do Product Backlog",
+      "alt2": "Gerenciar a equipe de desenvolvimento diretamente",
+      "alt3": "Testar o software após cada sprint",
+      "alt4": "Executar as tarefas técnicas de desenvolvimento"
+    },
+    {
+      "questao": "O que acontece na Daily Scrum?",
+      "alt1": "Os membros da equipe compartilham o que fizeram, o que farão e os impedimentos",
+      "alt2": "A equipe revisa e aprova o código desenvolvido",
+      "alt3": "O Scrum Master apresenta métricas de produtividade",
+      "alt4": "O cliente aprova as entregas do sprint"
+    },
+    {
+      "questao": "Qual é a principal responsabilidade do Scrum Master?",
+      "alt1": "Facilitar o processo Scrum e remover impedimentos da equipe",
+      "alt2": "Definir os requisitos do projeto",
+      "alt3": "Criar o código-fonte do software",
+      "alt4": "Decidir as tecnologias que serão utilizadas"
+    },
+    {
+      "questao": "O que acontece na Sprint Review?",
+      "alt1": "A equipe apresenta as entregas do sprint para os stakeholders",
+      "alt2": "A equipe define as tarefas do próximo sprint",
+      "alt3": "Os desenvolvedores revisam o código uns dos outros",
+      "alt4": "O Product Owner define novos requisitos"
+    },
+    {
+      "questao": "Qual a duração recomendada de uma Sprint no Scrum?",
+      "alt1": "Entre 1 a 4 semanas",
+      "alt2": "1 dia",
+      "alt3": "3 meses",
+      "alt4": "6 meses"
+    },
+    {
+      "questao": "O que é um Sprint no Scrum?",
+      "alt1": "Um ciclo de desenvolvimento de tempo fixo onde um conjunto de funcionalidades é implementado",
+      "alt2": "Uma reunião de planejamento de projetos",
+      "alt3": "Um evento para revisar retrospectivas do time",
+      "alt4": "Uma ferramenta de controle de tarefas"
+    },
+    {
+      "questao": "O que é um Definition of Done (DoD) no Scrum?",
+      "alt1": "Critérios que definem quando um item do backlog é considerado completo",
+      "alt2": "Uma lista de pendências para o próximo sprint",
+      "alt3": "Uma regra para aprovar sprints",
+      "alt4": "Um documento fixo estabelecido pelo gerente do projeto"
+    },
+    {
+      "questao": "O que são técnicas ágeis no desenvolvimento de software?",
+      "alt1": "Conjuntos de práticas para otimizar processos e melhorar a colaboração no desenvolvimento",
+      "alt2": "Um conjunto de regras fixas para desenvolvimento de software",
+      "alt3": "Apenas metodologias de gerenciamento de projetos",
+      "alt4": "Ferramentas automatizadas para desenvolvimento"
+    },
+    {
+      "questao": "O que é Pair Programming?",
+      "alt1": "Uma técnica onde dois desenvolvedores trabalham juntos no mesmo código",
+      "alt2": "Uma prática onde um desenvolvedor programa e outro revisa posteriormente",
+      "alt3": "Uma forma de alternar entre dois métodos de programação",
+      "alt4": "Uma técnica para programar em linguagens diferentes simultaneamente"
+    },
+    {
+      "questao": "O que é Test-Driven Development (TDD)?",
+      "alt1": "Uma técnica onde os testes são escritos antes do código",
+      "alt2": "Uma prática onde os testes são feitos apenas no final do projeto",
+      "alt3": "Um método que descarta a necessidade de testes automatizados",
+      "alt4": "Uma abordagem que foca apenas em testes de interface"
+    },
+    {
+      "questao": "Qual a principal vantagem do TDD?",
+      "alt1": "Melhora a qualidade do código e reduz bugs",
+      "alt2": "Elimina a necessidade de revisão de código",
+      "alt3": "Acelera o desenvolvimento sem comprometer a qualidade",
+      "alt4": "Permite que o código seja escrito sem planejamento prévio"
+    },
+    {
+      "questao": "O que significa Continuous Integration (CI)?",
+      "alt1": "Prática onde mudanças no código são integradas frequentemente ao repositório principal",
+      "alt2": "Uma técnica para desenvolver software sem branches",
+      "alt3": "Uma estratégia para evitar testes durante o desenvolvimento",
+      "alt4": "Uma abordagem para reduzir a necessidade de deploys"
+    },
+    {
+      "questao": "O que é Refatoração de Código?",
+      "alt1": "Melhoria no código sem alterar seu comportamento funcional",
+      "alt2": "Remoção de funcionalidades antigas do sistema",
+      "alt3": "Processo de migração do código para uma nova linguagem",
+      "alt4": "Criação de novos módulos sem reutilizar código"
+    },
+    {
+      "questao": "Qual é um dos principais objetivos da refatoração?",
+      "alt1": "Melhorar a legibilidade e manutenção do código",
+      "alt2": "Remover código não utilizado e arquivos temporários",
+      "alt3": "Diminuir a velocidade do desenvolvimento para garantir qualidade",
+      "alt4": "Tornar o código mais complexo para evitar cópias"
+    },
+    {
+      "questao": "O que é um Spike no desenvolvimento ágil?",
+      "alt1": "Uma investigação rápida para entender ou testar uma solução técnica",
+      "alt2": "Uma reunião para avaliar a velocidade do time",
+      "alt3": "Uma técnica para estimar tarefas futuras",
+      "alt4": "Um método para medir o desempenho da equipe"
+    },
+    {
+      "questao": "O que é a prática de Code Review?",
+      "alt1": "Revisão do código por outro desenvolvedor para garantir qualidade e boas práticas",
+      "alt2": "Avaliação do código feita pelo Product Owner",
+      "alt3": "Uma análise feita apenas após o software ser entregue",
+      "alt4": "Uma reunião para decidir quais tecnologias usar"
+    },
+    {
+      "questao": "O que é a técnica de Kanban?",
+      "alt1": "Um sistema visual para gerenciamento de fluxo de trabalho",
+      "alt2": "Uma metodologia de desenvolvimento de software",
+      "alt3": "Uma ferramenta exclusiva do Scrum",
+      "alt4": "Uma prática usada apenas para testes automatizados"
+    },
+    {
+      "questao": "O que são ferramentas de auxílio no desenvolvimento ágil?",
+      "alt1": "Softwares e práticas que ajudam a gerenciar, automatizar e melhorar o fluxo de trabalho",
+      "alt2": "Apenas ferramentas de controle de versão",
+      "alt3": "Softwares usados exclusivamente para testes automatizados",
+      "alt4": "Qualquer ferramenta utilizada para desenvolver código"
+    },
+    {
+      "questao": "Qual das seguintes opções é um exemplo de ferramenta de controle de versão?",
+      "alt1": "Git",
+      "alt2": "Jira",
+      "alt3": "Trello",
+      "alt4": "Slack"
+    },
+    {
+      "questao": "Para que serve uma ferramenta de integração contínua (CI/CD)?",
+      "alt1": "Automatizar a integração de código e a entrega contínua de software",
+      "alt2": "Gerenciar reuniões de equipe",
+      "alt3": "Acompanhar o tempo gasto por cada desenvolvedor",
+      "alt4": "Realizar testes de interface do usuário"
+    },
+    {
+      "questao": "Qual ferramenta é frequentemente usada para gerenciamento de projetos ágeis?",
+      "alt1": "Jira",
+      "alt2": "MySQL",
+      "alt3": "Visual Studio",
+      "alt4": "Notepad++"
+    },
+    {
+      "questao": "Qual das seguintes ferramentas é utilizada para comunicação e colaboração entre equipes ágeis?",
+      "alt1": "Slack",
+      "alt2": "Oracle",
+      "alt3": "Power BI",
+      "alt4": "Docker"
+    },
+    {
+      "questao": "O que é o Trello e como ele auxilia equipes ágeis?",
+      "alt1": "Uma ferramenta baseada em Kanban para organizar tarefas e fluxos de trabalho",
+      "alt2": "Uma IDE para desenvolvimento de software",
+      "alt3": "Um banco de dados relacional",
+      "alt4": "Uma linguagem de programação usada em métodos ágeis"
+    },
+    {
+      "questao": "Qual das opções abaixo é uma vantagem de usar ferramentas de versionamento como o Git?",
+      "alt1": "Permite o trabalho colaborativo e rastreamento de mudanças no código",
+      "alt2": "Evita a necessidade de realizar testes",
+      "alt3": "Elimina a necessidade de planejamento",
+      "alt4": "Substitui completamente a necessidade de reuniões"
+    },
+    {
+      "questao": "Qual é a principal vantagem de usar ferramentas de automação de testes?",
+      "alt1": "Aumentam a confiabilidade e reduzem o tempo de testes manuais",
+      "alt2": "Eliminam a necessidade de desenvolvedores",
+      "alt3": "Permitem desenvolver sem precisar testar o código",
+      "alt4": "Evita que mudanças no código precisem ser revisadas"
+    },
+    {
+      "questao": "Qual ferramenta pode ser usada para gerenciar repositórios Git remotamente?",
+      "alt1": "GitHub",
+      "alt2": "PostgreSQL",
+      "alt3": "Power BI",
+      "alt4": "Jira"
+    },
+    {
+      "questao": "O que é o Docker e como ele auxilia no desenvolvimento ágil?",
+      "alt1": "Uma plataforma que permite criar e gerenciar containers para aplicações",
+      "alt2": "Um framework exclusivo para testes unitários",
+      "alt3": "Uma ferramenta de automação para escrever código",
+      "alt4": "Uma linguagem de programação usada para definir requisitos"
+    },
+    {
+        "questao": "De onde vem o termo 'Scrum'?",
+        "alt1": "De uma jogada do Rugby, representando trabalho em equipe",
+        "alt2": "De um termo técnico de desenvolvimento de software",
+        "alt3": "De um conceito matemático aplicado à gestão de projetos",
+        "alt4": "De um framework específico criado pelo PMI"
+    },
+    {
+        "questao": "Quem são os principais criadores do Scrum?",
+        "alt1": "Jeff Sutherland e Ken Schwaber",
+        "alt2": "Nonaka e Takeuchi",
+        "alt3": "Martin Fowler e Robert C. Martin",
+        "alt4": "Kent Beck e Ward Cunningham"
+    },
+    {
+        "questao": "Qual é a principal abordagem do Scrum?",
+        "alt1": "Empírica, baseada em adaptação e inspeção contínua",
+        "alt2": "Prescritiva, com regras rígidas para desenvolvimento",
+        "alt3": "Cascata, com fases definidas e sequenciais",
+        "alt4": "Baseada em documentações extensivas antes do início do projeto"
+    },
+    {
+        "questao": "Qual é o principal objetivo do Scrum no desenvolvimento de software?",
+        "alt1": "Permitir flexibilidade e adaptação a mudanças frequentes",
+        "alt2": "Eliminar a necessidade de planejamento prévio",
+        "alt3": "Acelerar entregas sem comprometer qualidade",
+        "alt4": "Evitar interação entre membros da equipe para maior produtividade"
+    },
+    {
+        "questao": "O que é o Scrum Guide?",
+        "alt1": "Um documento que descreve as boas práticas e valores do Scrum",
+        "alt2": "Uma ferramenta de software para gerenciar times ágeis",
+        "alt3": "Uma certificação para desenvolvedores Scrum",
+        "alt4": "Um relatório sobre produtividade em projetos ágeis"
+    },
+    {
+        "questao": "Quais são os cinco valores do Scrum?",
+        "alt1": "Coragem, Foco, Comprometimento, Respeito e Abertura",
+        "alt2": "Planejamento, Execução, Controle, Documentação e Testes",
+        "alt3": "Autonomia, Flexibilidade, Criatividade, Velocidade e Adaptação",
+        "alt4": "Objetividade, Eficiência, Qualidade, Rigor e Comunicação"
+    },
+    {
+        "questao": "O que significa 'Controle Empírico de Processo' no Scrum?",
+        "alt1": "O desenvolvimento baseado em transparência, inspeção e adaptação",
+        "alt2": "A centralização das decisões no Scrum Master",
+        "alt3": "O gerenciamento rígido de cada tarefa para evitar erros",
+        "alt4": "A separação completa entre planejamento e execução"
+    },
+    {
+        "questao": "O que significa Time-Boxing no Scrum?",
+        "alt1": "A definição de um tempo fixo para reuniões e eventos Scrum",
+        "alt2": "A organização do backlog do produto por tempo de desenvolvimento",
+        "alt3": "O tempo máximo permitido para mudanças no projeto",
+        "alt4": "O período necessário para planejar um projeto Scrum"
+    },
+    {
+        "questao": "Qual é a função do Product Owner?",
+        "alt1": "Maximizar o valor do produto e priorizar o Product Backlog",
+        "alt2": "Gerenciar diretamente a equipe de desenvolvimento",
+        "alt3": "Definir a arquitetura do software",
+        "alt4": "Escrever os testes automatizados do sistema"
+    },
+    {
+        "questao": "Qual é o papel do Scrum Master?",
+        "alt1": "Facilitar a aplicação do Scrum, removendo impedimentos para a equipe",
+        "alt2": "Definir os requisitos técnicos do projeto",
+        "alt3": "Gerenciar os prazos e custos do projeto",
+        "alt4": "Ser o responsável pelo desenvolvimento do código-fonte"
+    },
+    {
+        "questao": "Qual é o principal papel do Scrum Team?",
+        "alt1": "Ser auto-organizado e responsável pelo desenvolvimento do produto",
+        "alt2": "Executar tarefas apenas conforme orientações do gerente de projetos",
+        "alt3": "Definir os objetivos do negócio sem consultar o cliente",
+        "alt4": "Criar o planejamento inicial e repassá-lo ao Product Owner"
+    },
+    {
+        "questao": "O que acontece na Daily Scrum?",
+        "alt1": "Os membros da equipe compartilham o que fizeram, o que farão e impedimentos",
+        "alt2": "O Product Owner apresenta novas funcionalidades para a equipe",
+        "alt3": "A equipe revisa e aprova o código desenvolvido",
+        "alt4": "O Scrum Master define as próximas tarefas dos desenvolvedores"
+    },
+    {
+        "questao": "O que é um Sprint no Scrum?",
+        "alt1": "Um ciclo de desenvolvimento de tempo fixo onde funcionalidades são implementadas",
+        "alt2": "Um evento de revisão do código do time",
+        "alt3": "Uma ferramenta para medir a produtividade individual dos desenvolvedores",
+        "alt4": "Um método de estimativa para definir prazos"
+    },
+    {
+        "questao": "O que acontece na Sprint Review?",
+        "alt1": "A equipe apresenta as entregas do Sprint para os stakeholders",
+        "alt2": "A equipe define as tarefas do próximo Sprint",
+        "alt3": "Os desenvolvedores revisam o código uns dos outros",
+        "alt4": "O Scrum Master revisa o desempenho individual de cada membro"
+    },
+    {
+        "questao": "Qual é a função da Sprint Retrospective?",
+        "alt1": "Analisar o que foi bom e o que pode ser melhorado para o próximo Sprint",
+        "alt2": "Definir os requisitos para o próximo Sprint",
+        "alt3": "Aprovar ou rejeitar funcionalidades desenvolvidas",
+        "alt4": "Fazer ajustes na arquitetura do software"
+    },
+    {
+        "questao": "Qual é a duração recomendada de uma Sprint no Scrum?",
+        "alt1": "Entre 1 a 4 semanas",
+        "alt2": "1 dia",
+        "alt3": "3 meses",
+        "alt4": "6 meses"
+    },
+    {
+        "questao": "O que é o Definition of Done (DoD) no Scrum?",
+        "alt1": "Critérios que definem quando um item do backlog é considerado completo",
+        "alt2": "Uma lista de pendências para o próximo Sprint",
+        "alt3": "Uma regra para aprovar Sprints",
+        "alt4": "Um documento fixo estabelecido pelo gerente do projeto"
+    },
+    {
+        "questao": "Qual das seguintes opções é um princípio do Scrum?",
+        "alt1": "Colaboração entre os membros do time",
+        "alt2": "Planejamento fixo e rígido antes do início do projeto",
+        "alt3": "Documentação extensiva antes da implementação",
+        "alt4": "Separação entre as fases de desenvolvimento e testes"
+    },
+    {
+        "questao": "Como o Scrum trata mudanças nos requisitos?",
+        "alt1": "Aceita mudanças durante o desenvolvimento para entregar mais valor ao cliente",
+        "alt2": "Rejeita mudanças após o início do projeto",
+        "alt3": "Permite mudanças apenas no início do projeto",
+        "alt4": "Exige um novo planejamento completo para cada mudança"
+    },
+    {
+        "questao": "Qual é a importância da auto-organização no Scrum?",
+        "alt1": "Permite que o time tome decisões e aumente a produtividade",
+        "alt2": "Garante que cada membro trabalhe isoladamente",
+        "alt3": "Evita a necessidade de reuniões e planejamento",
+        "alt4": "Substitui a função do Product Owner"
+    },
+    {
+        "questao": "Qual é a importância da comunicação no Scrum?",
+        "alt1": "Promover transparência, colaboração e melhoria contínua",
+        "alt2": "Garantir que apenas o Scrum Master tenha informações do projeto",
+        "alt3": "Evitar mudanças durante o desenvolvimento",
+        "alt4": "Manter os requisitos fixos até a entrega final"
+    },
+    {
+        "questao": "Quais são os cinco eventos principais no Scrum?",
+        "alt1": "Sprint, Reunião de Planejamento do Sprint, Reuniões Diárias, Revisão do Sprint e Retrospectiva do Sprint",
+        "alt2": "Sprint, Code Review, Daily Scrum, Teste Unitário e Planejamento",
+        "alt3": "Sprint, Documentação, Reuniões Semanais, Aprovação Final e Retrospectiva",
+        "alt4": "Planejamento Geral, Sprint, Reuniões de Aprovação, Revisão Final e Testes de Aceitação"
+    },
+    {
+        "questao": "O que é um Sprint no Scrum?",
+        "alt1": "Um ciclo de desenvolvimento de tempo fixo para entrega de incrementos do produto",
+        "alt2": "Uma reunião para definir requisitos do projeto",
+        "alt3": "Uma etapa onde apenas testes são realizados",
+        "alt4": "Uma fase para documentar os processos antes da entrega final"
+    },
+    {
+        "questao": "O que é Time-Boxing no Scrum?",
+        "alt1": "Definição de um tempo fixo para execução de eventos e atividades",
+        "alt2": "Um prazo final obrigatório para todo o projeto",
+        "alt3": "Um tempo extra para correções e retrabalho",
+        "alt4": "Uma ferramenta para estimar o tempo de cada tarefa individualmente"
+    },
+    {
+        "questao": "Qual é o objetivo da Reunião de Planejamento do Sprint?",
+        "alt1": "Definir quais itens do backlog serão trabalhados e como serão desenvolvidos",
+        "alt2": "Apresentar o produto finalizado para os stakeholders",
+        "alt3": "Fazer um retrospecto do Sprint anterior",
+        "alt4": "Criar documentação detalhada antes de iniciar o Sprint"
+    },
+    {
+        "questao": "Quem participa da Reunião de Planejamento do Sprint?",
+        "alt1": "Product Owner, Scrum Master e Scrum Team",
+        "alt2": "Apenas o Scrum Master",
+        "alt3": "Somente o Product Owner e a gerência",
+        "alt4": "Todos os stakeholders da empresa"
+    },
+    {
+        "questao": "Quais são as três perguntas básicas da Reunião Diária (Daily Scrum)?",
+        "alt1": "O que fiz ontem? O que farei hoje? Há algum impedimento?",
+        "alt2": "Quais bugs encontrei? Quando será o próximo Sprint? O que foi planejado?",
+        "alt3": "Quais mudanças podemos fazer? Quem é o responsável pelo código? O que está atrasado?",
+        "alt4": "Quantas horas trabalhamos? Quem lidera o time? O que pode ser descartado?"
+    },
+    {
+        "questao": "Qual é a duração recomendada para a Reunião Diária?",
+        "alt1": "15 minutos",
+        "alt2": "1 hora",
+        "alt3": "45 minutos",
+        "alt4": "30 minutos"
+    },
+    {
+        "questao": "O que acontece na Revisão do Sprint?",
+        "alt1": "A equipe apresenta o que foi desenvolvido para stakeholders e Product Owner",
+        "alt2": "Os desenvolvedores revisam o código uns dos outros",
+        "alt3": "A equipe analisa problemas técnicos que surgiram durante o Sprint",
+        "alt4": "O Scrum Master decide o que será entregue na próxima Sprint"
+    },
+    {
+        "questao": "Quem aprova ou rejeita as entregas da Revisão do Sprint?",
+        "alt1": "Product Owner",
+        "alt2": "Scrum Master",
+        "alt3": "Scrum Team",
+        "alt4": "Cliente"
+    },
+    {
+        "questao": "Qual é o objetivo da Retrospectiva do Sprint?",
+        "alt1": "Analisar o que deu certo, o que pode melhorar e definir ações para otimizar o próximo Sprint",
+        "alt2": "Fazer correções no código antes da entrega final",
+        "alt3": "Avaliar individualmente cada membro da equipe",
+        "alt4": "Criar um novo planejamento detalhado para os próximos seis meses"
+    },
+    {
+        "questao": "Qual a diferença entre Revisão do Sprint e Retrospectiva do Sprint?",
+        "alt1": "A Revisão foca no produto entregue, enquanto a Retrospectiva foca na melhoria do processo",
+        "alt2": "A Retrospectiva serve para revisar código, e a Revisão para validar requisitos",
+        "alt3": "A Revisão acontece no início do Sprint e a Retrospectiva no final",
+        "alt4": "Não há diferença, ambos têm o mesmo objetivo"
+    },
+    {
+        "questao": "Quem deve participar da Retrospectiva do Sprint?",
+        "alt1": "Toda a equipe Scrum",
+        "alt2": "Apenas o Product Owner",
+        "alt3": "Apenas o Scrum Master",
+        "alt4": "A equipe de testes e o Scrum Master"
+    },
+    {
+        "questao": "Qual a importância do time-boxing na Retrospectiva do Sprint?",
+        "alt1": "Garante que a reunião tenha um tempo fixo e objetivo",
+        "alt2": "Evita que a equipe tome decisões sem o Scrum Master",
+        "alt3": "Determina a quantidade de tarefas que devem ser realizadas",
+        "alt4": "Define um limite de tempo para cada participante falar"
+    },
+    {
+        "questao": "Como as reuniões diárias ajudam a equipe Scrum?",
+        "alt1": "Facilitam a comunicação, identificam impedimentos e alinham o trabalho diário",
+        "alt2": "Servem para registrar a produtividade de cada membro",
+        "alt3": "Substituem a necessidade de reuniões de planejamento",
+        "alt4": "Eliminam a necessidade de um Product Owner"
+    },
+    {
+        "questao": "Qual evento do Scrum é voltado para avaliar e otimizar os processos internos da equipe?",
+        "alt1": "Retrospectiva do Sprint",
+        "alt2": "Revisão do Sprint",
+        "alt3": "Planejamento do Sprint",
+        "alt4": "Daily Scrum"
+    },
+    {
+        "questao": "Qual evento é responsável por definir as tarefas do Sprint?",
+        "alt1": "Reunião de Planejamento do Sprint",
+        "alt2": "Daily Scrum",
+        "alt3": "Revisão do Sprint",
+        "alt4": "Retrospectiva do Sprint"
+    },
+    {
+        "questao": "O que acontece se um time-boxing for muito curto?",
+        "alt1": "A equipe pode não conseguir finalizar as entregas a tempo",
+        "alt2": "O Scrum Master precisará replanejar todo o Sprint",
+        "alt3": "A velocidade de desenvolvimento será dobrada",
+        "alt4": "O Product Owner precisará redefinir as prioridades"
+    },
+    {
+        "questao": "Qual é o principal objetivo de um Sprint no Scrum?",
+        "alt1": "Criar um incremento funcional do produto que possa ser entregue",
+        "alt2": "Finalizar toda a documentação do projeto",
+        "alt3": "Definir novos requisitos com a equipe",
+        "alt4": "Garantir que o código esteja 100% otimizado"
+    },
+    {
+        "questao": "Por que a Revisão do Sprint é importante para o cliente?",
+        "alt1": "Permite que o cliente veja e valide o progresso do produto",
+        "alt2": "É um momento para revisar a documentação técnica",
+        "alt3": "Ajuda a definir o orçamento para a próxima Sprint",
+        "alt4": "Evita que a equipe precise fazer testes de aceitação"
+    },
+    {
+        "questao": "O que são os artefatos do Scrum?",
+        "alt1": "Indutores de informação que capturam o entendimento compartilhado da equipe",
+        "alt2": "Documentos formais para controle de qualidade do projeto",
+        "alt3": "Ferramentas de automação para desenvolvimento ágil",
+        "alt4": "Regras fixas definidas pelo Scrum Master"
+    },
+    {
+        "questao": "Quais são os três principais artefatos do Scrum?",
+        "alt1": "Backlog do Produto, Backlog do Sprint e Incremento do Produto",
+        "alt2": "Sprint, Retrospectiva e Product Owner",
+        "alt3": "Daily Scrum, Scrum Board e Burndown Chart",
+        "alt4": "Planejamento, Execução e Monitoramento"
+    },
+    {
+        "questao": "O que é o Backlog do Produto?",
+        "alt1": "Uma lista de requisitos priorizados que evolui ao longo do projeto",
+        "alt2": "Um documento fixo de requisitos fechado no início do projeto",
+        "alt3": "Uma lista de tarefas concluídas durante o Sprint",
+        "alt4": "Um conjunto de regras estabelecidas pelo Scrum Master"
+    },
+    {
+        "questao": "Quem é responsável por gerenciar o Backlog do Produto?",
+        "alt1": "Product Owner",
+        "alt2": "Scrum Master",
+        "alt3": "Scrum Team",
+        "alt4": "Cliente"
+    },
+    {
+        "questao": "O que é o Backlog do Sprint?",
+        "alt1": "Um subconjunto do Backlog do Produto que contém tarefas do Sprint atual",
+        "alt2": "Uma lista de funcionalidades aprovadas pelo cliente",
+        "alt3": "O planejamento geral do projeto Scrum",
+        "alt4": "Uma lista de impedimentos encontrados no Sprint"
+    },
+    {
+        "questao": "Quem pode modificar o Backlog do Sprint durante o Sprint?",
+        "alt1": "A própria equipe de desenvolvimento",
+        "alt2": "O Product Owner",
+        "alt3": "O Scrum Master",
+        "alt4": "Os Stakeholders"
+    },
+    {
+        "questao": "O que é o Incremento do Produto?",
+        "alt1": "A soma de todas as funcionalidades concluídas durante o Sprint",
+        "alt2": "Uma lista de funcionalidades que ainda precisam ser implementadas",
+        "alt3": "Uma ferramenta de controle de tempo no Scrum",
+        "alt4": "Uma estimativa de custos do projeto"
+    },
+    {
+        "questao": "Qual é a relação entre o Incremento do Produto e a Definição de Pronto (DoD)?",
+        "alt1": "O incremento precisa atender aos critérios da Definição de Pronto para ser aceito",
+        "alt2": "A Definição de Pronto define as tarefas que devem ser feitas no Sprint",
+        "alt3": "A Definição de Pronto é um relatório gerado no final do projeto",
+        "alt4": "O Incremento do Produto não precisa seguir critérios de qualidade"
+    },
+    {
+        "questao": "O que é um Gráfico Burndown no Scrum?",
+        "alt1": "Um gráfico que mostra a evolução do trabalho realizado ao longo do Sprint",
+        "alt2": "Uma ferramenta para estimar custos do projeto",
+        "alt3": "Uma lista de impedimentos encontrados durante o Sprint",
+        "alt4": "Uma forma de medir a produtividade individual dos membros da equipe"
+    },
+    {
+        "questao": "O que o Gráfico Burndown ajuda a visualizar?",
+        "alt1": "O progresso do Sprint e a quantidade de trabalho restante",
+        "alt2": "A velocidade de entrega de cada desenvolvedor",
+        "alt3": "A lista de tarefas que precisam ser revisadas",
+        "alt4": "Os erros de código encontrados durante os testes"
+    },
+    {
+        "questao": "O que é um Quadro Scrum (Scrum Board)?",
+        "alt1": "Uma ferramenta visual para acompanhar o progresso das tarefas no Sprint",
+        "alt2": "Uma planilha usada para documentar reuniões diárias",
+        "alt3": "Um relatório de desempenho dos desenvolvedores",
+        "alt4": "Uma ferramenta usada apenas pelo Scrum Master"
+    },
+    {
+        "questao": "Qual das opções é um formato comum para o Quadro Scrum?",
+        "alt1": "Colunas 'To Do', 'Doing' e 'Done'",
+        "alt2": "Lista de impedimentos e lista de riscos",
+        "alt3": "Relatório de progresso e lista de erros",
+        "alt4": "Tarefas aprovadas e tarefas pendentes"
+    },
+    {
+        "questao": "Como o Quadro Scrum pode ser representado?",
+        "alt1": "Fisicamente (quadro branco) ou digitalmente (ferramentas como Trello, Jira)",
+        "alt2": "Apenas como um documento físico",
+        "alt3": "Somente como um relatório gerado no final do Sprint",
+        "alt4": "Como um checklist entregue ao cliente"
+    },
+    {
+        "questao": "Quem pode visualizar e atualizar o Quadro Scrum?",
+        "alt1": "Toda a equipe de desenvolvimento",
+        "alt2": "Apenas o Scrum Master",
+        "alt3": "Somente o Product Owner",
+        "alt4": "Apenas a gerência"
+    },
+    {
+        "questao": "Por que o Backlog do Produto é considerado um artefato vivo?",
+        "alt1": "Porque pode ser atualizado continuamente conforme novas necessidades surgem",
+        "alt2": "Porque é fechado no início do projeto e não muda até o final",
+        "alt3": "Porque é um documento formal que precisa de aprovação para qualquer alteração",
+        "alt4": "Porque é um contrato fixo que não pode ser alterado"
+    },
+    {
+        "questao": "Qual é a relação entre o Backlog do Produto e a Revisão do Sprint?",
+        "alt1": "O feedback do cliente na Revisão do Sprint pode gerar novas demandas para o Backlog do Produto",
+        "alt2": "O Backlog do Produto deve ser fechado antes da Revisão do Sprint",
+        "alt3": "A Revisão do Sprint define novas prioridades para o Product Owner",
+        "alt4": "O Backlog do Produto só pode ser atualizado antes do início de um novo Sprint"
+    },
+    {
+        "questao": "O que acontece com os itens do Backlog do Sprint que não foram concluídos no Sprint atual?",
+        "alt1": "Podem ser movidos para o próximo Sprint, caso ainda sejam relevantes",
+        "alt2": "São automaticamente descartados",
+        "alt3": "Devem ser concluídos obrigatoriamente antes do próximo Sprint",
+        "alt4": "Precisam ser aprovados novamente pelo cliente"
+    },
+    {
+        "questao": "O que define a prioridade dos itens no Backlog do Produto?",
+        "alt1": "O valor de negócio e as necessidades do cliente",
+        "alt2": "A ordem de chegada das solicitações",
+        "alt3": "A decisão do Scrum Master",
+        "alt4": "A quantidade de tempo necessária para desenvolver cada item"
+    },
+    {
+        "questao": "Como os artefatos do Scrum ajudam no desenvolvimento ágil?",
+        "alt1": "Garantem transparência, alinhamento e acompanhamento contínuo do progresso",
+        "alt2": "Substituem a necessidade de reuniões da equipe",
+        "alt3": "Eliminam a necessidade de um Product Owner",
+        "alt4": "Impedem que mudanças sejam feitas no escopo do projeto"
+    },
+    {
+        "questao": "Qual é a principal função do Product Owner em relação aos artefatos do Scrum?",
+        "alt1": "Gerenciar e priorizar o Backlog do Produto",
+        "alt2": "Definir os critérios técnicos do Incremento do Produto",
+        "alt3": "Realizar a Revisão do Sprint sozinho",
+        "alt4": "Controlar o tempo de execução das tarefas no Quadro Scrum"
+    },
+    {
+        "questao": "Qual é o objetivo do processo de planejamento no Scrum?",
+        "alt1": "Definir expectativas das partes interessadas e sincronizá-las com a equipe",
+        "alt2": "Criar um plano rígido e inalterável para o projeto",
+        "alt3": "Garantir que todas as entregas sejam feitas sem atrasos",
+        "alt4": "Definir todas as funcionalidades do projeto antes do desenvolvimento"
+    },
+    {
+        "questao": "Quais são as três perguntas centrais do planejamento no Scrum?",
+        "alt1": "O que mudou financeiramente? Que progresso será feito a cada Sprint? Por que o projeto é um investimento valioso?",
+        "alt2": "Qual será o orçamento final? Quem é responsável pelo sucesso? Quando o projeto termina?",
+        "alt3": "Quantos membros compõem a equipe? Quem aprova cada etapa? Como os clientes interagem?",
+        "alt4": "Quais ferramentas serão usadas? Como será feita a documentação? Quem define os prazos?"
+    },
+    {
+        "questao": "O que é necessário para iniciar um projeto Scrum?",
+        "alt1": "Uma visão clara do projeto e um Backlog do Produto",
+        "alt2": "Um plano detalhado com todas as funcionalidades já definidas",
+        "alt3": "Um orçamento fechado e um cronograma fixo",
+        "alt4": "Aprovação de todas as partes interessadas antes do desenvolvimento"
+    },
+    {
+        "questao": "Qual é o papel da visão no planejamento de um projeto Scrum?",
+        "alt1": "Descrever os objetivos do projeto e o estado final desejado",
+        "alt2": "Definir o orçamento e prazos rígidos para o desenvolvimento",
+        "alt3": "Estabelecer os detalhes técnicos antes da implementação",
+        "alt4": "Definir as tecnologias que serão usadas no projeto"
+    },
+    {
+        "questao": "Quem é responsável por manter o Product Backlog?",
+        "alt1": "Product Owner",
+        "alt2": "Scrum Master",
+        "alt3": "Scrum Team",
+        "alt4": "Stakeholders"
+    },
+    {
+        "questao": "Quais elementos podem ser incluídos no Product Backlog?",
+        "alt1": "Características, funções, correções de bugs, melhorias e atualizações tecnológicas",
+        "alt2": "Apenas funcionalidades confirmadas pelo cliente",
+        "alt3": "Somente requisitos definidos no início do projeto",
+        "alt4": "Somente as tarefas a serem executadas no primeiro Sprint"
+    },
+    {
+        "questao": "Quem pode contribuir com novos itens no Product Backlog?",
+        "alt1": "Cliente, equipe de projeto, marketing, vendas, gerência e suporte ao cliente",
+        "alt2": "Apenas o Product Owner",
+        "alt3": "Somente os desenvolvedores",
+        "alt4": "Apenas a equipe de testes"
+    },
+    {
+        "questao": "O que é a Estimativa de Esforço no Scrum?",
+        "alt1": "Um processo iterativo para estimar o esforço necessário para implementar um item do Backlog",
+        "alt2": "Um prazo fixo para completar cada tarefa do projeto",
+        "alt3": "Uma avaliação financeira do custo do projeto",
+        "alt4": "Um relatório gerado pelo Scrum Master após cada Sprint"
+    },
+    {
+        "questao": "Quem é responsável por executar a Estimativa de Esforço?",
+        "alt1": "Product Owner e Scrum Team",
+        "alt2": "Apenas o Scrum Master",
+        "alt3": "Somente os desenvolvedores",
+        "alt4": "A gerência do projeto"
+    },
+    {
+        "questao": "Qual é a principal vantagem do Scrum em comparação com métodos tradicionais de planejamento?",
+        "alt1": "Maior flexibilidade para lidar com mudanças e adaptar o projeto continuamente",
+        "alt2": "Maior controle sobre cada etapa do desenvolvimento",
+        "alt3": "Menos reuniões e menor necessidade de comunicação",
+        "alt4": "Documentação detalhada antes do início do projeto"
+    },
+    {
+        "questao": "Por que o Scrum requer menos planejamento detalhado do que métodos tradicionais?",
+        "alt1": "Porque o progresso é monitorado a cada Sprint e as mudanças são incorporadas conforme necessário",
+        "alt2": "Porque a equipe já sabe tudo o que precisa ser feito antes de começar",
+        "alt3": "Porque o Product Owner toma todas as decisões sozinho",
+        "alt4": "Porque o Scrum Master controla rigidamente todas as tarefas"
+    },
+    {
+        "questao": "O que acontece no final de cada Sprint em relação ao planejamento?",
+        "alt1": "O progresso real do projeto é comparado ao plano inicial",
+        "alt2": "O Product Owner decide se o projeto continua ou não",
+        "alt3": "O Scrum Master apresenta um relatório finalizado para os stakeholders",
+        "alt4": "A equipe entrega um documento formal com as mudanças previstas"
+    },
+    {
+        "questao": "Qual é a relação entre o Scrum e o financiamento do projeto?",
+        "alt1": "O plano Scrum ajuda a justificar o investimento ao mostrar progresso contínuo e adaptação",
+        "alt2": "O Scrum elimina a necessidade de aprovação de orçamento",
+        "alt3": "O financiamento do projeto no Scrum é fixo e imutável",
+        "alt4": "Os stakeholders não têm influência no planejamento financeiro"
+    },
+    {
+        "questao": "Por que a transparência é essencial no gerenciamento de projetos Scrum?",
+        "alt1": "Permite que as partes interessadas acompanhem o progresso e façam ajustes quando necessário",
+        "alt2": "Evita a necessidade de reuniões diárias",
+        "alt3": "Ajuda a reduzir custos ao eliminar documentação",
+        "alt4": "Mantém os desenvolvedores focados apenas na implementação"
+    },
+    {
+        "questao": "Quais eventos do Scrum garantem a inspeção e adaptação contínua do projeto?",
+        "alt1": "Planejamento da Sprint, Reuniões Diárias, Revisão da Sprint e Retrospectiva da Sprint",
+        "alt2": "Daily Scrum, Revisão Financeira, Aprovação Final e Fechamento do Projeto",
+        "alt3": "Reuniões Quinzenais, Reunião de Gerência, Testes Unitários e Codificação",
+        "alt4": "Sprint Zero, Planejamento Mensal, Relatório de Progresso e Feedback do Cliente"
+    },
+    {
+        "questao": "Como o Product Backlog ajuda no alinhamento das partes interessadas?",
+        "alt1": "Mantendo uma lista clara e priorizada dos requisitos do projeto",
+        "alt2": "Definindo um plano rígido que não pode ser alterado",
+        "alt3": "Servindo como um documento finalizado no início do projeto",
+        "alt4": "Sendo atualizado apenas no final de cada Sprint"
+    },
+    {
+        "questao": "O que diferencia o planejamento do Scrum de métodos tradicionais como o modelo em cascata?",
+        "alt1": "O planejamento é contínuo e ajustável a cada Sprint",
+        "alt2": "O Scrum exige que todas as funcionalidades sejam detalhadas antes de começar",
+        "alt3": "O Scrum elimina a necessidade de reuniões de planejamento",
+        "alt4": "O planejamento no Scrum é fixo e não pode ser alterado após a primeira Sprint"
+    },
+    {
+        "questao": "Por que a estimativa de esforço no Scrum é considerada iterativa?",
+        "alt1": "Porque as estimativas são refinadas conforme mais informações ficam disponíveis",
+        "alt2": "Porque o tempo para cada tarefa é fixado desde o início",
+        "alt3": "Porque o Product Owner decide o esforço necessário para cada item",
+        "alt4": "Porque os desenvolvedores estimam apenas no início do projeto"
+    },
+    {
+        "questao": "Como o Scrum aborda mudanças nos requisitos do projeto?",
+        "alt1": "Aceita mudanças continuamente para maximizar o valor do produto",
+        "alt2": "Evita mudanças após o início do projeto",
+        "alt3": "Exige um novo planejamento completo para cada mudança",
+        "alt4": "As mudanças só podem ser feitas no final do projeto"
+    },
+    {
+        "questao": "Qual é a principal vantagem da abordagem ágil do Scrum em relação a projetos complexos?",
+        "alt1": "Permite adaptação contínua e entrega de valor incremental",
+        "alt2": "Elimina a necessidade de reuniões frequentes",
+        "alt3": "Acelera o desenvolvimento reduzindo a interação com o cliente",
+        "alt4": "Evita retrabalho ao definir todos os requisitos no início do projeto"
+    },
+    {
+        "questao": "O que é uma história de usuário no desenvolvimento ágil?",
+        "alt1": "Uma descrição informal e natural de um ou mais recursos do sistema",
+        "alt2": "Um documento técnico detalhado sobre o sistema",
+        "alt3": "Uma lista de tarefas técnicas para os desenvolvedores",
+        "alt4": "Um diagrama UML representando a funcionalidade"
+    },
+    {
+        "questao": "Qual é o principal objetivo de uma história de usuário?",
+        "alt1": "Capturar um requisito do sistema da perspectiva do usuário final",
+        "alt2": "Definir regras de negócios para a equipe de desenvolvimento",
+        "alt3": "Fornecer um modelo para a documentação técnica",
+        "alt4": "Controlar os sprints do projeto"
+    },
+    {
+        "questao": "Quais são os três principais elementos de uma história de usuário?",
+        "alt1": "Quem, O quê e Por quê",
+        "alt2": "Requisitos, Código e Testes",
+        "alt3": "Documentação, Design e Implementação",
+        "alt4": "Sprint, Backlog e Scrum Master"
+    },
+    {
+        "questao": "Qual das opções abaixo NÃO é um benefício das histórias de usuários?",
+        "alt1": "Aprimorar a comunicação entre equipe e cliente",
+        "alt2": "Fornecer flexibilidade no desenvolvimento",
+        "alt3": "Gerar documentação técnica detalhada",
+        "alt4": "Facilitar a priorização dos requisitos"
+    },
+    {
+        "questao": "Onde as histórias de usuários costumam ser registradas?",
+        "alt1": "Em cartões, post-its ou softwares de gerenciamento",
+        "alt2": "Apenas no backlog do Sprint",
+        "alt3": "Somente no código-fonte",
+        "alt4": "Em documentos formais aprovados pelo gerente de projetos"
+    },
+    {
+        "questao": "Qual é o formato comum de uma história de usuário?",
+        "alt1": "Como um [tipo de usuário], quero [ação desejada] para que [motivo]",
+        "alt2": "Se [ação acontecer], então [resultado esperado]",
+        "alt3": "[Nome do desenvolvedor] implementará [requisito] no sistema",
+        "alt4": "[Gerente do projeto] documentará todas as mudanças no software"
+    },
+    {
+        "questao": "O que significa os 3C’s nas histórias de usuário?",
+        "alt1": "Cartão, Conversação e Confirmação",
+        "alt2": "Código, Commit e Controle de Versão",
+        "alt3": "Cliente, Controle e Conclusão",
+        "alt4": "Comprometimento, Comunicação e Conformidade"
+    },
+    {
+        "questao": "O que define o ciclo de vida de uma história de usuário?",
+        "alt1": "Uma sequência de estados desde a criação até a conclusão da funcionalidade",
+        "alt2": "O tempo de duração de um Sprint",
+        "alt3": "A fase de testes do sistema",
+        "alt4": "A quantidade de desenvolvedores envolvidos"
+    },
+    {
+        "questao": "Qual é a primeira etapa do ciclo de vida de uma história de usuário?",
+        "alt1": "Pendente",
+        "alt2": "A fazer",
+        "alt3": "Em desenvolvimento",
+        "alt4": "Concluído"
+    },
+    {
+        "questao": "O que acontece quando uma história de usuário está no estado 'A Fazer'?",
+        "alt1": "Ela foi priorizada para um Sprint e será trabalhada em breve",
+        "alt2": "Ela já foi implementada e está pronta para entrega",
+        "alt3": "Ela ainda não foi identificada no backlog",
+        "alt4": "Ela já está sendo testada pelos usuários"
+    },
+    {
+        "questao": "O que ocorre no estado 'Em Discussão' de uma história de usuário?",
+        "alt1": "Usuários e equipe de desenvolvimento esclarecem os requisitos e definem critérios de aceitação",
+        "alt2": "O código do sistema é revisado para melhorias",
+        "alt3": "A equipe executa os testes automatizados",
+        "alt4": "A história de usuário é arquivada no sistema"
+    },
+    {
+        "questao": "Quando uma história de usuário entra no estado 'Em Desenvolvimento'?",
+        "alt1": "Após os requisitos estarem claros e a equipe começar a implementação",
+        "alt2": "Assim que o gerente de projeto aprovar a funcionalidade",
+        "alt3": "Quando a equipe de testes começa a validar o código",
+        "alt4": "Após a história de usuário ser incluída no backlog do produto"
+    },
+    {
+        "questao": "O que ocorre na etapa 'Em Confirmação'?",
+        "alt1": "O usuário final testa a funcionalidade para validar se atende aos requisitos",
+        "alt2": "A equipe de desenvolvimento começa a escrever o código",
+        "alt3": "A história de usuário é arquivada para referência futura",
+        "alt4": "O Scrum Master revisa a documentação técnica"
+    },
+    {
+        "questao": "O que acontece quando uma história de usuário chega ao estado 'Concluído'?",
+        "alt1": "A funcionalidade foi implementada, testada e validada pelo usuário",
+        "alt2": "O código foi enviado para revisão, mas ainda não testado",
+        "alt3": "A história de usuário foi cancelada por falta de informações",
+        "alt4": "A equipe de desenvolvimento ainda precisa refatorar o código"
+    },
+    {
+        "questao": "Por que histórias de usuário evitam introduzir muitos detalhes logo no início?",
+        "alt1": "Para permitir flexibilidade no desenvolvimento e evitar restrições prematuras",
+        "alt2": "Porque o backlog do produto não pode ter muitas informações",
+        "alt3": "Para manter a equipe de desenvolvimento no controle total",
+        "alt4": "Porque os clientes não devem influenciar na criação do sistema"
+    },
+    {
+        "questao": "O que é um 'Cartão' no conceito dos 3C's?",
+        "alt1": "Uma breve descrição escrita da história de usuário",
+        "alt2": "Um documento formal descrevendo todas as funcionalidades do sistema",
+        "alt3": "Um código de referência para a funcionalidade no repositório",
+        "alt4": "Um termo utilizado para designar os testes automatizados"
+    },
+    {
+        "questao": "Por que as histórias de usuário devem ser curtas e objetivas?",
+        "alt1": "Para facilitar a comunicação e evitar ambiguidade nos requisitos",
+        "alt2": "Para que o Product Owner possa modificar as funcionalidades livremente",
+        "alt3": "Para reduzir o tamanho do backlog do produto",
+        "alt4": "Para diminuir o tempo gasto na documentação"
+    },
+    {
+        "questao": "Qual das opções NÃO é um exemplo de história de usuário bem escrita?",
+        "alt1": "Como um gerente, quero acessar um relatório financeiro para acompanhar as despesas da empresa",
+        "alt2": "Como um desenvolvedor, quero modificar a estrutura do banco de dados sem aprovação do cliente",
+        "alt3": "Como um cliente, quero receber uma notificação quando um produto estiver em promoção",
+        "alt4": "Como um usuário, quero redefinir minha senha caso eu a esqueça"
+    },
+    {
+        "questao": "Por que histórias de usuário enfatizam conversas entre equipe e cliente?",
+        "alt1": "Para garantir que o software atenda às expectativas e evitar falhas de comunicação",
+        "alt2": "Para aumentar a burocracia do projeto e evitar mudanças no escopo",
+        "alt3": "Para impedir que os desenvolvedores tomem decisões técnicas",
+        "alt4": "Para documentar todas as etapas do desenvolvimento de maneira formal"
+    },
+    {
+        "questao": "O que diferencia uma história de usuário de um requisito tradicional?",
+        "alt1": "Ela é escrita de forma mais informal e focada no usuário final",
+        "alt2": "Ela é obrigatoriamente acompanhada de um diagrama UML",
+        "alt3": "Ela contém regras de negócios detalhadas e técnicas",
+        "alt4": "Ela é criada exclusivamente pelo gerente de projetos"
+    },
+    {
+        "questao": "O que é Integração Contínua em desenvolvimento de software?",
+        "alt1": "É o processo de integrar código continuamente para evitar problemas de compatibilidade",
+        "alt2": "É uma prática de desenvolvimento tradicional",
+        "alt3": "É um modelo de gerenciamento de projetos",
+        "alt4": "É um método para testar software manualmente"
+    },
+    {
+        "questao": "Qual das seguintes opções é um benefício da Integração Contínua?",
+        "alt1": "Redução de riscos no desenvolvimento",
+        "alt2": "Aumento do tempo de entrega",
+        "alt3": "Diminuição da colaboração entre equipes",
+        "alt4": "Aumento da complexidade dos testes"
+    },
+    {
+        "questao": "Quais são as quatro atividades principais da Integração Contínua?",
+        "alt1": "Desenvolvimento, Build, Teste Ponta a Ponta e Stage",
+        "alt2": "Planejamento, Desenvolvimento, Implantação e Suporte",
+        "alt3": "Testes, Implementação, Manutenção e Suporte",
+        "alt4": "Análise, Codificação, Revisão e Validação"
+    },
+    {
+        "questao": "No contexto da Integração Contínua, o que significa 'Build'?",
+        "alt1": "Processo de criar binários implantáveis",
+        "alt2": "Etapa de planejamento do projeto",
+        "alt3": "Fase de correção de bugs",
+        "alt4": "Processo de entrega contínua"
+    },
+    {
+        "questao": "Qual prática ajuda a garantir que novas funcionalidades sejam testadas antes da implementação do código?",
+        "alt1": "Behavior-Driven Development (BDD)",
+        "alt2": "Pair Programming",
+        "alt3": "Waterfall Model",
+        "alt4": "Scrum Mastering"
+    },
+    {
+        "questao": "Qual das seguintes opções NÃO faz parte das práticas da Integração Contínua?",
+        "alt1": "Escrever código sem controle de versão",
+        "alt2": "Automação de testes",
+        "alt3": "Compilação automática de código",
+        "alt4": "Commit contínuo do código"
+    },
+    {
+        "questao": "O que é o Desenvolvimento Orientado a Testes (TDD)?",
+        "alt1": "Escrever testes antes de implementar o código",
+        "alt2": "Testar o software apenas após a finalização",
+        "alt3": "Criar código antes de qualquer teste",
+        "alt4": "Apenas rodar testes manuais"
+    },
+    {
+        "questao": "O que é um 'commit fechado' na Integração Contínua?",
+        "alt1": "A garantia de que o código foi testado antes de ser integrado ao repositório principal",
+        "alt2": "Um commit que foi cancelado antes da integração",
+        "alt3": "Um código que não pode mais ser alterado",
+        "alt4": "Um tipo de controle de acesso ao código"
+    },
+    {
+        "questao": "Como o desenvolvimento baseado em tronco (trunk-based development) beneficia a Integração Contínua?",
+        "alt1": "Evitando ramificações longas e garantindo merges frequentes",
+        "alt2": "Eliminando a necessidade de versionamento",
+        "alt3": "Facilitando o desenvolvimento independente sem integração",
+        "alt4": "Removendo a necessidade de testes unitários"
+    },
+    {
+        "questao": "Qual destas práticas auxilia na segurança da aplicação dentro da Integração Contínua?",
+        "alt1": "Análise de código para detectar vulnerabilidades",
+        "alt2": "Execução manual de testes sem automação",
+        "alt3": "Uso exclusivo de logs para detectar problemas",
+        "alt4": "Eliminação de testes funcionais"
+    },
+    {
+        "questao": "O que significa Teste Ponta a Ponta na Integração Contínua?",
+        "alt1": "Testar todo o sistema do início ao fim",
+        "alt2": "Realizar apenas testes unitários",
+        "alt3": "Testar somente uma parte isolada do código",
+        "alt4": "Ignorar testes automatizados"
+    },
+    {
+        "questao": "Por que a congruência entre ambiente de teste e produção é importante?",
+        "alt1": "Para garantir que os testes sejam realistas e reflitam o ambiente final",
+        "alt2": "Para reduzir os custos da equipe de desenvolvimento",
+        "alt3": "Para diminuir a necessidade de testes de regressão",
+        "alt4": "Para criar versões distintas do software para cada ambiente"
+    },
+    {
+        "questao": "O que é a prática de Virtualização de Serviço?",
+        "alt1": "Simular ambientes reais de produção para testes sem custo elevado",
+        "alt2": "Criar versões físicas do software para rodar testes",
+        "alt3": "Substituir a necessidade de automação de testes",
+        "alt4": "Executar código sem conexão com um banco de dados"
+    },
+    {
+        "questao": "O que é o conceito de 'Stage' na Integração Contínua?",
+        "alt1": "Ambiente de teste que simula produção antes do deploy final",
+        "alt2": "Processo de codificação de novas funcionalidades",
+        "alt3": "Fase de documentação do projeto",
+        "alt4": "Etapa de planejamento do backlog"
+    },
+    {
+        "questao": "O que é a estratégia de 'deploy blue/green'?",
+        "alt1": "Ter dois ambientes, um ativo e outro ocioso, para garantir transições rápidas e seguras",
+        "alt2": "Realizar deploy diretamente no ambiente de produção",
+        "alt3": "Criar múltiplas versões do software para diferentes usuários",
+        "alt4": "Evitar a necessidade de testes antes do deploy"
+    },
+    {
+        "questao": "O que representa um Quadro Scrum (Scrum Board)?",
+        "alt1": "Um painel visual para monitorar tarefas do backlog",
+        "alt2": "Uma ferramenta para calcular o tempo restante do projeto",
+        "alt3": "Um sistema para armazenar código-fonte",
+        "alt4": "Uma técnica de modelagem de banco de dados"
+    },
+    {
+        "questao": "O que significa 'telemetria' no contexto da Integração Contínua?",
+        "alt1": "Uso de dados do sistema para monitoramento e melhorias",
+        "alt2": "Processo de desenvolvimento sem necessidade de testes",
+        "alt3": "Implementação de requisitos de hardware no software",
+        "alt4": "Automação de deploy sem testes prévios"
+    },
+    {
+        "questao": "Qual o principal objetivo de manter um ambiente Stage antes da implantação?",
+        "alt1": "Validar a solução em um ambiente similar à produção",
+        "alt2": "Acelerar o desenvolvimento sem necessidade de testes",
+        "alt3": "Reduzir custos operacionais eliminando automação",
+        "alt4": "Executar código sem necessidade de controle de versão"
+    },
+    {
+        "questao": "Qual é um dos principais indicadores de sucesso na Integração Contínua?",
+        "alt1": "A frequência das integrações e a detecção rápida de falhas",
+        "alt2": "O número de reuniões semanais da equipe de desenvolvimento",
+        "alt3": "A quantidade de código escrito sem refatoração",
+        "alt4": "A criação de múltiplas versões do código para diferentes times"
+    },
+    {
+        "questao": "O que significa a cultura de 'Consertar integrações com falha é uma prioridade'?",
+        "alt1": "Garantir que qualquer problema na integração seja resolvido rapidamente",
+        "alt2": "Criar múltiplas versões do código antes de corrigir erros",
+        "alt3": "Postergar correções para a fase de testes finais",
+        "alt4": "Permitir que a equipe desenvolva código sem testes contínuos"
+    },
+    {
+        "questao": "O que significa a palavra 'Kanban'?",
+        "alt1": "Sinal e quadro",
+        "alt2": "Controle de produção",
+        "alt3": "Lista de tarefas",
+        "alt4": "Fluxo de trabalho"
+    },
+    {
+        "questao": "Qual empresa popularizou o uso do Kanban na década de 60?",
+        "alt1": "Toyota",
+        "alt2": "Honda",
+        "alt3": "Ford",
+        "alt4": "Mitsubishi"
+    },
+    {
+        "questao": "Qual é o principal objetivo do Kanban?",
+        "alt1": "Garantir entregas contínuas otimizando fluxo",
+        "alt2": "Criar documentação detalhada",
+        "alt3": "Definir requisitos estáticos",
+        "alt4": "Evitar mudanças no projeto"
+    },
+    {
+        "questao": "O que um 'cartão Kanban' representa?",
+        "alt1": "Uma tarefa a ser realizada",
+        "alt2": "Uma reunião de equipe",
+        "alt3": "Uma meta do cliente",
+        "alt4": "Um problema no projeto"
+    },
+    {
+        "questao": "O que significa WIP (Work in Progress) no Kanban?",
+        "alt1": "Trabalho em andamento",
+        "alt2": "Trabalho concluído",
+        "alt3": "Plano de entregas futuras",
+        "alt4": "Reunião de planejamento"
+    },
+    {
+        "questao": "Por que limitar o WIP é importante no Kanban?",
+        "alt1": "Evitar sobrecarga de trabalho",
+        "alt2": "Aumentar o número de tarefas",
+        "alt3": "Priorizar atividades menores",
+        "alt4": "Reduzir o tempo de reuniões"
+    },
+    {
+        "questao": "Qual é a primeira etapa para implementar o Kanban?",
+        "alt1": "Visualizar o fluxo de trabalho",
+        "alt2": "Definir todas as tarefas previamente",
+        "alt3": "Criar um backlog fixo",
+        "alt4": "Garantir reuniões diárias"
+    },
+    {
+        "questao": "O que acontece se não houver limite de WIP no Kanban?",
+        "alt1": "O fluxo pode ficar congestionado",
+        "alt2": "A equipe entrega mais rápido",
+        "alt3": "O quadro Kanban fica mais organizado",
+        "alt4": "As tarefas são concluídas mais rápido"
+    },
+    {
+        "questao": "Qual o benefício de visualizar o fluxo de trabalho no Kanban?",
+        "alt1": "Permite identificar gargalos e otimizar processos",
+        "alt2": "Reduz a necessidade de comunicação na equipe",
+        "alt3": "Elimina a necessidade de reuniões",
+        "alt4": "Aumenta a complexidade do gerenciamento"
+    },
+    {
+        "questao": "Quais são os componentes principais de um quadro Kanban?",
+        "alt1": "Cartões, colunas, raias e limites de WIP",
+        "alt2": "Backlog, reuniões diárias e revisão de Sprint",
+        "alt3": "User Stories, épicos e tarefas",
+        "alt4": "Pontos de história, estimativas e retrospectivas"
+    },
+    {
+        "questao": "O que acontece quando um cartão Kanban avança para a próxima coluna?",
+        "alt1": "A tarefa está mais próxima da conclusão",
+        "alt2": "A tarefa é arquivada",
+        "alt3": "O backlog é atualizado automaticamente",
+        "alt4": "A equipe deve revisar os requisitos novamente"
+    },
+    {
+        "questao": "O que as raias Kanban representam?",
+        "alt1": "Categorias para separar tipos de atividades",
+        "alt2": "Linhas do tempo de cada tarefa",
+        "alt3": "Erros no fluxo de trabalho",
+        "alt4": "Colunas adicionais para histórico de tarefas"
+    },
+    {
+        "questao": "O que é necessário para manter um bom fluxo de trabalho no Kanban?",
+        "alt1": "Monitorar continuamente os gargalos",
+        "alt2": "Aumentar o número de tarefas em progresso",
+        "alt3": "Eliminar limites de WIP",
+        "alt4": "Evitar mudanças no quadro Kanban"
+    },
+    {
+        "questao": "Como o Kanban ajuda na entrega contínua?",
+        "alt1": "Reduzindo a complexidade e otimizando fluxo",
+        "alt2": "Tornando a documentação obrigatória",
+        "alt3": "Aumentando o tempo de desenvolvimento",
+        "alt4": "Criando mais dependências entre tarefas"
+    },
+    {
+        "questao": "Por que as políticas de processo explícitas são importantes no Kanban?",
+        "alt1": "Para garantir que todos compreendam o fluxo",
+        "alt2": "Para aumentar a burocracia do projeto",
+        "alt3": "Para restringir mudanças no sistema",
+        "alt4": "Para permitir que apenas gerentes tomem decisões"
+    },
+    {
+        "questao": "O que é um gargalo no contexto do Kanban?",
+        "alt1": "Um ponto onde o fluxo de trabalho fica lento",
+        "alt2": "Uma tarefa concluída com sucesso",
+        "alt3": "Um erro crítico no código",
+        "alt4": "Um processo automatizado"
+    },
+    {
+        "questao": "O que a Teoria das Restrições ensina no Kanban?",
+        "alt1": "Identificar e melhorar gargalos",
+        "alt2": "Eliminar reuniões desnecessárias",
+        "alt3": "Criar backlogs estáticos",
+        "alt4": "Evitar mudanças nos processos"
+    },
+    {
+        "questao": "Qual é um exemplo de política explícita no Kanban?",
+        "alt1": "Definir claramente os limites de WIP",
+        "alt2": "Evitar comunicação entre os membros da equipe",
+        "alt3": "Sempre iniciar múltiplas tarefas ao mesmo tempo",
+        "alt4": "Trabalhar sem definir prioridades"
+    },
+    {
+        "questao": "Por que a gestão do fluxo é fundamental no Kanban?",
+        "alt1": "Para manter o trabalho fluindo de forma eficiente",
+        "alt2": "Para garantir que todas as tarefas fiquem acumuladas",
+        "alt3": "Para impedir que tarefas sejam concluídas rapidamente",
+        "alt4": "Para tornar o processo mais burocrático"
+    },
+    {
+        "questao": "Como o Kanban ajuda a evitar desperdícios no processo de desenvolvimento?",
+        "alt1": "Focando no fluxo contínuo e na eliminação de gargalos",
+        "alt2": "Criando documentação extensa",
+        "alt3": "Permitindo um número ilimitado de tarefas simultâneas",
+        "alt4": "Evitando a entrega contínua"
+    },
+    {
+        "questao": "O que significa a estratégia de Produto Mínimo Viável (MVP) no Lean Software Development?",
+        "alt1": "Lançar uma versão mínima do produto para obter feedback rápido dos usuários",
+        "alt2": "Criar um produto finalizado e completo antes de qualquer teste",
+        "alt3": "Desenvolver todas as funcionalidades do produto antes do lançamento",
+        "alt4": "Testar internamente sem envolver usuários na validação"
+    },
+    {
+        "questao": "De onde o conceito de Lean foi originalmente derivado?",
+        "alt1": "Do Sistema de Produção Toyota",
+        "alt2": "Do desenvolvimento de software tradicional",
+        "alt3": "Da metodologia Scrum",
+        "alt4": "De práticas de engenharia de software avançadas"
+    },
+    {
+        "questao": "Qual é um dos principais objetivos do Lean Software Development?",
+        "alt1": "Eliminar desperdícios e maximizar valor para o cliente",
+        "alt2": "Aumentar a burocracia nos processos de desenvolvimento",
+        "alt3": "Apenas reduzir custos sem focar na entrega de valor",
+        "alt4": "Desenvolver software sem se preocupar com a satisfação do cliente"
+    },
+    {
+        "questao": "Quais são alguns pontos fortes do Lean Software Development?",
+        "alt1": "Entrega rápida de funcionalidades e eliminação de desperdícios",
+        "alt2": "Forte dependência da equipe sem necessidade de feedback do cliente",
+        "alt3": "Focar na documentação em vez de iterar o desenvolvimento",
+        "alt4": "Evitar o envolvimento da equipe na tomada de decisões"
+    },
+    {
+        "questao": "O que é considerado um dos pontos fracos do Lean Software Development?",
+        "alt1": "Dependência da equipe envolvida, tornando-o menos escalável",
+        "alt2": "Excesso de burocracia e documentação",
+        "alt3": "Falta de comunicação com o cliente",
+        "alt4": "Foco exclusivo na codificação sem considerar outros fatores"
+    },
+    {
+        "questao": "O que significa 'valor na perspectiva do cliente' no Lean Software Development?",
+        "alt1": "Focar no que o cliente realmente precisa, e não apenas no que ele pede",
+        "alt2": "Entregar tudo o que o cliente solicita sem questionamento",
+        "alt3": "Evitar comunicação com o cliente para economizar tempo",
+        "alt4": "Apenas se preocupar com aspectos técnicos do software"
+    },
+    {
+        "questao": "O que é mapeamento do fluxo de valor?",
+        "alt1": "Analisar e identificar onde o valor está sendo gerado no processo",
+        "alt2": "Criar uma lista de tarefas para os desenvolvedores",
+        "alt3": "Definir prazos fixos para cada fase do projeto",
+        "alt4": "Evitar mudanças no projeto durante o desenvolvimento"
+    },
+    {
+        "questao": "Como o Kanban pode ajudar no mapeamento do fluxo de valor?",
+        "alt1": "Permite visualizar o fluxo de trabalho e identificar gargalos",
+        "alt2": "Garante que todas as tarefas tenham prazos rígidos",
+        "alt3": "Impede a colaboração entre os membros da equipe",
+        "alt4": "Substitui completamente a necessidade de planejamento"
+    },
+    {
+        "questao": "O que o Lean considera como 'desperdício'?",
+        "alt1": "Qualquer atividade que consome recursos sem agregar valor ao cliente",
+        "alt2": "Processos que exigem comunicação entre diferentes equipes",
+        "alt3": "Adoção de metodologias ágeis no desenvolvimento",
+        "alt4": "Qualquer prática que envolve feedback do cliente"
+    },
+    {
+        "questao": "Qual é um exemplo de desperdício identificado no Lean Software Development?",
+        "alt1": "Aguardar aprovação da gerência para avançar no desenvolvimento",
+        "alt2": "Criar uma estrutura de código bem organizada",
+        "alt3": "Fazer revisões contínuas para evitar erros",
+        "alt4": "Ter uma equipe multidisciplinar colaborando no projeto"
+    },
+    {
+        "questao": "O que é fluxo de trabalho contínuo no Lean Software Development?",
+        "alt1": "Garantir que o processo ocorra sem interrupções ou bloqueios",
+        "alt2": "Trabalhar com prazos rígidos e inflexíveis",
+        "alt3": "Executar todas as tarefas de uma só vez para acelerar a entrega",
+        "alt4": "Evitar revisões no processo de desenvolvimento"
+    },
+    {
+        "questao": "Qual das opções a seguir é um dos sete desperdícios no Lean Software Development?",
+        "alt1": "Movimentação desnecessária de informações ou recursos",
+        "alt2": "Revisão contínua da qualidade do código",
+        "alt3": "Colaboração entre diferentes membros da equipe",
+        "alt4": "Utilização de metodologias ágeis no planejamento"
+    },
+    {
+        "questao": "O que o Lead Time representa no Lean Software Development?",
+        "alt1": "O tempo total desde o pedido do cliente até a entrega do produto",
+        "alt2": "O tempo de codificação necessário para implementar uma funcionalidade",
+        "alt3": "O tempo gasto apenas no planejamento do projeto",
+        "alt4": "O tempo que um desenvolvedor leva para completar uma tarefa"
+    },
+    {
+        "questao": "Como se calcula a eficiência do fluxo de valor no Lean?",
+        "alt1": "Dividindo o tempo de trabalho pelo Lead Time total",
+        "alt2": "Somando todos os prazos das tarefas individuais",
+        "alt3": "Comparando o custo do projeto com a receita esperada",
+        "alt4": "Multiplicando a quantidade de funcionalidades pelo tempo de desenvolvimento"
+    },
+    {
+        "questao": "O que caracteriza um processamento excessivo como desperdício no Lean?",
+        "alt1": "Quando um trabalho excede os requisitos do cliente",
+        "alt2": "Quando a equipe discute melhorias no processo",
+        "alt3": "Quando há colaboração entre diferentes setores do projeto",
+        "alt4": "Quando revisões são feitas para garantir a qualidade do código"
+    },
+    {
+        "questao": "O que significa 'esperas e filas' como desperdício no Lean Software Development?",
+        "alt1": "Quando um trabalho fica parado aguardando aprovação ou dependências",
+        "alt2": "Quando o projeto avança muito rápido sem documentação",
+        "alt3": "Quando revisões frequentes são feitas para garantir qualidade",
+        "alt4": "Quando as equipes têm liberdade para testar novas abordagens"
+    },
+    {
+        "questao": "Por que a identificação do fluxo de valor é crucial no Lean Software Development?",
+        "alt1": "Para eliminar etapas desnecessárias e otimizar o processo",
+        "alt2": "Para aumentar a burocracia e formalizar as entregas",
+        "alt3": "Para garantir que todos os desenvolvedores sigam regras rígidas",
+        "alt4": "Para padronizar o código de todos os projetos"
+    },
+    {
+        "questao": "Qual é um dos principais benefícios de aplicar o Lean no desenvolvimento de software?",
+        "alt1": "Redução de desperdícios e entrega mais rápida de valor ao cliente",
+        "alt2": "Eliminação da necessidade de testes no desenvolvimento",
+        "alt3": "Aumento da burocracia e documentação detalhada",
+        "alt4": "Focar no produto final sem interação com o cliente"
+    },
+    {
+        "questao": "Qual é um dos princípios fundamentais do Lean Software Development?",
+        "alt1": "Eliminar desperdícios e focar na entrega contínua de valor",
+        "alt2": "Priorizar a documentação acima do desenvolvimento",
+        "alt3": "Criar funcionalidades sem considerar feedback do cliente",
+        "alt4": "Reduzir ao máximo a comunicação entre a equipe de desenvolvimento"
+    },
+    {
+        "questao": "O que é Lean Software Development?",
+        "alt1": "Uma abordagem ágil focada em eliminar desperdícios e otimizar recursos",
+        "alt2": "Um método para acelerar desenvolvimento de software sem planejamento",
+        "alt3": "Uma forma de criar software sem a participação do cliente",
+        "alt4": "Uma técnica de codificação específica para sistemas embarcados"
+    }
 ]
