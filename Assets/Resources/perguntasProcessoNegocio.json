@@ -138,5 +138,985 @@
       "alt2": "Vertical, porque mantém uma hierarquia rígida",
       "alt3": "Centralizado, baseado apenas na presidência",
       "alt4": "Isolado, já que cada departamento age de forma independente"
+    },
+    {
+    "questao": "Qual é a principal diferença entre a abordagem funcional e a abordagem por processos?",
+    "alt1": "A funcional é vertical e a por processos é horizontal",
+    "alt2": "A funcional prioriza o cliente e a por processos prioriza a hierarquia",
+    "alt3": "A funcional não possui hierarquia",
+    "alt4": "A abordagem por processos não possui gestores"
+  },
+  {
+    "questao": "O que caracteriza uma organização funcional?",
+    "alt1": "Gerenciamento hierárquico e responsabilidades por tarefas específicas",
+    "alt2": "Foco em entrega de valor ao cliente",
+    "alt3": "Integração entre departamentos e equipes",
+    "alt4": "Desenho de processos e apoio horizontal"
+  },
+  {
+    "questao": "O que caracteriza uma organização orientada por processos?",
+    "alt1": "Entrega de valor ao cliente por meio da visão horizontal",
+    "alt2": "Divisão clara por departamentos e funções específicas",
+    "alt3": "Controle centralizado nas decisões do diretor geral",
+    "alt4": "Delegação vertical de tarefas entre líderes"
+  },
+  {
+    "questao": "Qual teoria influencia a abordagem sistêmica e por processos?",
+    "alt1": "Teoria dos Sistemas de Ludwig Von Bertalanffy",
+    "alt2": "Teoria Clássica da Administração",
+    "alt3": "Teoria da Reengenharia",
+    "alt4": "Teoria de Porter"
+  },
+  {
+    "questao": "Segundo a abordagem por processos, o foco da empresa deve estar em:",
+    "alt1": "Agregar valor ao cliente independentemente do setor responsável",
+    "alt2": "Gerenciar as tarefas exclusivamente por departamento",
+    "alt3": "Manter uma estrutura funcional rígida",
+    "alt4": "Controlar o fluxo de caixa separadamente"
+  },
+  {
+    "questao": "Qual foi um dos marcos que iniciou a desverticalização nas empresas?",
+    "alt1": "Sistema Toyota de Produção",
+    "alt2": "Teoria Clássica da Administração",
+    "alt3": "Estrutura Funcional Pura",
+    "alt4": "Teoria dos Círculos de Controle"
+  },
+  {
+    "questao": "A Cadeia de Valor de Porter propõe que:",
+    "alt1": "Os processos devem agregar valor aos produtos e serviços",
+    "alt2": "A hierarquia deve ser sempre respeitada",
+    "alt3": "As decisões sejam tomadas somente pelos líderes",
+    "alt4": "A estrutura seja sempre funcional"
+  },
+  {
+    "questao": "Qual o papel do ERP na abordagem por processos?",
+    "alt1": "Integrar dados e processos de diferentes setores da empresa",
+    "alt2": "Manter a visão funcional separada por departamentos",
+    "alt3": "Substituir completamente os processos manuais por automação",
+    "alt4": "Centralizar as tarefas em um único setor"
+  },
+  {
+    "questao": "Por que algumas implantações de ERP fracassaram, segundo o conteúdo?",
+    "alt1": "Porque as empresas mantiveram a visão funcional mesmo com o novo sistema",
+    "alt2": "Porque o ERP era incompatível com a área de TI",
+    "alt3": "Porque os usuários não sabiam usar",
+    "alt4": "Porque não havia treinamento adequado"
+  },
+  {
+    "questao": "Qual das opções descreve corretamente uma organização centrada em processos?",
+    "alt1": "Foco em processos como forma de atingir objetivos estratégicos",
+    "alt2": "Foco em departamentos e premiações por metas individuais",
+    "alt3": "Uso de tecnologia sem integração entre setores",
+    "alt4": "Alta dependência de supervisão hierárquica rígida"
+    },
+    {
+      "questao": "Qual o papel dos gerentes de processo na abordagem por processos?",
+      "alt1": "Apoiar os gestores funcionais e as equipes que executam os processos",
+      "alt2": "Controlar todas as tarefas técnicas da empresa",
+      "alt3": "Assumir a liderança de todos os departamentos",
+      "alt4": "Focar exclusivamente no cumprimento de metas financeiras"
+    },
+    {
+      "questao": "A Teoria dos Sistemas, base da abordagem sistêmica, foi proposta por:",
+      "alt1": "Ludwig Von Bertalanffy",
+      "alt2": "Michael Porter",
+      "alt3": "Eric Ries",
+      "alt4": "Frederick Taylor"
+    },
+    {
+      "questao": "Qual característica é comum às empresas centradas em processos?",
+      "alt1": "Possuem clara visão dos seus processos e de como eles se relacionam",
+      "alt2": "Estrutura hierárquica rígida baseada em departamentos",
+      "alt3": "Desconhecimento dos processos internos",
+      "alt4": "Foco exclusivo na cadeia funcional"
+    },
+    {
+      "questao": "O que a Reengenharia propõe?",
+      "alt1": "Redesenhar processos com uso de novas abordagens e tecnologias",
+      "alt2": "Fortalecer os departamentos tradicionais",
+      "alt3": "Eliminar etapas tecnológicas da empresa",
+      "alt4": "Criar novas áreas de especialização"
+    },
+    {
+      "questao": "Segundo a ABPMP, a visão funcional possui como principal característica:",
+      "alt1": "Gerenciamento hierárquico com delegação vertical de responsabilidade",
+      "alt2": "Integração horizontal entre setores",
+      "alt3": "Autonomia de processos cruzando departamentos",
+      "alt4": "Criação de equipes multifuncionais permanentes"
+    },
+    {
+      "questao": "Como o ERP contribui para a abordagem por processos?",
+      "alt1": "Elimina redundâncias e integra dados em tempo real",
+      "alt2": "Separa os dados por setores funcionais",
+      "alt3": "Cria barreiras entre os departamentos",
+      "alt4": "Centraliza as decisões na diretoria"
+    },
+    {
+      "questao": "Por que a implantação de ERP pode fracassar?",
+      "alt1": "Porque muitas empresas mantêm uma visão funcional, sem mudança de cultura",
+      "alt2": "Devido à falta de equipamento moderno",
+      "alt3": "Por excesso de processos automatizados",
+      "alt4": "Porque não há suporte técnico disponível"
+    },
+    {
+      "questao": "Qual foi o impacto da mudança no comportamento dos clientes ao longo do tempo?",
+      "alt1": "As empresas passaram a se adaptar às novas exigências dos consumidores",
+      "alt2": "As empresas mantiveram seu controle sobre as decisões do cliente",
+      "alt3": "Os produtos passaram a ser mais padronizados",
+      "alt4": "A estrutura funcional ganhou mais força"
+    },
+    {
+      "questao": "O que significa a desverticalização de uma organização?",
+      "alt1": "A substituição da estrutura funcional por uma orientada a processos",
+      "alt2": "A criação de novos departamentos para funções específicas",
+      "alt3": "A divisão de tarefas em setores isolados",
+      "alt4": "A centralização da comunicação na diretoria"
+    },
+    {
+      "questao": "O que é necessário para o ERP funcionar com sucesso?",
+      "alt1": "Uma organização com processos bem definidos e integrados",
+      "alt2": "Gestores que não interferem nas decisões técnicas",
+      "alt3": "Manutenção da estrutura vertical com foco nos departamentos",
+      "alt4": "Isolamento das áreas de tecnologia e operação"
+    },
+    {
+      "questao": "Qual é o principal objetivo do uso de sistemas de Workflow em processos de negócios?",
+      "alt1": "Automatizar, monitorar e gerenciar as atividades dos processos",
+      "alt2": "Contratar novos colaboradores para cada etapa do processo",
+      "alt3": "Descentralizar completamente a responsabilidade dos processos",
+      "alt4": "Evitar o uso de softwares e focar em documentos físicos"
+    },
+    {
+      "questao": "O que caracteriza um Workflow Ad-Hoc?",
+      "alt1": "Processos menos complexos e não estruturados com necessidade de rápida solução",
+      "alt2": "Processos de produção com acesso a múltiplos sistemas",
+      "alt3": "Atividades altamente burocráticas com diversas autorizações",
+      "alt4": "Processos com tarefas altamente especializadas e longas"
+    },
+    {
+      "questao": "Qual vantagem é obtida com o uso de Workflow segundo Baldam et al.?",
+      "alt1": "Facilidade na rápida alteração de um processo",
+      "alt2": "Redução no uso de internet",
+      "alt3": "Aumento da burocracia",
+      "alt4": "Eliminação da equipe técnica"
+    },
+    {
+      "questao": "O que é a WfMC?",
+      "alt1": "Aliança de Gestão do Fluxo de Trabalho que desenvolve padrões e linguagens como XPDL",
+      "alt2": "Software de edição de textos técnicos",
+      "alt3": "Empresa responsável pela fiscalização de e-mails corporativos",
+      "alt4": "Sistema de vendas on-line para empresas do setor público"
+    },
+    {
+      "questao": "O Workflow Colaborativo é indicado para qual tipo de processo?",
+      "alt1": "Processos realizados por equipes que trabalham em conjunto numa tarefa específica",
+      "alt2": "Tarefas individuais com supervisão direta da diretoria",
+      "alt3": "Etapas do setor financeiro com acesso restrito",
+      "alt4": "Controle de equipamentos industriais"
+    },
+    {
+      "questao": "Qual é a diferença entre o Workflow de Produção e o Workflow Administrativo?",
+      "alt1": "O de Produção requer acesso a múltiplos sistemas; o Administrativo não",
+      "alt2": "O de Produção é mais simples e o Administrativo mais complexo",
+      "alt3": "O de Produção é usado apenas por diretores; o Administrativo por analistas",
+      "alt4": "O Administrativo envolve equipes externas; o de Produção, não"
+    },
+    {
+      "questao": "Qual é uma das principais críticas às atividades baseadas em processos sem Workflow, segundo Pádua e Bispo?",
+      "alt1": "Falta de controle geral sobre a execução das atividades",
+      "alt2": "Excesso de softwares utilizados",
+      "alt3": "Centralização exagerada da liderança",
+      "alt4": "Dependência de relatórios manuais"
+    },
+    {
+      "questao": "Qual é uma das vantagens do Workflow citada por Caiçara Junior e Achuthan?",
+      "alt1": "Redução de custos operacionais e eliminação de papéis",
+      "alt2": "Aumento de reuniões e aprovações manuais",
+      "alt3": "Diminuição do controle de qualidade",
+      "alt4": "Aumento da dependência de papeladas"
+    },
+    {
+      "questao": "Qual é a linguagem de definição de processos desenvolvida pela WfMC?",
+      "alt1": "XPDL",
+      "alt2": "BPMN",
+      "alt3": "HTML",
+      "alt4": "ERP-SQL"
+    },
+    {
+      "questao": "Por que os sistemas de Workflow foram 'ressuscitados' com a chegada do BPM e do BPMS?",
+      "alt1": "Porque o BPMS é basicamente o software de Workflow com um novo nome",
+      "alt2": "Porque os softwares antigos foram proibidos",
+      "alt3": "Devido à extinção da WfMC",
+      "alt4": "Porque os processos passaram a ser todos manuais"
+    },
+    {
+      "questao": "Qual software pode conter funcionalidades de Workflow integradas?",
+      "alt1": "ERP e CRM",
+      "alt2": "Excel e Word",
+      "alt3": "Photoshop e CorelDRAW",
+      "alt4": "Norton e Avast"
+    },
+    {
+      "questao": "O que a ferramenta de monitorização de Workflow permite fazer?",
+      "alt1": "Redirecionar ocorrências e controlar a carga de trabalho",
+      "alt2": "Imprimir todos os relatórios automaticamente",
+      "alt3": "Excluir tarefas pendentes automaticamente",
+      "alt4": "Evitar que usuários alterem os processos"
+    },
+    {
+      "questao": "Qual tipo de Workflow lida com processos críticos como vendas online?",
+      "alt1": "Workflow Transacional",
+      "alt2": "Workflow Ad-Hoc",
+      "alt3": "Workflow Administrativo",
+      "alt4": "Workflow Educacional"
+    },
+    {
+      "questao": "O que motivou a criação da WfMC em 1993?",
+      "alt1": "Desenvolver padrões focados exclusivamente em processos de Workflow",
+      "alt2": "Regular softwares de planilhas e documentos",
+      "alt3": "Desenvolver sistemas bancários",
+      "alt4": "Padronizar redes sociais empresariais"
+    },
+    {
+      "questao": "Qual é uma desvantagem de não utilizar Workflow em processos?",
+      "alt1": "Falta de controle sobre execução e responsabilidades",
+      "alt2": "Excesso de conectividade entre setores",
+      "alt3": "Baixo custo com infraestrutura",
+      "alt4": "Redução de tempo nos processos"
+    },
+    {
+      "questao": "Qual característica de um software de Workflow garante rápida resposta a mudanças?",
+      "alt1": "Flexibilidade",
+      "alt2": "Alta complexidade",
+      "alt3": "Segurança de rede",
+      "alt4": "Controle rígido e fixo"
+    },
+    {
+      "questao": "Em qual modelo de Workflow é comum o uso de e-mails como meio de controle?",
+      "alt1": "Workflow Ad-Hoc",
+      "alt2": "Workflow de Produção",
+      "alt3": "Workflow Transacional",
+      "alt4": "Workflow Integrado"
+    },
+    {
+      "questao": "Qual vantagem o Workflow traz ao gerenciamento de tarefas?",
+      "alt1": "Melhoria na delegação de tarefas",
+      "alt2": "Aumento de etapas manuais",
+      "alt3": "Isolamento das áreas da empresa",
+      "alt4": "Redução de integração entre os departamentos"
+    },
+    {
+      "questao": "O que representa a linguagem XPDL?",
+      "alt1": "Linguagem usada para definição e troca de modelos de processos",
+      "alt2": "Linguagem de programação para apps mobile",
+      "alt3": "Script de banco de dados",
+      "alt4": "Padrão para autenticação de usuários"
+    },
+    {
+      "questao": "Por que o Workflow Colaborativo é importante em revisões acadêmicas?",
+      "alt1": "Porque permite pareceres simultâneos de especialistas diferentes",
+      "alt2": "Porque substitui todos os revisores por IA",
+      "alt3": "Porque evita qualquer tipo de modificação no conteúdo",
+      "alt4": "Porque impede o envio de artigos com erros"
+    },
+    {
+      "questao": "Qual dos seguintes tipos de processos entrega valor diretamente ao cliente?",
+      "alt1": "Processo primário",
+      "alt2": "Processo de suporte",
+      "alt3": "Processo de gerenciamento",
+      "alt4": "Processo administrativo"
+    },
+    {
+      "questao": "O que caracteriza um processo de suporte segundo a ABPMP (2013)?",
+      "alt1": "Apoia os processos primários e de gerenciamento",
+      "alt2": "Entrega valor direto ao cliente",
+      "alt3": "É um processo essencialmente interorganizacional",
+      "alt4": "É sempre executado por sistemas automáticos"
+    },
+    {
+      "questao": "Qual processo é responsável por desenhar, monitorar e melhorar outros processos?",
+      "alt1": "Processo de gerenciamento",
+      "alt2": "Processo primário",
+      "alt3": "Processo de suporte",
+      "alt4": "Processo técnico"
+    },
+    {
+      "questao": "O que o BPM (Business Process Management) integra de acordo com a ABPMP (2013)?",
+      "alt1": "Estratégias e objetivos organizacionais com expectativas dos clientes",
+      "alt2": "Apenas os departamentos de TI e Marketing",
+      "alt3": "Somente as metas financeiras da empresa",
+      "alt4": "Programas de fidelidade com redes sociais"
+    },
+    {
+      "questao": "O que significa um processo ser interfuncional 'ponta a ponta'?",
+      "alt1": "Atravessar várias áreas ou departamentos buscando entregar valor",
+      "alt2": "Estar disponível 24 horas por dia",
+      "alt3": "Atuar apenas no setor de atendimento ao cliente",
+      "alt4": "Ter começo, meio e fim em um único setor"
+    },
+    {
+      "questao": "Qual fator é considerado crítico para o sucesso na implantação do BPM?",
+      "alt1": "Apoio da alta direção",
+      "alt2": "Compra de computadores mais potentes",
+      "alt3": "Descentralização completa da liderança",
+      "alt4": "Redução dos indicadores de desempenho"
+    },
+    {
+      "questao": "Segundo Baldam et al. (2007), um dos motivos para adotar o BPM é:",
+      "alt1": "A hipercompetitividade mundial",
+      "alt2": "Redução da carga horária de funcionários",
+      "alt3": "Foco exclusivo em marketing",
+      "alt4": "A necessidade de manter a hierarquia rígida"
+    },
+    {
+      "questao": "O que o BPM valoriza mais do que a criação de processos?",
+      "alt1": "A habilidade de mudá-los",
+      "alt2": "A terceirização da operação",
+      "alt3": "A eliminação de fluxos manuais",
+      "alt4": "A automatização por sistemas de CRM"
+    },
+    {
+      "questao": "Qual é o papel do ator de processo no BPM?",
+      "alt1": "Pessoa ou sistema que contribui diretamente na execução das atividades do processo",
+      "alt2": "Supervisor que monitora apenas o tempo de execução do processo",
+      "alt3": "Gestor de marketing responsável por publicidade",
+      "alt4": "Auditor externo que avalia anualmente a empresa"
+    },
+    {
+      "questao": "O que distingue um processo de gerenciamento dos demais?",
+      "alt1": "Não entrega valor direto ao cliente, mas assegura que metas e objetivos sejam cumpridos",
+      "alt2": "Entrega valor imediato ao cliente externo",
+      "alt3": "Atua somente em empresas públicas",
+      "alt4": "Sempre depende de ERP para ser executado"
+    },
+    {
+      "questao": "De acordo com a ABPMP (2013), o que diferencia um processo primário de um processo de suporte?",
+      "alt1": "O processo primário entrega valor direto ao cliente, enquanto o de suporte apoia outros processos",
+      "alt2": "O processo de suporte é mais importante que o primário",
+      "alt3": "O processo primário sempre é automatizado",
+      "alt4": "O processo de suporte atua apenas no setor financeiro"
+    },
+    {
+      "questao": "Qual das opções é considerada um exemplo de processo de suporte?",
+      "alt1": "Montagem do veículo em uma fábrica de automóveis",
+      "alt2": "Venda de um produto na loja",
+      "alt3": "Atendimento ao cliente final",
+      "alt4": "Marketing de lançamento de um novo produto"
+    },
+    {
+      "questao": "Qual dos seguintes é um exemplo de processo de gerenciamento?",
+      "alt1": "Monitoramento e controle de desempenho de processos",
+      "alt2": "Atendimento em call center",
+      "alt3": "Vendas porta a porta",
+      "alt4": "Desenvolvimento de um novo produto"
+    },
+    {
+      "questao": "O BPM é uma disciplina gerencial que:",
+      "alt1": "Integra estratégias, objetivos e necessidades dos clientes com foco em processos ponta a ponta",
+      "alt2": "Trabalha apenas com automatização de processos de TI",
+      "alt3": "Controla exclusivamente processos financeiros",
+      "alt4": "Foca apenas em atividades do setor de marketing"
+    },
+    {
+      "questao": "Segundo a ABPMP (2013), qual tipo de processo não entrega valor diretamente ao cliente, mas é necessário para garantir que a empresa atinja suas metas?",
+      "alt1": "Processo de gerenciamento",
+      "alt2": "Processo primário",
+      "alt3": "Processo comercial",
+      "alt4": "Processo de atendimento"
+    },
+    {
+      "questao": "Qual das opções abaixo NÃO é um benefício direto do BPM?",
+      "alt1": "Aumento da burocracia nos fluxos de trabalho",
+      "alt2": "Melhoria contínua nos processos",
+      "alt3": "Melhoria da transparência",
+      "alt4": "Alinhamento dos processos com a estratégia da empresa"
+    },
+    {
+      "questao": "O BPM trata os processos de negócio como:",
+      "alt1": "Ativos estratégicos da organização",
+      "alt2": "Recursos secundários sem valor direto",
+      "alt3": "Responsabilidade exclusiva da área de TI",
+      "alt4": "Funções fixas que não mudam"
+    },
+    {
+      "questao": "Qual fator NÃO é citado como crítico para o sucesso da implantação do BPM?",
+      "alt1": "Redução do salário dos colaboradores",
+      "alt2": "Apoio da alta direção",
+      "alt3": "Gestão clara de mudanças",
+      "alt4": "Capacitação da equipe envolvida"
+    },
+    {
+      "questao": "O que significa o trabalho ser 'ponta a ponta' no contexto de BPM?",
+      "alt1": "Fluir entre várias áreas até a entrega de valor ao cliente",
+      "alt2": "Ser executado exclusivamente pelo RH",
+      "alt3": "Terminar onde começa",
+      "alt4": "Iniciar e terminar no setor contábil"
+    },
+    {
+      "questao": "Por que a cultura organizacional é importante para o sucesso do BPM?",
+      "alt1": "Porque influencia diretamente a aceitação e execução da prática de processos na empresa",
+      "alt2": "Porque define os salários da equipe",
+      "alt3": "Porque substitui a estratégia empresarial",
+      "alt4": "Porque determina quais tecnologias serão usadas"
+    },
+    {
+      "questao": "Qual das alternativas representa corretamente uma característica do BPM, segundo a ABPMP (2013)?",
+      "alt1": "BPM é uma disciplina gerencial que orienta a organização sem prescrever metodologia fixa",
+      "alt2": "BPM é uma ferramenta de TI voltada apenas para o setor financeiro",
+      "alt3": "BPM é um conjunto fixo de regras universais e imutáveis",
+      "alt4": "BPM só pode ser aplicado com o uso do Balanced Scorecard"
+    },
+    {
+      "questao": "O que é 'handoff' dentro do contexto de BPM?",
+      "alt1": "Transferência de atividades ou informações entre setores dentro de um processo",
+      "alt2": "Uma técnica de venda para novos clientes",
+      "alt3": "Troca de equipamentos de TI entre departamentos",
+      "alt4": "Forma de arquivamento de processos antigos"
+    },
+    {
+      "questao": "Qual a principal diferença entre fluxo de processo e fluxo de trabalho?",
+      "alt1": "O fluxo de processo é interfuncional; o fluxo de trabalho é intrafuncional",
+      "alt2": "O fluxo de trabalho atravessa departamentos; o fluxo de processo é interno",
+      "alt3": "Ambos são a mesma coisa em contextos diferentes",
+      "alt4": "O fluxo de processo é manual; o de trabalho é sempre automatizado"
+    },
+    {
+      "questao": "Segundo a ABPMP (2013), qual deve ser o foco principal de uma organização ao implantar BPM?",
+      "alt1": "Entregar valor ao cliente",
+      "alt2": "Reduzir o número de funcionários",
+      "alt3": "Focar apenas em resultados financeiros",
+      "alt4": "Eliminar o uso de tecnologia"
+    },
+    {
+      "questao": "O que significa tratar um processo de negócio de forma 'ponta a ponta'?",
+      "alt1": "Gerenciar o processo desde o início até a entrega final, atravessando todas as áreas envolvidas",
+      "alt2": "Executar o processo em um único departamento",
+      "alt3": "Fazer um processo temporário de forma paralela",
+      "alt4": "Focar apenas na parte final do processo"
+    },
+    {
+      "questao": "Qual das opções representa corretamente um papel da equipe de BPM?",
+      "alt1": "Chief Process Officer (CPO) como líder máximo em BPM na empresa",
+      "alt2": "Auxiliar de escritório como coordenador de processos",
+      "alt3": "Designer de logos como gestor de BPM",
+      "alt4": "Operador de caixa como auditor de processos"
+    },
+    {
+      "questao": "O que a empresa deve analisar para identificar corretamente seus processos de valor?",
+      "alt1": "Quem é o verdadeiro cliente e o que entrega valor para ele",
+      "alt2": "Quais setores geram mais despesa",
+      "alt3": "Qual tecnologia é mais recente",
+      "alt4": "Quem são os fornecedores com menor custo"
+    },
+    {
+      "questao": "Qual é o nome da comunicação entre setores onde um entrega sua atividade para o próximo?",
+      "alt1": "Handoff",
+      "alt2": "Standby",
+      "alt3": "Outsource",
+      "alt4": "Switch"
+    },
+    {
+      "questao": "Qual é o papel do 'Gestor do processo' segundo Baldam et al. (2007)?",
+      "alt1": "Implementar e melhorar continuamente o processo",
+      "alt2": "Controlar os custos de TI",
+      "alt3": "Desenhar campanhas publicitárias",
+      "alt4": "Recrutar novos funcionários"
+    },
+    {
+      "questao": "Na modelagem de processos, quais elementos devem estar presentes além do QUEM e O QUE?",
+      "alt1": "ONDE, QUANDO, COMO e POR QUE o trabalho é feito",
+      "alt2": "Apenas QUANDO e COMO",
+      "alt3": "Nome do funcionário e CPF",
+      "alt4": "Somente a área responsável pelo processo"
+    },
+    {
+      "questao": "Por que o BPM não prescreve metodologias ou ferramentas específicas?",
+      "alt1": "Porque cada organização deve adaptar o BPM à sua realidade",
+      "alt2": "Porque o BPM é incompatível com metodologias tradicionais",
+      "alt3": "Porque não existe nenhuma ferramenta boa o suficiente",
+      "alt4": "Porque o BPM não utiliza tecnologia"
+    },
+    {
+      "questao": "O que caracteriza o fluxo de trabalho (workflow) dentro do BPM?",
+      "alt1": "Execução de atividades dentro de um mesmo departamento",
+      "alt2": "Fluxo entre múltiplos departamentos com vários handoffs",
+      "alt3": "Somente atividades relacionadas ao financeiro",
+      "alt4": "Ações feitas por fornecedores externos"
+    },
+    {
+      "questao": "Qual é o papel do 'Dono do processo' em uma estrutura BPM?",
+      "alt1": "Alinhar o processo às estratégias da empresa e definir metas",
+      "alt2": "Ajudar o RH na contratação de novos funcionários",
+      "alt3": "Executar todas as tarefas operacionais do processo",
+      "alt4": "Supervisionar a equipe de vendas"
+    },
+    {
+      "questao": "Por que reduzir o número de handoffs é benéfico para um processo?",
+      "alt1": "Porque diminui a chance de desconexões e falhas no processo",
+      "alt2": "Porque elimina a necessidade de tecnologia",
+      "alt3": "Porque reduz a quantidade de funcionários",
+      "alt4": "Porque facilita a terceirização do processo"
+    },
+    {
+      "questao": "O que é necessário para que uma empresa desenvolva a capacidade de BPM?",
+      "alt1": "Integração de métodos, pessoas e tecnologias",
+      "alt2": "Apenas contratar mais líderes",
+      "alt3": "Focar somente em redução de custos",
+      "alt4": "Aumentar a quantidade de departamentos"
+    },
+    {
+      "questao": "Quem é considerado cliente, segundo a visão da ABPMP (2013)?",
+      "alt1": "Aquele que se beneficia do valor gerado, pagando ou não por isso",
+      "alt2": "Apenas quem compra diretamente da empresa",
+      "alt3": "Somente os investidores e acionistas",
+      "alt4": "Qualquer funcionário do setor de vendas"
+    },
+    {
+      "questao": "Qual a função do 'Analista de processos' no BPM?",
+      "alt1": "Estudar, mapear e propor melhorias nos processos",
+      "alt2": "Apenas operar sistemas ERP",
+      "alt3": "Executar tarefas simples do processo",
+      "alt4": "Cuidar dos relatórios financeiros mensais"
+    },
+    {
+      "questao": "O que é o 'Designer de processos' dentro do BPM?",
+      "alt1": "Profissional responsável por modelar e desenhar processos",
+      "alt2": "Designer gráfico da área de marketing",
+      "alt3": "Desenvolvedor de sistemas web",
+      "alt4": "Especialista em layout de sites"
+    },
+    {
+      "questao": "Por que o BPM é considerado uma disciplina gerencial?",
+      "alt1": "Porque envolve práticas estratégicas de gerenciamento de processos",
+      "alt2": "Porque gerencia apenas o setor administrativo",
+      "alt3": "Porque se limita a controlar tarefas simples",
+      "alt4": "Porque não utiliza tecnologia"
+    },
+    {
+      "questao": "Qual o principal objetivo da modelagem completa de um processo?",
+      "alt1": "Permitir o entendimento total do processo com base em perguntas como O QUE, ONDE, QUANDO, COMO, POR QUE e POR QUEM",
+      "alt2": "Aumentar o número de departamentos envolvidos",
+      "alt3": "Reduzir o número de relatórios mensais",
+      "alt4": "Identificar funcionários para demissão"
+    },
+    {
+      "questao": "O que representa o Ciclo de Vida do BPM nas organizações?",
+      "alt1": "Uma série de atividades contínuas para manter os processos alinhados à estratégia e focados no cliente",
+      "alt2": "Uma ferramenta de vendas voltada para a área comercial",
+      "alt3": "Uma técnica de recrutamento de talentos",
+      "alt4": "Um plano de ação exclusivo para o setor de TI"
+    },
+    {
+      "questao": "Qual ciclo básico pode ser utilizado para representar o Ciclo de Vida do BPM?",
+      "alt1": "PDCA (Plan, Do, Check, Act)",
+      "alt2": "Ciclo de Maslow",
+      "alt3": "Ciclo ISO 9001",
+      "alt4": "Ciclo SWOT"
+    },
+    {
+      "questao": "O que é feito na fase de 'Análise inicial das necessidades' no ciclo de vida do BPM?",
+      "alt1": "Compreensão das expectativas do cliente e definição da proposta de implantação",
+      "alt2": "Contratação da equipe de TI",
+      "alt3": "Abertura de uma filial da empresa",
+      "alt4": "Aquisição de novos equipamentos"
+    },
+    {
+      "questao": "Qual é o objetivo da fase de 'Documentação, desenho e análise do processo atual'?",
+      "alt1": "Conhecer formalmente os processos existentes para buscar melhorias futuras",
+      "alt2": "Criar novos departamentos para a empresa",
+      "alt3": "Contratar novos gerentes de projeto",
+      "alt4": "Revisar apenas os processos financeiros"
+    },
+    {
+      "questao": "O que acontece na fase de 'Análise, redesenho e criação do novo processo'?",
+      "alt1": "Melhoria dos processos antigos e documentação da nova versão",
+      "alt2": "Treinamento dos gestores antigos",
+      "alt3": "Contratação de fornecedores externos",
+      "alt4": "Distribuição de lucros entre acionistas"
+    },
+    {
+      "questao": "Na fase de 'Implantação do novo processo', qual é uma das etapas principais?",
+      "alt1": "Treinar os funcionários e acompanhar o desempenho do processo",
+      "alt2": "Desenhar o layout do escritório",
+      "alt3": "Organizar eventos empresariais",
+      "alt4": "Trocar os sistemas operacionais da empresa"
+    },
+    {
+      "questao": "Qual é o papel do ciclo PDCA no gerenciamento do processo dentro do BPM?",
+      "alt1": "Promover a melhoria contínua dos processos",
+      "alt2": "Gerar relatórios financeiros mensais",
+      "alt3": "Realizar recrutamento de equipe de marketing",
+      "alt4": "Melhorar apenas a área de logística"
+    },
+    {
+      "questao": "O que o BPM CBOK afirma sobre a padronização do ciclo de vida do BPM?",
+      "alt1": "Não existe um ciclo de vida prescritivo obrigatório",
+      "alt2": "Todas as empresas devem seguir o modelo da ISO 14000",
+      "alt3": "O ciclo é sempre igual para empresas públicas",
+      "alt4": "O ciclo depende exclusivamente da equipe de vendas"
+    },
+    {
+      "questao": "Por que é importante adotar uma metodologia no BPM?",
+      "alt1": "Para organizar as fases de análise, redesenho, implantação e melhoria contínua",
+      "alt2": "Para reduzir o número de colaboradores",
+      "alt3": "Para eliminar o setor de qualidade",
+      "alt4": "Para restringir o acesso aos dados"
+    },
+    {
+      "questao": "Qual das opções abaixo representa uma atividade da fase 'Controle' no PDCA?",
+      "alt1": "Redesenhar ou modelar o processo com base nos resultados",
+      "alt2": "Treinar a equipe de marketing",
+      "alt3": "Realizar auditoria financeira externa",
+      "alt4": "Aumentar o número de produtos vendidos"
+    },
+    {
+      "questao": "Qual o objetivo principal do ciclo de vida do BPM dentro das organizações?",
+      "alt1": "Manter os processos de negócio alinhados à estratégia e focados no cliente",
+      "alt2": "Garantir a contratação de novos gestores",
+      "alt3": "Aumentar o número de vendas de produtos físicos",
+      "alt4": "Eliminar etapas nos processos administrativos"
+    },
+    {
+      "questao": "O que representa a fase de 'Planejamento' no ciclo PDCA adaptado ao BPM?",
+      "alt1": "Análise e entendimento das necessidades da organização",
+      "alt2": "Monitoramento dos resultados",
+      "alt3": "Treinamento de novos funcionários",
+      "alt4": "Distribuição de tarefas manuais"
+    },
+    {
+      "questao": "Qual das fases abaixo corresponde ao 'Do' no ciclo PDCA adaptado ao BPM?",
+      "alt1": "Desenho e implementação dos processos",
+      "alt2": "Criação de campanhas publicitárias",
+      "alt3": "Distribuição de lucros aos acionistas",
+      "alt4": "Treinamento da equipe de vendas"
+    },
+    {
+      "questao": "Na metodologia proposta por Cruz (2010), o que ocorre após a fase de redesenho?",
+      "alt1": "Implantação do novo processo na organização",
+      "alt2": "Documentação de processos antigos",
+      "alt3": "Criação de novos cargos administrativos",
+      "alt4": "Abertura de uma nova filial"
+    },
+    {
+      "questao": "Durante o ciclo de vida do BPM, qual fase garante a continuidade e evolução dos processos?",
+      "alt1": "Gerenciamento com PDCA",
+      "alt2": "Contratação de consultorias externas",
+      "alt3": "Revisão do contrato social",
+      "alt4": "Implantação de sistemas ERP"
+    },
+    {
+      "questao": "Por que a fase de documentação do processo atual é considerada essencial?",
+      "alt1": "Porque ajuda a entender a realidade atual e fundamentar melhorias",
+      "alt2": "Porque permite a demissão de colaboradores ineficientes",
+      "alt3": "Porque gera um aumento imediato no faturamento",
+      "alt4": "Porque substitui a fase de redesenho"
+    },
+    {
+      "questao": "O que é feito na fase de 'Análise, redesenho e modelagem' do ciclo BPM?",
+      "alt1": "Criação e validação de um novo processo baseado no processo atual",
+      "alt2": "Compra de novos equipamentos",
+      "alt3": "Treinamento das lideranças da área comercial",
+      "alt4": "Revisão das finanças da empresa"
+    },
+    {
+      "questao": "Qual o papel do acompanhamento pós-implantação no BPM?",
+      "alt1": "Avaliar e melhorar o desempenho do novo processo",
+      "alt2": "Desativar os processos antigos automaticamente",
+      "alt3": "Recrutar nova equipe de TI",
+      "alt4": "Atualizar a missão da empresa"
+    },
+    {
+      "questao": "Como se inicia a fase de análise inicial no modelo de Cruz (2010)?",
+      "alt1": "Analisando as necessidades e preparando a proposta de implantação",
+      "alt2": "Treinando os gerentes dos setores envolvidos",
+      "alt3": "Adquirindo softwares de modelagem",
+      "alt4": "Contratando fornecedores parceiros"
+    },
+    {
+      "questao": "Qual é o foco da fase de 'Controle' no ciclo PDCA aplicado ao BPM?",
+      "alt1": "Monitorar resultados e identificar oportunidades de melhoria",
+      "alt2": "Reduzir os custos com marketing",
+      "alt3": "Contratar consultores externos",
+      "alt4": "Automatizar o RH da empresa"
+    },
+    {
+      "questao": "Qual é o principal objetivo da modelagem de processos de negócios?",
+      "alt1": "Representar graficamente os processos para facilitar a análise e a comunicação",
+      "alt2": "Substituir documentos impressos por modelos digitais",
+      "alt3": "Reduzir o número de funcionários envolvidos no processo",
+      "alt4": "Eliminar a necessidade de treinamento nas empresas"
+    },
+    {
+      "questao": "Qual das opções representa uma técnica de modelagem que utiliza símbolos como início, decisão e operação?",
+      "alt1": "Fluxograma",
+      "alt2": "IDEF",
+      "alt3": "UML",
+      "alt4": "PDCA"
+    },
+    {
+      "questao": "No modelo IDEF, o que são considerados mecanismos?",
+      "alt1": "Recursos que controlam ou executam o processo",
+      "alt2": "Ferramentas de software utilizadas no mapeamento",
+      "alt3": "Produtos gerados ao final do processo",
+      "alt4": "Entradas de dados fornecidas pelos clientes"
+    },
+    {
+      "questao": "Na notação IDEF, qual elemento representa o resultado gerado ao final do processo?",
+      "alt1": "Saída",
+      "alt2": "Entrada",
+      "alt3": "Ferramenta",
+      "alt4": "Mecanismo"
+    },
+    {
+      "questao": "A UML é principalmente utilizada para:",
+      "alt1": "Visualizar, especificar e documentar artefatos de software",
+      "alt2": "Desenhar organogramas empresariais",
+      "alt3": "Calcular custos operacionais",
+      "alt4": "Controlar estoque e vendas"
+    },
+    {
+      "questao": "Qual notação é mais apropriada para representar atividades de um sistema em tempo real?",
+      "alt1": "UML",
+      "alt2": "IDEF0",
+      "alt3": "Fluxograma",
+      "alt4": "BPMN"
+    },
+    {
+      "questao": "Qual é a principal função das ferramentas no modelo IDEF?",
+      "alt1": "Ajudar na realização das atividades, sem serem consumidas ou produzidas por elas",
+      "alt2": "Registrar as entradas de dados do cliente",
+      "alt3": "Controlar os erros durante o processo",
+      "alt4": "Gerar relatórios automáticos ao final"
+    },
+    {
+      "questao": "No Fluxograma, qual símbolo é utilizado para representar uma decisão?",
+      "alt1": "Losango",
+      "alt2": "Retângulo",
+      "alt3": "Círculo",
+      "alt4": "Seta dupla"
+    },
+    {
+      "questao": "O diagrama de atividades da UML pode ser usado para:",
+      "alt1": "Modelar o fluxo de processos de negócio",
+      "alt2": "Desenhar redes de computadores",
+      "alt3": "Criar mapas mentais",
+      "alt4": "Executar softwares automaticamente"
+    },
+    {
+      "questao": "Qual das opções abaixo **não** é uma característica da UML?",
+      "alt1": "É usada apenas para processos industriais",
+      "alt2": "Foi aprovada pela OMG em 1997",
+      "alt3": "Pode ser aplicada a sistemas bancários, médicos e científicos",
+      "alt4": "Permite a visualização de sistemas complexos"
+    },
+    {
+      "questao": "Qual o nome da técnica de modelagem que utiliza níveis de detalhamento como nível 0, 1, 2, etc.?",
+      "alt1": "IDEF",
+      "alt2": "Fluxograma",
+      "alt3": "UML",
+      "alt4": "Kanban"
+    },
+    {
+      "questao": "No IDEF, o que representa uma **entrada**?",
+      "alt1": "Informação necessária para iniciar uma atividade",
+      "alt2": "Produto final do processo",
+      "alt3": "Pessoa que executa a tarefa",
+      "alt4": "Relatório gerado ao final"
+    },
+    {
+      "questao": "No Fluxograma, qual elemento indica o início ou o fim de um processo?",
+      "alt1": "Elipse",
+      "alt2": "Retângulo",
+      "alt3": "Losango",
+      "alt4": "Seta"
+    },
+    {
+      "questao": "Em qual área a UML é mais utilizada?",
+      "alt1": "Desenvolvimento de sistemas",
+      "alt2": "Logística empresarial",
+      "alt3": "Finanças pessoais",
+      "alt4": "Atendimento ao cliente"
+    },
+    {
+      "questao": "Para que serve a modelagem de processos de negócio?",
+      "alt1": "Entender, analisar e melhorar os processos da empresa",
+      "alt2": "Automatizar o marketing digital",
+      "alt3": "Criar relatórios de RH",
+      "alt4": "Desenvolver apresentações em PowerPoint"
+    },
+    {
+      "questao": "Qual diagrama da UML é usado para representar o fluxo entre atividades?",
+      "alt1": "Diagrama de Atividades",
+      "alt2": "Diagrama de Classes",
+      "alt3": "Diagrama de Casos de Uso",
+      "alt4": "Diagrama de Pacotes"
+    },
+    {
+      "questao": "No modelo IDEF, o que são ferramentas?",
+      "alt1": "Recursos que ajudam na realização do processo, mas não são consumidos por ele",
+      "alt2": "Saídas do processo que são armazenadas",
+      "alt3": "Regras de negócio do sistema",
+      "alt4": "Ações feitas por um analista"
+    },
+    {
+      "questao": "No Fluxograma, qual símbolo representa uma operação ou atividade?",
+      "alt1": "Retângulo",
+      "alt2": "Elipse",
+      "alt3": "Losango",
+      "alt4": "Triângulo invertido"
+    },
+    {
+      "questao": "O que caracteriza o nível 1 no modelo IDEF?",
+      "alt1": "Detalhamento maior de cada atividade do nível 0",
+      "alt2": "Representação gráfica das ferramentas utilizadas",
+      "alt3": "Fluxo de trabalho em um único setor",
+      "alt4": "Apenas a visão geral do processo"
+    },
+    {
+      "questao": "Qual a vantagem principal de se utilizar a modelagem de processos?",
+      "alt1": "Facilitar a visualização, análise e melhoria dos processos",
+      "alt2": "Controlar o estoque da empresa",
+      "alt3": "Organizar o layout dos escritórios",
+      "alt4": "Substituir planilhas eletrônicas"
+    },
+    {
+      "questao": "Qual é o principal objetivo do BPMN, segundo a OMG?",
+      "alt1": "Fornecer uma notação compreensível para todos os envolvidos com processos de negócio",
+      "alt2": "Criar sistemas de gerenciamento de banco de dados",
+      "alt3": "Substituir a UML em modelagens de software",
+      "alt4": "Automatizar atividades de marketing"
+    },
+    {
+      "questao": "Qual das alternativas representa uma das cinco categorias de elementos do BPMN?",
+      "alt1": "Objetos de Fluxo",
+      "alt2": "Diagrama de Classes",
+      "alt3": "Entidades Relacionais",
+      "alt4": "Escopo de Atividades"
+    },
+    {
+      "questao": "Para que servem as Swinlanes (Raias) no BPMN?",
+      "alt1": "Indicar responsáveis por cada etapa do processo",
+      "alt2": "Mostrar entradas e saídas do sistema",
+      "alt3": "Representar apenas subprocessos",
+      "alt4": "Modelar banco de dados"
+    },
+    {
+      "questao": "Qual ferramenta foi recomendada para modelar processos em BPMN nesta disciplina?",
+      "alt1": "Bizagi Modeler",
+      "alt2": "Microsoft Visio",
+      "alt3": "Eclipse",
+      "alt4": "Visual Paradigm"
+    },
+    {
+      "questao": "No BPMN, o que representam os conectores?",
+      "alt1": "As ligações entre atividades e eventos no processo",
+      "alt2": "Os símbolos de decisão",
+      "alt3": "As ferramentas usadas no processo",
+      "alt4": "As regras de negócio"
+    },
+    {
+      "questao": "O que é um Objeto de Fluxo em BPMN?",
+      "alt1": "Elemento visual que representa eventos, atividades ou gateways",
+      "alt2": "Documento físico de entrada do processo",
+      "alt3": "Usuário do sistema",
+      "alt4": "Banco de dados externo"
+    },
+    {
+      "questao": "O que caracteriza um evento em BPMN?",
+      "alt1": "Algo que ocorre e afeta o fluxo do processo",
+      "alt2": "Uma atividade realizada por um sistema",
+      "alt3": "Um artefato de apoio ao processo",
+      "alt4": "Um conector de banco de dados"
+    },
+    {
+      "questao": "Qual elemento do BPMN é usado para **tomada de decisão**?",
+      "alt1": "Gateway",
+      "alt2": "Evento",
+      "alt3": "Swinlane",
+      "alt4": "Artefato"
+    },
+    {
+      "questao": "O que os artefatos representam na notação BPMN?",
+      "alt1": "Informações adicionais sobre o processo",
+      "alt2": "Eventos automáticos do sistema",
+      "alt3": "Formulários eletrônicos",
+      "alt4": "Entradas do processo"
+    },
+    {
+      "questao": "No exemplo do processo de solicitação de compra, qual era a função do Supervisor?",
+      "alt1": "Aprovar ou reprovar o pedido feito pelo solicitante",
+      "alt2": "Emitir a nota fiscal",
+      "alt3": "Executar o subprocesso de cotação",
+      "alt4": "Receber os materiais do fornecedor"
+    },
+    {
+      "questao": "O que representa um Gateway na notação BPMN?",
+      "alt1": "Um ponto de decisão ou ramificação no processo",
+      "alt2": "Uma atividade automatizada",
+      "alt3": "Uma conexão entre bancos de dados",
+      "alt4": "Um ator responsável pelo processo"
+    },
+    {
+      "questao": "Qual elemento do BPMN é utilizado para indicar o início ou o fim de um processo?",
+      "alt1": "Evento",
+      "alt2": "Atividade",
+      "alt3": "Gateway",
+      "alt4": "Conector"
+    },
+    {
+      "questao": "No BPMN, o que são Swinlanes (Raias)?",
+      "alt1": "Divisões que representam os responsáveis por cada parte do processo",
+      "alt2": "Fluxos internos entre atividades de software",
+      "alt3": "Separadores de subprocessos",
+      "alt4": "Conectores entre sistemas"
+    },
+    {
+      "questao": "Qual das opções abaixo NÃO é um dos cinco elementos básicos do BPMN?",
+      "alt1": "Eventos Temporais",
+      "alt2": "Objetos de Fluxo",
+      "alt3": "Objetos de Dados",
+      "alt4": "Artefatos"
+    },
+    {
+      "questao": "Qual o propósito principal da notação BPMN?",
+      "alt1": "Facilitar o entendimento de processos por todos os envolvidos",
+      "alt2": "Modelar somente sistemas computacionais",
+      "alt3": "Automatizar fluxos de email",
+      "alt4": "Desenhar diagramas UML"
+    },
+    {
+      "questao": "No BPMN, o que um símbolo de atividade representa?",
+      "alt1": "Uma ação ou tarefa realizada durante o processo",
+      "alt2": "Um evento externo ao processo",
+      "alt3": "Uma validação obrigatória",
+      "alt4": "Uma anotação para o desenvolvedor"
+    },
+    {
+      "questao": "Em BPMN, qual elemento é mais apropriado para expressar dados manipulados por atividades?",
+      "alt1": "Objeto de Dados",
+      "alt2": "Artefato",
+      "alt3": "Swinlane",
+      "alt4": "Evento"
+    },
+    {
+      "questao": "O BPMN foi desenvolvido por qual organização?",
+      "alt1": "Business Process Management Initiative (BPMI)",
+      "alt2": "International Business Machines (IBM)",
+      "alt3": "Microsoft",
+      "alt4": "The World Bank"
+    },
+    {
+      "questao": "Qual é o papel dos conectores na notação BPMN?",
+      "alt1": "Ligar elementos como atividades, eventos e gateways entre si",
+      "alt2": "Conectar diferentes sistemas de banco de dados",
+      "alt3": "Separar subprocessos por setor",
+      "alt4": "Indicar áreas de risco no processo"
+    },
+    {
+      "questao": "Segundo a disciplina, qual ferramenta gratuita foi sugerida para modelagem em BPMN?",
+      "alt1": "Bizagi Modeler",
+      "alt2": "Power Designer",
+      "alt3": "MySQL Workbench",
+      "alt4": "Oracle Designer"
     }
 ]

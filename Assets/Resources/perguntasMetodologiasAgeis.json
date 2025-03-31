@@ -1958,5 +1958,355 @@
       "alt2": "Planejar, Executar, Controlar",
       "alt3": "Projetar, Orçar, Validar",
       "alt4": "Codificar, Testar, Publicar"
+    },
+    {
+      "questao": "Qual comando é utilizado para inicializar um repositório Git em um diretório local?",
+      "alt1": "git init",
+      "alt2": "git start",
+      "alt3": "git create",
+      "alt4": "git new"
+    },
+    {
+      "questao": "Qual comando adiciona todos os arquivos modificados ao stage?",
+      "alt1": "git add .",
+      "alt2": "git push",
+      "alt3": "git status",
+      "alt4": "git commit -a"
+    },
+    {
+      "questao": "Como realizar o primeiro commit em um repositório Git?",
+      "alt1": "git commit -m \"mensagem\"",
+      "alt2": "git save -m \"mensagem\"",
+      "alt3": "git push -m \"mensagem\"",
+      "alt4": "git init -m \"mensagem\""
+    },
+    {
+      "questao": "Qual comando adiciona um repositório remoto ao seu projeto Git?",
+      "alt1": "git remote add origin [url]",
+      "alt2": "git add remote [url]",
+      "alt3": "git origin add [url]",
+      "alt4": "git connect [url]"
+    },
+    {
+      "questao": "O que faz o comando 'git push -u origin main'?",
+      "alt1": "Envia o conteúdo local para o repositório remoto e define o tracking",
+      "alt2": "Apaga a branch main do repositório remoto",
+      "alt3": "Cria uma branch nova no repositório remoto",
+      "alt4": "Baixa os arquivos do repositório remoto"
+    },
+    {
+      "questao": "Qual comando cria e já muda para uma nova branch chamada 'feature1'?",
+      "alt1": "git checkout -b feature1",
+      "alt2": "git branch feature1 && git checkout feature1",
+      "alt3": "git create branch feature1",
+      "alt4": "git new feature1"
+    },
+    {
+      "questao": "Para trabalhar em outra branch simultaneamente com uma worktree, qual comando usar?",
+      "alt1": "git worktree add ../diretorio feature2",
+      "alt2": "git branch --tree feature2",
+      "alt3": "git clone feature2",
+      "alt4": "git checkout -tree feature2"
+    },
+    {
+      "questao": "Como unir o conteúdo da branch 'feature1' à branch 'main'?",
+      "alt1": "git merge feature1",
+      "alt2": "git rebase feature1",
+      "alt3": "git join feature1",
+      "alt4": "git sync feature1"
+    },
+    {
+      "questao": "Qual comando lista todas as branches remotas?",
+      "alt1": "git branch -r",
+      "alt2": "git branch --all",
+      "alt3": "git list branches",
+      "alt4": "git show branches"
+    },
+    {
+      "questao": "Como verificar o histórico de commits de forma resumida?",
+      "alt1": "git log --oneline",
+      "alt2": "git status",
+      "alt3": "git show --summary",
+      "alt4": "git commits"
+    },
+    {
+      "questao": "Qual comando remove um repositório remoto já configurado?",
+      "alt1": "git remote remove origin",
+      "alt2": "git disconnect origin",
+      "alt3": "git remote delete origin",
+      "alt4": "git unlink origin"
+    },
+    {
+      "questao": "O que o comando 'git clone [url]' realiza?",
+      "alt1": "Copia um repositório remoto para o ambiente local",
+      "alt2": "Cria um novo repositório remoto no GitHub",
+      "alt3": "Atualiza os arquivos do repositório local",
+      "alt4": "Faz backup de um repositório local"
+    },
+    {
+      "questao": "Como atualizar seu repositório local com as mudanças do remoto sem sobrescrever alterações locais?",
+      "alt1": "git pull",
+      "alt2": "git fetch",
+      "alt3": "git update",
+      "alt4": "git refresh"
+    },
+    {
+      "questao": "Qual comando lista todos os arquivos modificados, adicionados ou removidos?",
+      "alt1": "git status",
+      "alt2": "git log",
+      "alt3": "git changes",
+      "alt4": "git diff"
+    },
+    {
+      "questao": "O que faz o comando 'git fetch'?",
+      "alt1": "Baixa as atualizações do repositório remoto sem aplicar",
+      "alt2": "Baixa e aplica as atualizações do repositório remoto",
+      "alt3": "Remove todas as branches remotas",
+      "alt4": "Adiciona arquivos ao stage"
+    },
+    {
+      "questao": "Como desfazer as alterações de um arquivo ainda não commitado?",
+      "alt1": "git checkout -- nome-do-arquivo",
+      "alt2": "git remove nome-do-arquivo",
+      "alt3": "git reset --hard nome-do-arquivo",
+      "alt4": "git undo nome-do-arquivo"
+    },
+    {
+      "questao": "Como descartar todas as modificações locais e retornar ao último commit?",
+      "alt1": "git reset --hard",
+      "alt2": "git pull origin main",
+      "alt3": "git discard-all",
+      "alt4": "git clean -f"
+    },
+    {
+      "questao": "Qual comando move arquivos do stage de volta para o diretório de trabalho?",
+      "alt1": "git reset",
+      "alt2": "git revert",
+      "alt3": "git restore",
+      "alt4": "git stash"
+    },
+    {
+      "questao": "Qual comando salva temporariamente alterações sem commit?",
+      "alt1": "git stash",
+      "alt2": "git save",
+      "alt3": "git hold",
+      "alt4": "git cache"
+    },
+    {
+      "questao": "Como aplicar uma modificação salva com 'git stash'?",
+      "alt1": "git stash apply",
+      "alt2": "git apply stash",
+      "alt3": "git load stash",
+      "alt4": "git push stash"
+    },
+    {
+      "questao": "Qual comando é usado para visualizar o histórico de commits com detalhes?",
+      "alt1": "git log",
+      "alt2": "git status",
+      "alt3": "git history",
+      "alt4": "git commits"
+    },
+    {
+      "questao": "Para qual finalidade usamos o comando 'git init'?",
+      "alt1": "Inicializar um repositório Git local",
+      "alt2": "Criar um novo repositório remoto",
+      "alt3": "Fazer push das alterações para o GitHub",
+      "alt4": "Fazer o backup automático do projeto"
+    },
+    {
+      "questao": "O que o comando 'git commit -m \"mensagem\"' faz?",
+      "alt1": "Salva as alterações com uma mensagem descritiva",
+      "alt2": "Descarta as alterações e salva o histórico",
+      "alt3": "Cria uma branch com o nome da mensagem",
+      "alt4": "Faz um backup do commit anterior"
+    },
+    {
+      "questao": "Qual comando cria uma nova branch chamada 'dev'?",
+      "alt1": "git branch dev",
+      "alt2": "git create dev",
+      "alt3": "git new dev",
+      "alt4": "git init dev"
+    },
+    {
+      "questao": "Como alternar para uma branch chamada 'teste'?",
+      "alt1": "git checkout teste",
+      "alt2": "git switch-branch teste",
+      "alt3": "git move teste",
+      "alt4": "git set teste"
+    },
+    {
+      "questao": "O que o comando 'git merge' realiza?",
+      "alt1": "Une o histórico de duas branches",
+      "alt2": "Remove uma branch local",
+      "alt3": "Renomeia uma branch",
+      "alt4": "Apaga o último commit"
+    },
+    {
+      "questao": "Para excluir uma branch local chamada 'feature', qual comando utilizar?",
+      "alt1": "git branch -d feature",
+      "alt2": "git delete feature",
+      "alt3": "git branch --remove feature",
+      "alt4": "git rm feature"
+    },
+    {
+      "questao": "Como enviar todas as alterações commitadas para o repositório remoto?",
+      "alt1": "git push",
+      "alt2": "git sync",
+      "alt3": "git update",
+      "alt4": "git deploy"
+    },
+    {
+      "questao": "O que faz o comando 'git diff'?",
+      "alt1": "Mostra as diferenças entre arquivos modificados",
+      "alt2": "Deleta arquivos antigos do projeto",
+      "alt3": "Visualiza os commits anteriores",
+      "alt4": "Aplica um patch ao código"
+    },
+    {
+      "questao": "Quando ocorre um 'merge conflict' no Git?",
+      "alt1": "Quando duas alterações conflitantes são feitas na mesma parte do código",
+      "alt2": "Quando há arquivos duplicados na branch",
+      "alt3": "Quando o Git perde conexão com o repositório remoto",
+      "alt4": "Quando uma branch é criada com nome inválido"
+    },
+    {
+      "questao": "Qual comando exibe o estado atual do repositório, incluindo arquivos modificados, staged e não versionados?",
+      "alt1": "git status",
+      "alt2": "git show",
+      "alt3": "git diff",
+      "alt4": "git commit"
+    },
+    {
+      "questao": "Qual é a função do comando 'git clone'?",
+      "alt1": "Copiar um repositório remoto para a máquina local",
+      "alt2": "Criar uma nova branch",
+      "alt3": "Atualizar o repositório remoto",
+      "alt4": "Excluir o repositório local"
+    },
+    {
+      "questao": "Para desfazer todas as alterações desde o último commit, qual comando deve ser usado?",
+      "alt1": "git reset --hard",
+      "alt2": "git revert",
+      "alt3": "git reset --soft",
+      "alt4": "git checkout -b"
+    },
+    {
+      "questao": "O que faz o comando 'git pull'?",
+      "alt1": "Busca e integra alterações do repositório remoto ao local",
+      "alt2": "Cria um novo commit vazio",
+      "alt3": "Substitui o conteúdo da branch remota",
+      "alt4": "Salva alterações no repositório remoto"
+    },
+    {
+      "questao": "Qual comando deve ser usado para criar e alternar para uma nova branch ao mesmo tempo?",
+      "alt1": "git checkout -b nome-da-branch",
+      "alt2": "git create nome-da-branch",
+      "alt3": "git switch nome-da-branch",
+      "alt4": "git start nome-da-branch"
+    },
+    {
+      "questao": "Para ver todas as branches disponíveis no projeto, qual comando usar?",
+      "alt1": "git branch",
+      "alt2": "git branches",
+      "alt3": "git show-branches",
+      "alt4": "git list"
+    },
+    {
+      "questao": "Como configurar o nome do usuário no Git pela primeira vez?",
+      "alt1": "git config --global user.name \"Seu Nome\"",
+      "alt2": "git set username \"Seu Nome\"",
+      "alt3": "git user.add \"Seu Nome\"",
+      "alt4": "git init --name \"Seu Nome\""
+    },
+    {
+      "questao": "Como configurar o e-mail do usuário no Git?",
+      "alt1": "git config --global user.email \"email@exemplo.com\"",
+      "alt2": "git user.email \"email@exemplo.com\"",
+      "alt3": "git setup email \"email@exemplo.com\"",
+      "alt4": "git config email --user"
+    },
+    {
+      "questao": "O que faz o comando 'git stash'?",
+      "alt1": "Salva temporariamente alterações não commitadas",
+      "alt2": "Apaga os commits mais recentes",
+      "alt3": "Cria uma nova branch a partir da stash",
+      "alt4": "Aplica um patch no repositório remoto"
+    },
+    {
+      "questao": "Como aplicar novamente as alterações salvas com 'git stash'?",
+      "alt1": "git stash apply",
+      "alt2": "git stash redo",
+      "alt3": "git reset stash",
+      "alt4": "git pop stash"
+    },
+    {
+      "questao": "Qual comando mostra um gráfico com a linha do tempo dos commits no terminal?",
+      "alt1": "git log --oneline --graph --all",
+      "alt2": "git history --full",
+      "alt3": "git graph-tree",
+      "alt4": "git timeline --log"
+    },
+    {
+      "questao": "Como desfazer o último commit mantendo as alterações feitas no código?",
+      "alt1": "git reset --soft HEAD~1",
+      "alt2": "git revert HEAD",
+      "alt3": "git stash save",
+      "alt4": "git clean -fd"
+    },
+    {
+      "questao": "Qual comando remove arquivos não rastreados (untracked) do diretório de trabalho?",
+      "alt1": "git clean -f",
+      "alt2": "git remove --untracked",
+      "alt3": "git stash drop",
+      "alt4": "git reset --files"
+    },
+    {
+      "questao": "Como renomear uma branch local no Git?",
+      "alt1": "git branch -m nome-antigo nome-novo",
+      "alt2": "git rename-branch nome-novo",
+      "alt3": "git change-branch nome-novo",
+      "alt4": "git update-branch nome-novo"
+    },
+    {
+      "questao": "Qual comando exibe a diferença entre o último commit e o estado atual do projeto?",
+      "alt1": "git diff HEAD",
+      "alt2": "git show-commit",
+      "alt3": "git compare last",
+      "alt4": "git status --diff"
+    },
+    {
+      "questao": "Como ver quem alterou cada linha de um arquivo ao longo do tempo?",
+      "alt1": "git blame nome-do-arquivo",
+      "alt2": "git log --file nome-do-arquivo",
+      "alt3": "git who nome-do-arquivo",
+      "alt4": "git track nome-do-arquivo"
+    },
+    {
+      "questao": "Qual comando exclui uma branch local que não é mais usada?",
+      "alt1": "git branch -d nome-da-branch",
+      "alt2": "git delete nome-da-branch",
+      "alt3": "git remove-branch nome-da-branch",
+      "alt4": "git clear-branch nome-da-branch"
+    },
+    {
+      "questao": "Como excluir uma branch no repositório remoto?",
+      "alt1": "git push origin --delete nome-da-branch",
+      "alt2": "git branch -dr nome-da-branch",
+      "alt3": "git delete remote-branch nome-da-branch",
+      "alt4": "git remote remove nome-da-branch"
+    },
+    {
+      "questao": "Qual comando mostra os arquivos modificados entre duas branches diferentes?",
+      "alt1": "git diff branch1..branch2",
+      "alt2": "git log --compare branch1 branch2",
+      "alt3": "git status between branch1 branch2",
+      "alt4": "git files-diff branch1 branch2"
+    },
+    {
+      "questao": "Como aplicar apenas um commit específico de outra branch na sua branch atual?",
+      "alt1": "git cherry-pick hash-do-commit",
+      "alt2": "git commit-copy hash-do-commit",
+      "alt3": "git pull --commit hash",
+      "alt4": "git patch-apply hash"
     }
 ]
