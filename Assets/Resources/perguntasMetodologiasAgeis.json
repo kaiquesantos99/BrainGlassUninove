@@ -1398,5 +1398,565 @@
         "alt2": "Um método para acelerar desenvolvimento de software sem planejamento",
         "alt3": "Uma forma de criar software sem a participação do cliente",
         "alt4": "Uma técnica de codificação específica para sistemas embarcados"
+    },
+    {
+    "questao": "Qual é a principal vantagem do Trello no contexto do Scrum?",
+    "alt1": "Facilidade de uso e visualização das tarefas em formato de quadro digital",
+    "alt2": "Capacidade de executar testes automatizados",
+    "alt3": "Controle de tempo por inteligência artificial",
+    "alt4": "Geração automática de código para tarefas"
+    },
+    {
+        "questao": "No Trello, como são organizadas as tarefas dentro dos painéis?",
+        "alt1": "Em listas chamadas de raias, compostas por cartões",
+        "alt2": "Em tabelas dinicas com scripts",
+        "alt3": "Por arquivos PDF anexados",
+        "alt4": "Através de planilhas integradas com Excel"
+    },
+    {
+        "questao": "Qual é o papel da raia 'In Progress' no Trello?",
+        "alt1": "Indicar que a tarefa está sendo executada",
+        "alt2": "Listar tarefas que ainda não foram atribuídas",
+        "alt3": "Exibir tarefas concluídas",
+        "alt4": "Mostrar os bugs do sistema"
+    },
+    {
+        "questao": "O que o JIRA permite fazer em relação às histórias de usuário?",
+        "alt1": "Criar histórias, organizá-las por prioridade e dividi-las em subtarefas",
+        "alt2": "Converter histórias em código automaticamente",
+        "alt3": "Realizar testes de regressão sem configuração",
+        "alt4": "Executar as histórias em modo offline"
+    },
+    {
+        "questao": "O que são 'Issues' no JIRA?",
+        "alt1": "Itens que representam histórias ou tarefas a serem realizadas",
+        "alt2": "Erros críticos do sistema que não podem ser resolvidos",
+        "alt3": "Mensagens trocadas entre os usuários",
+        "alt4": "Relatórios gerados automaticamente ao fim do projeto"
+    },
+    {
+    "questao": "Qual a principal funcionalidade do recurso 'Board' no JIRA?",
+    "alt1": "Exibir o status e o progresso das demandas de um projeto",
+    "alt2": "Executar os testes automatizados das tarefas",
+    "alt3": "Gerar relatórios financeiros em tempo real",
+    "alt4": "Criar ambientes virtuais para desenvolvimento paralelo"
+    },
+    {
+        "questao": "O que são 'Epics' no JIRA?",
+        "alt1": "Grandes demandas que podem conter várias histórias de usuário relacionadas",
+        "alt2": "Pequenos bugs que surgem durante o Sprint",
+        "alt3": "Arquivos com documentação técnica do projeto",
+        "alt4": "Plugins que estendem a funcionalidade da ferramenta"
+    },
+    {
+        "questao": "O Azure Boards pertence a qual conjunto de ferramentas?",
+        "alt1": "Azure DevOps",
+        "alt2": "Google Cloud Platform",
+        "alt3": "Amazon Web Services",
+        "alt4": "Oracle Cloud Infrastructure"
+    },
+    {
+        "questao": "Quais métodos ágeis o Azure Boards suporta diretamente?",
+        "alt1": "Kanban e Scrum",
+        "alt2": "Waterfall e RAD",
+        "alt3": "XP e FDD",
+        "alt4": "RUP e V-Model"
+    },
+    {
+        "questao": "O que diferencia o Azure Boards das demais ferramentas como Trello e JIRA?",
+        "alt1": "Integração com outros serviços do Azure, como Power BI e Microsoft Teams",
+        "alt2": "Uso exclusivo em sistemas operacionais Linux",
+        "alt3": "Capacidade de editar código diretamente no navegador",
+        "alt4": "Foco exclusivo em tarefas de design gráfico"
+    },
+    {
+        "questao": "Como as histórias de usuário são criadas no JIRA?",
+        "alt1": "Através de 'Issues', que podem conter subtarefas ou estar ligadas a um Epic",
+        "alt2": "Utilizando planilhas externas importadas para o sistema",
+        "alt3": "Somente por meio de APIs externas",
+        "alt4": "Apenas via comandos no terminal do sistema"
+    },
+    {
+        "questao": "Qual recurso do Azure Boards permite colaboração em tempo real com a equipe?",
+        "alt1": "Espaços colaborativos como Wikis",
+        "alt2": "Quadros físicos integrados à nuvem",
+        "alt3": "Painéis de desenho gráfico para prototipagem",
+        "alt4": "Terminais de execução automatizada"
+    },
+    {
+        "questao": "No Trello, o que representa a raia 'In Progress'?",
+        "alt1": "Tarefas que estão sendo executadas por membros da equipe",
+        "alt2": "Tarefas já concluídas",
+        "alt3": "Tarefas que foram canceladas",
+        "alt4": "Itens em análise pelo cliente"
+    },
+    {
+        "questao": "No JIRA, o que ocorre ao classificar as histórias de usuário em ordem de prioridade?",
+        "alt1": "Facilita a definição do que será incluído nas próximas sprints",
+        "alt2": "Inicia automaticamente a execução das tarefas",
+        "alt3": "Remove as tarefas de menor importância",
+        "alt4": "Altera os responsáveis pelas tarefas automaticamente"
+    },
+    {
+        "questao": "Qual das ferramentas abaixo oferece visão de Backlog, quadros Kanban e integração com Power BI?",
+        "alt1": "Azure Boards",
+        "alt2": "Google Keep",
+        "alt3": "Bitbucket",
+        "alt4": "Draw.io"
+    },
+    {
+      "questao": "Qual recurso do Azure Boards permite a visualização em estilo Kanban das tarefas de um projeto?",
+      "alt1": "Quadros Kanban",
+      "alt2": "Repositório Git",
+      "alt3": "Azure Pipelines",
+      "alt4": "Editor de código integrado"
+    },
+    {
+      "questao": "No Azure Boards, como são chamadas as unidades que representam tarefas, bugs ou requisitos?",
+      "alt1": "Work Items",
+      "alt2": "Cards",
+      "alt3": "Issues",
+      "alt4": "Stories"
+    },
+    {
+      "questao": "Qual é uma das vantagens do Azure Boards em relação ao Trello e ao Jira?",
+      "alt1": "Integração com outros serviços do Azure DevOps",
+      "alt2": "Interface simplificada com menos recursos",
+      "alt3": "Possui apenas modo offline",
+      "alt4": "Depende de instalação local para funcionar"
+    },
+    {
+      "questao": "Qual funcionalidade do Azure Boards ajuda na análise de dados e na tomada de decisões?",
+      "alt1": "Integração com ferramentas de BI como Power BI",
+      "alt2": "Histórico de commits",
+      "alt3": "Listagem de código-fonte",
+      "alt4": "Editor visual de interface"
+    },
+    {
+      "questao": "O Azure Boards oferece suporte direto para quais métodos ágeis?",
+      "alt1": "Kanban e Scrum",
+      "alt2": "Waterfall e XP",
+      "alt3": "RUP e TDD",
+      "alt4": "PMI e Lean Six Sigma"
+    },
+    {
+      "questao": "O que é o Design Thinking?",
+      "alt1": "Uma abordagem centrada no ser humano para resolver problemas de forma criativa e inovadora",
+      "alt2": "Uma metodologia focada em reduzir custos de produção",
+      "alt3": "Um processo exclusivo de desenvolvimento de software",
+      "alt4": "Uma técnica voltada para a gestão de equipes tradicionais"
+    },
+    {
+      "questao": "Qual é a primeira fase do Design Thinking segundo o modelo de Stanford?",
+      "alt1": "Empatia com os usuários",
+      "alt2": "Testar soluções",
+      "alt3": "Criar protótipos",
+      "alt4": "Definir métricas de negócio"
+    },
+    {
+      "questao": "Por que os esquemas mentais podem atrapalhar o Design Thinking?",
+      "alt1": "Porque dificultam a criação de novas formas de observar e resolver problemas",
+      "alt2": "Porque ajudam a manter o foco no problema",
+      "alt3": "Porque garantem que a equipe siga sempre o mesmo padrão",
+      "alt4": "Porque otimizam o tempo de desenvolvimento"
+    },
+    {
+      "questao": "Qual é o foco principal de um designer segundo o Design Thinking?",
+      "alt1": "As necessidades e experiências do usuário final",
+      "alt2": "O retorno financeiro do produto",
+      "alt3": "A redução de tempo de desenvolvimento",
+      "alt4": "O design visual do sistema"
+    },
+    {
+      "questao": "Qual é a função dos protótipos no Design Thinking?",
+      "alt1": "Permitir a experimentação e testes de ideias",
+      "alt2": "Formalizar a entrega final de um projeto",
+      "alt3": "Servir como documentação técnica",
+      "alt4": "Reduzir o tempo de planejamento"
+    },
+    {
+      "questao": "O que torna o Design Thinking uma abordagem aplicável a diferentes setores?",
+      "alt1": "Sua flexibilidade e foco nas necessidades humanas",
+      "alt2": "Seu uso exclusivo em empresas de tecnologia",
+      "alt3": "A obrigatoriedade de uso de ferramentas digitais",
+      "alt4": "A ênfase em processos técnicos apenas"
+    },
+    {
+      "questao": "Qual etapa do Design Thinking é responsável por gerar ideias criativas?",
+      "alt1": "Idealizar (Idear)",
+      "alt2": "Empatia",
+      "alt3": "Testar",
+      "alt4": "Definir"
+    },
+    {
+      "questao": "O que significa dizer que as fases do Design Thinking são iterativas?",
+      "alt1": "Elas podem ocorrer em paralelo e se repetir conforme necessário",
+      "alt2": "Elas seguem uma ordem rígida e sequencial",
+      "alt3": "São usadas apenas no início do projeto",
+      "alt4": "Dependem exclusivamente da fase de testes"
+    },
+    {
+      "questao": "Qual é o papel do profissional de estratégia no Design Thinking?",
+      "alt1": "Analisar tendências e fornecer recomendações com base em dados de mercado",
+      "alt2": "Codificar soluções para protótipos digitais",
+      "alt3": "Garantir a estética visual dos protótipos",
+      "alt4": "Desenvolver os protótipos com base em requisitos técnicos"
+    },
+    {
+      "questao": "O que representa a fase de empatia no Design Thinking?",
+      "alt1": "Compreender profundamente os usuários e suas necessidades",
+      "alt2": "Criar relatórios técnicos sobre o problema",
+      "alt3": "Desenvolver soluções baseadas em tecnologia",
+      "alt4": "Analisar o retorno financeiro de cada ideia"
+    },
+    {
+      "questao": "Por que os esquemas mentais podem atrapalhar a inovação?",
+      "alt1": "Porque limitam a forma como percebemos e resolvemos problemas",
+      "alt2": "Porque são obrigatórios em qualquer processo criativo",
+      "alt3": "Porque ajudam a criar soluções repetitivas",
+      "alt4": "Porque sempre resultam em ideias novas"
+    },
+    {
+      "questao": "O que os designers costumam fazer para lidar com problemas complexos?",
+      "alt1": "Colocam a mão na massa com foco em soluções práticas",
+      "alt2": "Esperam um plano 100% pronto antes de agir",
+      "alt3": "Concentram-se em margens de lucro",
+      "alt4": "Ignoram a experiência do usuário final"
+    },
+    {
+      "questao": "O que diferencia a mentalidade de design no processo de inovação?",
+      "alt1": "Ela é focada na solução e orientada para a ação",
+      "alt2": "Ela prioriza o problema e a análise técnica",
+      "alt3": "Ela elimina o uso de protótipos e testes",
+      "alt4": "Ela depende exclusivamente de dados financeiros"
+    },
+    {
+      "questao": "Qual o papel do engenheiro ou cientista no Design Thinking?",
+      "alt1": "Conduzir pesquisas tecnológicas e sugerir soluções viáveis",
+      "alt2": "Garantir o engajamento emocional do usuário",
+      "alt3": "Fazer apresentações com foco no ROI",
+      "alt4": "Controlar o orçamento da equipe de design"
+    },
+    {
+      "questao": "O que o Design Thinking propõe ao abordar problemas?",
+      "alt1": "Uma abordagem centrada no ser humano, colaborativa e criativa",
+      "alt2": "Uma sequência de etapas obrigatórias e lineares",
+      "alt3": "Um processo exclusivo para áreas técnicas",
+      "alt4": "Um modelo baseado apenas em requisitos financeiros"
+    },
+    {
+      "questao": "Qual é a fase do Design Thinking em que se criam protótipos das soluções?",
+      "alt1": "Protótipos",
+      "alt2": "Empatia",
+      "alt3": "Testes",
+      "alt4": "Definição"
+    },
+    {
+      "questao": "No Design Thinking, qual é o foco principal durante a criação de soluções?",
+      "alt1": "As necessidades humanas",
+      "alt2": "As limitações tecnológicas",
+      "alt3": "A redução de custos",
+      "alt4": "O lucro imediato"
+    },
+    {
+      "questao": "Qual profissional no Design Thinking é responsável por prever ROI e coletar dados de mercado?",
+      "alt1": "Profissional de estratégia",
+      "alt2": "Designer",
+      "alt3": "Engenheiro de software",
+      "alt4": "Scrum Master"
+    },
+    {
+      "questao": "O que os esquemas mentais podem causar durante o processo criativo?",
+      "alt1": "Impedir novas formas de pensar",
+      "alt2": "Aumentar a criatividade automaticamente",
+      "alt3": "Melhorar a análise técnica do problema",
+      "alt4": "Garantir resultados inovadores"
+    },
+    {
+      "questao": "O que representa a abordagem 'fora da caixa' no Design Thinking?",
+      "alt1": "Pensar além dos padrões habituais para encontrar soluções inovadoras",
+      "alt2": "Rejeitar qualquer ideia tradicional",
+      "alt3": "Ignorar os processos do usuário",
+      "alt4": "Concentrar-se apenas em dados técnicos"
+    },
+    {
+      "questao": "Qual a principal diferença entre Design Thinking e Scrum?",
+      "alt1": "Design Thinking é forte na ideação, enquanto o Scrum é focado na construção iterativa",
+      "alt2": "Design Thinking é voltado para gestão de equipes e Scrum para design de produtos",
+      "alt3": "Scrum trabalha com prototipagem e Design Thinking com ciclos de entrega contínua",
+      "alt4": "Design Thinking exige documentação técnica e Scrum não"
+    },
+    {
+      "questao": "Qual crítica é frequentemente feita ao Scrum clássico?",
+      "alt1": "Falta de profundidade na fase de ideação",
+      "alt2": "Uso excessivo de prototipagem",
+      "alt3": "Inexistência de sprints definidos",
+      "alt4": "Foco exclusivo em métodos tradicionais"
+    },
+    {
+      "questao": "O que o Design Thinking proporciona nas fases iniciais de projeto?",
+      "alt1": "Compreensão das necessidades dos usuários e ideação de soluções",
+      "alt2": "Planejamento de sprints detalhados",
+      "alt3": "Execução de código e entrega de backlog",
+      "alt4": "Controle rígido de escopo e contratos"
+    },
+    {
+      "questao": "Qual valor do manifesto ágil é compartilhado por Scrum e Design Thinking?",
+      "alt1": "Colaboração com o cliente mais do que negociações de contrato",
+      "alt2": "Planejamento detalhado mais do que adaptação",
+      "alt3": "Documentação técnica mais do que software funcionando",
+      "alt4": "Hierarquia de equipes mais do que indivíduos"
+    },
+    {
+      "questao": "Como o Design Thinking pode ser utilizado dentro dos ciclos de Scrum?",
+      "alt1": "Complementando os sprints com fases de empatia, definição e ideação",
+      "alt2": "Substituindo completamente as sprints por fases criativas",
+      "alt3": "Ignorando o backlog e focando somente em testes",
+      "alt4": "Eliminando a figura do Product Owner"
+    },
+    {
+      "questao": "O que acontece quando o teste do usuário sugere mudanças durante um Sprint?",
+      "alt1": "Pode-se parar o ciclo e iniciar uma nova rodada de Design Thinking",
+      "alt2": "A equipe ignora os testes e segue com o planejamento inicial",
+      "alt3": "O Product Owner cancela o projeto",
+      "alt4": "A sprint é reiniciada do zero"
+    },
+    {
+      "questao": "O que o Scrum entrega com mais foco em comparação ao Design Thinking?",
+      "alt1": "Um sistema funcional por meio de iterações",
+      "alt2": "Estudos de viabilidade de mercado",
+      "alt3": "Testes de protótipos com usuários",
+      "alt4": "Criação de personas e mapas de empatia"
+    },
+    {
+      "questao": "Qual é o papel do Product Owner no Scrum?",
+      "alt1": "Coletar requisitos e transformá-los em unidades implementáveis",
+      "alt2": "Testar funcionalidades com usuários reais",
+      "alt3": "Criar os protótipos visuais de cada tela",
+      "alt4": "Desenvolver o código da aplicação"
+    },
+    {
+      "questao": "O que permite a integração de Design Thinking e Scrum em um projeto ágil?",
+      "alt1": "Ambas focam no cliente e podem gerar histórias de usuário",
+      "alt2": "Ambas seguem um processo fixo e hierárquico",
+      "alt3": "Ambas ignoram a colaboração com o cliente",
+      "alt4": "Ambas trabalham exclusivamente com entregas documentais"
+    },
+    {
+      "questao": "Quando é ideal considerar uma nova rodada de Design Thinking dentro do fluxo ágil?",
+      "alt1": "Quando a visão do produto se desvia das necessidades do cliente",
+      "alt2": "Quando o Sprint é entregue antes do prazo",
+      "alt3": "Quando não há bugs no software",
+      "alt4": "Quando a equipe quer aumentar a documentação"
+    },
+    {
+        "questao": "Qual é a principal crítica ao Scrum clássico quanto à fase de ideação?",
+        "alt1": "A simplicidade na fase de ideação",
+        "alt2": "A complexidade do backlog",
+        "alt3": "A ausência de Sprints",
+        "alt4": "A necessidade de documentação"
+    },
+    {
+        "questao": "Qual é o principal objetivo do Scrum?",
+        "alt1": "Desenvolver projetos de forma iterativa e incremental",
+        "alt2": "Realizar protótipos para testes de usabilidade",
+        "alt3": "Analisar mercados para ROI",
+        "alt4": "Criar produtos artísticos"
+    },
+    {
+        "questao": "Como o Design Thinking é orientado?",
+        "alt1": "Centrado no ser humano e em protótipos rápidos",
+        "alt2": "Focado apenas em resultados técnicos",
+        "alt3": "Baseado em planejamento linear",
+        "alt4": "Guiado por regras rígidas"
+    },
+    {
+        "questao": "Quais são os valores do Manifesto Ágil incorporados pelo Scrum?",
+        "alt1": "Indivíduos e interações mais do que processos e ferramentas",
+        "alt2": "Documentação acima de funcionalidade",
+        "alt3": "Planejamento fixo em vez de adaptação",
+        "alt4": "Ferramentas automatizadas em vez de colaboração"
+    },
+    {
+        "questao": "Qual é o foco principal do Design Thinking?",
+        "alt1": "Entendimento do cliente e criação de experiências inovadoras",
+        "alt2": "Aprimoramento de relatórios gerenciais",
+        "alt3": "Construção de estruturas empresariais",
+        "alt4": "Documentação técnica completa"
+    },
+    {
+      "questao": "Como o Design Thinking pode complementar o Scrum?",
+      "alt1": "Ajudando a encontrar o que deve ser construído com base nas reais necessidades dos usuários",
+      "alt2": "Gerando a documentação técnica necessária para o projeto",
+      "alt3": "Substituindo o backlog do Scrum por mapas mentais",
+      "alt4": "Executando as tarefas do sprint automaticamente"
+    },
+    {
+      "questao": "O que deve ser feito se os testes de usuário indicarem um desvio entre o produto e as necessidades do cliente durante o sprint?",
+      "alt1": "Parar o sprint e voltar para mais uma rodada de Design Thinking",
+      "alt2": "Encerrar o projeto imediatamente",
+      "alt3": "Aumentar a duração do sprint para adequar o produto",
+      "alt4": "Remover o Product Owner da equipe"
+    },
+    {
+      "questao": "Na abordagem integrada entre Design Thinking e Scrum, qual é a função das histórias de usuário?",
+      "alt1": "Comunicar os pontos de gatilho que podem melhorar a experiência do cliente",
+      "alt2": "Criar diagramas de classe UML",
+      "alt3": "Controlar os prazos de entrega do backlog",
+      "alt4": "Gerar relatórios de faturamento automático"
+    },
+    {
+      "questao": "Qual valor do manifesto ágil está mais presente tanto no Design Thinking quanto no Scrum?",
+      "alt1": "Colaboração com o cliente mais do que negociações de contrato",
+      "alt2": "Planejamento detalhado mais do que flexibilidade",
+      "alt3": "Execução isolada mais do que trabalho em equipe",
+      "alt4": "Documentação técnica mais do que software funcionando"
+    },
+    {
+      "questao": "Qual vantagem a fusão entre Design Thinking e Scrum traz no contexto da transformação digital?",
+      "alt1": "Permite aprender com o usuário final e melhorar continuamente o produto",
+      "alt2": "Elimina a necessidade de reuniões e testes",
+      "alt3": "Garante que todas as ideias venham apenas do Product Owner",
+      "alt4": "Cria um produto final sem necessidade de validação com o cliente"
+    },
+    {
+      "questao": "O que é Lean Startup?",
+      "alt1": "Um método de gerenciamento que foca na experimentação e aprendizado com feedback",
+      "alt2": "Um plano tradicional de negócios com metas fixas",
+      "alt3": "Uma técnica de vendas automatizada para startups",
+      "alt4": "Um processo de contratação para novos funcionários"
+    },
+    {
+      "questao": "Qual é o objetivo do Lean Startup?",
+      "alt1": "Eliminar desperdícios e aumentar as chances de sucesso com base em feedback do cliente",
+      "alt2": "Criar um produto final completo antes de lançar no mercado",
+      "alt3": "Investir grandes quantias em marketing logo no início do projeto",
+      "alt4": "Executar testes internos sem interação com o público"
+    },
+    {
+      "questao": "O que é um MVP no contexto do Lean Startup?",
+      "alt1": "Um produto mínimo viável com recursos suficientes para testar hipóteses com clientes",
+      "alt2": "Um plano financeiro para lançar a empresa",
+      "alt3": "Uma proposta de valor enviada a investidores",
+      "alt4": "Um relatório técnico para aprovação do projeto"
+    },
+    {
+      "questao": "Por que o feedback do cliente é essencial no Lean Startup?",
+      "alt1": "Para ajustar e aprimorar o produto com base nas reais necessidades",
+      "alt2": "Para substituir os desenvolvedores durante o projeto",
+      "alt3": "Para determinar o valor de mercado da empresa",
+      "alt4": "Para documentar o projeto de forma formal"
+    },
+    {
+      "questao": "Quem criou a metodologia Lean Startup?",
+      "alt1": "Eric Ries",
+      "alt2": "Steve Jobs",
+      "alt3": "Jeff Bezos",
+      "alt4": "Ken Schwaber"
+    },
+    {
+      "questao": "Qual é a principal vantagem de usar o Lean Startup em empresas em estágio inicial?",
+      "alt1": "Reduzir o risco e evitar desperdícios com produtos que os clientes não querem",
+      "alt2": "Aumentar o investimento em marketing desde o início",
+      "alt3": "Evitar qualquer tipo de mudança no planejamento",
+      "alt4": "Manter o foco em um único público-alvo sem testes"
+    },
+    {
+      "questao": "Qual das fases abaixo NÃO pertence ao ciclo Lean Startup?",
+      "alt1": "Vender",
+      "alt2": "Construir",
+      "alt3": "Medir",
+      "alt4": "Aprender"
+    },
+    {
+      "questao": "O que deve ser feito se o MVP não estiver sendo bem aceito pelos clientes?",
+      "alt1": "Descartar ou ajustar o MVP para evitar perdas financeiras",
+      "alt2": "Aumentar o investimento e continuar com o mesmo produto",
+      "alt3": "Ignorar o feedback e seguir o plano original",
+      "alt4": "Trocar toda a equipe de desenvolvimento"
+    },
+    {
+      "questao": "Como o feedback é utilizado na metodologia Lean Startup?",
+      "alt1": "Como base para melhorias e aprendizado contínuo",
+      "alt2": "Apenas para registrar estatísticas internas",
+      "alt3": "Para substituir relatórios técnicos do projeto",
+      "alt4": "Para justificar atrasos no cronograma"
+    },
+    {
+      "questao": "Por que o MVP é oferecido a um subconjunto de clientes?",
+      "alt1": "Para testar hipóteses com grupos diversos antes de escalar",
+      "alt2": "Porque o produto não pode ser vendido de forma aberta",
+      "alt3": "Para evitar o uso de recursos computacionais pesados",
+      "alt4": "Porque a empresa ainda não tem licença para operar"
+    },
+    {
+      "questao": "O que significa MVP na metodologia Lean Startup?",
+      "alt1": "Produto Mínimo Viável",
+      "alt2": "Módulo de Validação Pública",
+      "alt3": "Modelo de Venda Permanente",
+      "alt4": "Mapa de Visão de Produto"
+    },
+    {
+      "questao": "Qual é a função da fase de 'Construir' no ciclo Lean Startup?",
+      "alt1": "Criar um MVP para testar hipóteses com clientes reais",
+      "alt2": "Documentar requisitos e metas do negócio",
+      "alt3": "Elaborar relatórios de investimento",
+      "alt4": "Desenvolver o produto final sem testes prévios"
+    },
+    {
+      "questao": "Na fase de 'Medir', o que é essencial para a metodologia Lean?",
+      "alt1": "Obter feedback claro e mensurável dos clientes",
+      "alt2": "Comparar o produto com concorrentes",
+      "alt3": "Validar contratos com fornecedores",
+      "alt4": "Fazer planejamento financeiro detalhado"
+    },
+    {
+      "questao": "O que diferencia o modelo tradicional do Lean Startup?",
+      "alt1": "O Lean Startup prioriza experimentação e feedback em vez de planos fixos",
+      "alt2": "O modelo tradicional é mais ágil e adaptável",
+      "alt3": "Ambos possuem o mesmo foco em inovação contínua",
+      "alt4": "O Lean Startup impede mudanças de escopo durante o projeto"
+    },
+    {
+      "questao": "Qual é a principal inspiração histórica da metodologia Lean Startup?",
+      "alt1": "Sistema de manufatura enxuta do Japão pós-Segunda Guerra",
+      "alt2": "Indústria automobilística americana dos anos 60",
+      "alt3": "Teoria do caos aplicada à engenharia de software",
+      "alt4": "Planejamento estratégico militar europeu"
+    },
+    {
+      "questao": "Por que o feedback dos clientes é essencial no Lean Startup?",
+      "alt1": "Porque orienta melhorias contínuas e evita desperdícios",
+      "alt2": "Porque garante o cumprimento de contratos formais",
+      "alt3": "Porque permite definir o plano de negócios fixo",
+      "alt4": "Porque substitui a fase de testes do produto"
+    },
+    {
+      "questao": "Como o Lean Startup reduz os riscos de negócios?",
+      "alt1": "Testando ideias com MVPs e aprendendo com os erros",
+      "alt2": "Aumentando o investimento inicial e terceirizando tudo",
+      "alt3": "Evitando o contato com os clientes no início",
+      "alt4": "Executando planos rígidos sem mudanças"
+    },
+    {
+      "questao": "O que a fase de 'Aprender' no ciclo Lean Startup busca alcançar?",
+      "alt1": "Compreender o que funciona ou não no produto com base nos dados",
+      "alt2": "Validar o plano financeiro da empresa",
+      "alt3": "Elaborar contratos com parceiros estratégicos",
+      "alt4": "Testar tecnologias de hardware avançado"
+    },
+    {
+      "questao": "Qual é a crítica feita ao modelo tradicional em comparação ao Lean Startup?",
+      "alt1": "Desenvolve produtos em segredo sem validar com clientes",
+      "alt2": "Promove iteração contínua e flexível",
+      "alt3": "Foca em MVPs e protótipos",
+      "alt4": "Evita desperdícios desde o início"
+    },
+    {
+      "questao": "Qual das opções melhor representa o ciclo do Lean Startup?",
+      "alt1": "Construir, Medir, Aprender",
+      "alt2": "Planejar, Executar, Controlar",
+      "alt3": "Projetar, Orçar, Validar",
+      "alt4": "Codificar, Testar, Publicar"
     }
 ]

@@ -130,6 +130,7 @@ public class QuizController : MonoBehaviour
 
     void Start()
     {
+        Debug.Log(DadosJogo.tipoPerguntas);
         // Pegando os filhos (textos) dos botões das alternativas || Pegando o componente Text Pro de cada filho e salvando em seus atributos textoAlt
         childTextoAlt1 = btnAlt1.transform.Find("TxtAlt1"); textoAlt1 = childTextoAlt1.GetComponent<TextMeshProUGUI>();
         childTextoAlt2 = btnAlt2.transform.Find("TxtAlt2"); textoAlt2 = childTextoAlt2.GetComponent<TextMeshProUGUI>();
@@ -189,11 +190,11 @@ public class QuizController : MonoBehaviour
     // Armazena em um list as questões do arquivo Json
     void CarregarQuestoes()
     {
-        TextAsset jsonFile = Resources.Load<TextAsset>("perguntas");
+        TextAsset jsonFile = Resources.Load<TextAsset>(DadosJogo.tipoPerguntas); // Pega o arquivo JSON
 
         if (jsonFile != null)
         {
-            Questions[] arrayQuestoes = JsonHelper.FromJson<Questions>(jsonFile.text); // Desserializa o json e carrega em um list chamado arrayQuestoes
+            Questions[] arrayQuestoes = JsonHelper.FromJson<Questions>(jsonFile.text); // Desserializa o json e carrega em um array chamado arrayQuestoes
 
             questoes = new List<Questions>(arrayQuestoes); // Carrega as questões do list temporário no list das questões
             totQuestoes = questoes.Count;
@@ -643,4 +644,8 @@ public class Questions
     
 }
 
+public static class DadosJogo
+{
+    public static string tipoPerguntas;
+}
 

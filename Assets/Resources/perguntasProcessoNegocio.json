@@ -1,0 +1,142 @@
+[
+    {
+      "questao": "Qual é o principal objetivo de uma estrutura organizacional?",
+      "alt1": "Ajudar a empresa a atingir seus objetivos alinhando a estrutura às estratégias",
+      "alt2": "Reduzir o número de colaboradores na organização",
+      "alt3": "Eliminar os processos internos da empresa",
+      "alt4": "Aumentar a quantidade de departamentos, independentemente das metas"
+    },
+    {
+      "questao": "Segundo Picchiai, o que deve influenciar na escolha da estrutura organizacional de uma empresa?",
+      "alt1": "A realidade interna e externa vivida pela organização",
+      "alt2": "A estrutura usada por empresas concorrentes",
+      "alt3": "O número de funcionários da empresa",
+      "alt4": "A localização geográfica da sede"
+    },
+    {
+      "questao": "O que caracteriza a estrutura organizacional funcional?",
+      "alt1": "Divisão por departamentos especializados como vendas, RH, TI etc.",
+      "alt2": "Departamentos divididos por localização física",
+      "alt3": "Equipe única responsável por todos os setores",
+      "alt4": "Ausência de gestores em cada função"
+    },
+    {
+      "questao": "Qual é uma vantagem da estrutura funcional?",
+      "alt1": "Maior concentração de especialistas em cada departamento",
+      "alt2": "Menor necessidade de gestores",
+      "alt3": "Substituição da hierarquia tradicional",
+      "alt4": "Isenção de tarefas bem definidas"
+    },
+    {
+      "questao": "Um risco da estrutura funcional quando a empresa cresce muito é:",
+      "alt1": "Excessiva especialização e complexidade organizacional",
+      "alt2": "Falta de comunicação com o cliente",
+      "alt3": "Excesso de lucros",
+      "alt4": "Diminuição do número de cargos"
+    },
+    {
+      "questao": "A estrutura por produto é mais indicada quando:",
+      "alt1": "A empresa possui vários produtos com características diferentes",
+      "alt2": "A organização possui uma única linha de produção",
+      "alt3": "Todos os clientes são do mesmo perfil",
+      "alt4": "A empresa é de pequeno porte"
+    },
+    {
+      "questao": "Qual é uma característica da estrutura por produto?",
+      "alt1": "Foco nas necessidades específicas de cada produto ou serviço",
+      "alt2": "Centralização das funções em um único departamento",
+      "alt3": "Menor atenção ao cliente",
+      "alt4": "Criação de produtos sem segmentação"
+    },
+    {
+      "questao": "Quando uma empresa segmenta seu atendimento por perfis de clientes, ela está adotando qual tipo de estrutura?",
+      "alt1": "Organização por cliente",
+      "alt2": "Organização funcional",
+      "alt3": "Organização por área do conhecimento",
+      "alt4": "Organização por processos"
+    },
+    {
+      "questao": "Qual é um benefício da estrutura organizacional por cliente?",
+      "alt1": "Personalização no atendimento e facilidade na avaliação de desempenho",
+      "alt2": "Padronização de atendimento entre todos os clientes",
+      "alt3": "Redução da estrutura de vendas",
+      "alt4": "Foco único no produto, e não no cliente"
+    },
+    {
+      "questao": "Em qual tipo de estrutura organizacional é comum encontrar departamentos como Direito, Administração, Engenharia, etc?",
+      "alt1": "Organização por áreas do conhecimento",
+      "alt2": "Organização funcional",
+      "alt3": "Organização por projeto",
+      "alt4": "Organização por cliente"
+    },
+    {
+      "questao": "Qual é uma das vantagens da estrutura por áreas do conhecimento?",
+      "alt1": "Facilidade na contratação de profissionais com competências semelhantes",
+      "alt2": "Criação de departamentos baseados em clientes",
+      "alt3": "Substituição dos gestores por grupos informais",
+      "alt4": "Redução dos processos de ensino e pesquisa"
+    },
+    {
+      "questao": "Qual é uma possível desvantagem da estrutura por áreas do conhecimento?",
+      "alt1": "Problemas de comunicação entre diferentes áreas",
+      "alt2": "Excesso de foco no cliente",
+      "alt3": "Falta de especialização nas equipes",
+      "alt4": "Pouca valorização do conhecimento técnico"
+    },
+    {
+      "questao": "Na estrutura por projetos autônomos, o que acontece ao fim do projeto?",
+      "alt1": "O departamento temporário é encerrado",
+      "alt2": "O projeto é transferido para a área de vendas",
+      "alt3": "A estrutura funcional é desativada",
+      "alt4": "Os funcionários assumem cargos na alta direção"
+    },
+    {
+      "questao": "Qual é uma característica marcante da estrutura por projetos autônomos?",
+      "alt1": "Equipes dedicadas exclusivamente ao projeto",
+      "alt2": "Ausência de um gerente de projeto",
+      "alt3": "Baixa autonomia dos profissionais",
+      "alt4": "Exclusão de especialistas de fora da empresa"
+    },
+    {
+      "questao": "Na estrutura matricial, os funcionários:",
+      "alt1": "Continuam com suas funções e participam de projetos simultaneamente",
+      "alt2": "São demitidos após o projeto terminar",
+      "alt3": "Abandonam seus setores originais permanentemente",
+      "alt4": "Executam apenas uma função fixa"
+    },
+    {
+      "questao": "Qual é um risco da estrutura matricial?",
+      "alt1": "Conflitos de interesse por ter mais de um gestor",
+      "alt2": "Falta de inovação em projetos",
+      "alt3": "Baixa qualificação dos profissionais",
+      "alt4": "Ausência de especialização nas áreas funcionais"
+    },
+    {
+      "questao": "A estrutura por processos promove uma visão:",
+      "alt1": "Horizontal da organização, focando nos fluxos interdepartamentais",
+      "alt2": "Vertical, baseada apenas na hierarquia",
+      "alt3": "Centralizada nas decisões da alta gestão",
+      "alt4": "Focada unicamente na redução de custos"
+    },
+    {
+      "questao": "Qual é um exemplo de processo na estrutura por processos?",
+      "alt1": "Cadeia de suprimentos envolvendo múltiplos departamentos",
+      "alt2": "Reunião com o diretor financeiro",
+      "alt3": "Promoção de um colaborador",
+      "alt4": "Avaliação de desempenho por produto"
+    },
+    {
+      "questao": "No modelo por processos, quem gerencia os processos de negócio?",
+      "alt1": "Equipes compostas por pessoas de diversos setores",
+      "alt2": "Somente o gerente de vendas",
+      "alt3": "A presidência da empresa",
+      "alt4": "Consultores externos contratados"
+    },
+    {
+      "questao": "A estrutura por processos é considerada um modelo:",
+      "alt1": "Matricial, pois as funções continuam existindo e apoiam os processos",
+      "alt2": "Vertical, porque mantém uma hierarquia rígida",
+      "alt3": "Centralizado, baseado apenas na presidência",
+      "alt4": "Isolado, já que cada departamento age de forma independente"
+    }
+]
