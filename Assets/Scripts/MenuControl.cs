@@ -5,20 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MenuControl : MonoBehaviour
 {
-    private AudioSource audio;
+    private AudioSource[] audio;
     public AudioClip backgroundSong;
+    public AudioClip aboutSong;
+
 
     // Paineis de opções
     public GameObject panInicio;
     public GameObject panTipo;
+    public GameObject panAbout;
 
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        // Config Audio
+        audio = GetComponents<AudioSource>();
 
-        audio.clip = backgroundSong;
-        audio.loop = true;
-        audio.Play();
+        audio[0].clip = backgroundSong;
+        audio[1].clip = aboutSong;
+        audio[0].Play();
     }
 
     public void CarregarJogo(int value)
@@ -50,6 +54,22 @@ public class MenuControl : MonoBehaviour
     {
         panInicio.SetActive(false);
         panTipo.SetActive(true);
+    }
+
+    public void OnAboutClick()
+    {
+        panInicio.SetActive(false);
+        panAbout.SetActive(true);
+        audio[0].Stop();
+        audio[1].Play();
+    }
+
+    public void CloseAbout()
+    {
+        panInicio.SetActive(true);
+        panAbout.SetActive(false);
+        audio[1].Stop();
+        audio[0].Play();
     }
 
     public void FecharJogo()
