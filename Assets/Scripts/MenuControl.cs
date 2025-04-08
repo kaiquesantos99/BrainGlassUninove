@@ -12,7 +12,9 @@ public class MenuControl : MonoBehaviour
 
     // Paineis de opções
     public GameObject panInicio;
-    public GameObject panTipo;
+    public GameObject panPlay; public GameObject[] panTipo; // Btn Gpt ou Btn Uninove
+    public GameObject panGpt; public GameObject[] panTipoGpt; // PanGpt1 ou PanGpt2
+    public GameObject panUninove;
     public GameObject panAbout;
 
     void Start()
@@ -50,10 +52,23 @@ public class MenuControl : MonoBehaviour
         SceneManager.LoadScene("Loading");
     }
 
-    public void CarregarPainelTipos()
+    public void OnPlayClick()
     {
         panInicio.SetActive(false);
-        panTipo.SetActive(true);
+        panPlay.SetActive(true);
+    }
+
+    public void OnGptClick() // Ao apertar no botão gpt
+    {
+        panPlay.SetActive(false);
+        panGpt.SetActive(true); // Pan GPT
+        panTipoGpt[0].SetActive(true);
+    }
+
+    public void OnUninoveClick()
+    {
+        panPlay.SetActive(false);
+        panUninove.SetActive(true); // Pan Uninove
     }
 
     public void OnAboutClick()
@@ -62,6 +77,31 @@ public class MenuControl : MonoBehaviour
         panAbout.SetActive(true);
         audio[0].Stop();
         audio[1].Play();
+    }
+
+    public void OnHome1Click() // Home após o play
+    {
+        panPlay.SetActive(false);
+        panInicio.SetActive(true);
+    }
+
+    public void OnNextClick() // Next do pan gpt 1
+    {
+        panTipoGpt[0].SetActive(false);
+        panTipoGpt[1].SetActive(true);
+    }
+
+    public void OnHome2Click() // Home do pan gpt 2
+    {
+        panTipoGpt[1].SetActive(false);
+        panGpt.SetActive(false);
+        panInicio.SetActive(true);
+    }
+
+    public void OnHome3Click() // Home do pan uninove
+    {
+        panUninove.SetActive(false);
+        panInicio.SetActive(true);
     }
 
     public void CloseAbout()

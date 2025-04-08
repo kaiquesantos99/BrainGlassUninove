@@ -150,10 +150,10 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 1.4833333333333334
-    m_ClipIn: 0
+    m_Start: 0
+    m_ClipIn: 2.0797621363153063
     m_Asset: {fileID: -1644224570525953847}
-    m_Duration: 4.44
+    m_Duration: 9.983333333333336
     m_TimeScale: 1
     m_ParentTrack: {fileID: 1002799445557488668}
     m_EaseInDuration: 0
@@ -685,7 +685,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 0
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Vcam2
+    m_DisplayName: Vcam2GlassAnim
   m_Markers:
     m_Objects: []
 --- !u!114 &7772215593635354502
