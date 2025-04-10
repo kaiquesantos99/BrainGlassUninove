@@ -46,6 +46,9 @@ public class MenuControl : MonoBehaviour
             case 5:
                 DadosJogo.tipoPerguntas = "perguntasProcessoNegocio";
                 break;
+            case 6:
+                DadosJogo.tipoPerguntas = "perguntasMetodologiasUni";
+                break;
         }
 
         

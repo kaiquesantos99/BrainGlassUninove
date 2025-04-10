@@ -1,0 +1,296 @@
+[
+  {
+    "questao": "O framework da metodologia de desenvolvimento SCRUM funciona apoiado em seis princípios igualmente importantes. Dois deles são Controle de Processos Empíricos e Auto-organização. Os outros quatro princípios são:",
+    "alt1": "Colaboração, Priorização Baseada em Valor, Time-boxing e Desenvolvimento Iterativo",
+    "alt2": "Hierarquia de Tarefas, Comunicação Unidirecional, Ciclos Fixos e Revisão Final",
+    "alt3": "Gerência Centralizada, Desenvolvimento Linear, Planejamento Extensivo e Controle de Escopo",
+    "alt4": "Execução Paralela, Avaliação Pós-Entrega, Análise Estatística e Relatórios Detalhados"
+  },
+  {
+    "questao": "Quem é responsável por maximizar o valor do produto?",
+    "alt1": "O Dono do Produto",
+    "alt2": "O Scrum Master",
+    "alt3": "O Time de Desenvolvimento",
+    "alt4": "O Gerente de Projeto"
+  },
+  {
+    "questao": "Assinale a alternativa que apresenta uma das características do Scrum referente ao Scrum Team (Time Scrum).",
+    "alt1": "É auto-organizável.",
+    "alt2": "Segue ordens diretas do gerente funcional.",
+    "alt3": "Possui um líder que decide sozinho as tarefas.",
+    "alt4": "Depende do cliente para definir suas ações diárias."
+  },
+  {
+    "questao": "Durante uma Sprint, quando um novo trabalho ou uma decomposição de trabalho é adicionado ao Backlog da Sprint?",
+    "alt1": "O mais cedo possível, após eles terem sido identificados.",
+    "alt2": "Somente ao final da Sprint Review.",
+    "alt3": "Quando o Scrum Master autorizar.",
+    "alt4": "No início da próxima Sprint, após nova reunião de planejamento."
+  },
+  {
+    "questao": "O que o Scrum Master pode fazer para diminuir as barreiras entre o Time de Desenvolvimento e o Dono do Produto? (escolha duas opções)",
+    "alt1": "Explicar questões de tecnologia e desafios técnicos ao Dono do Produto. Ensinar o time a falar na \"língua\" do negócio.",
+    "alt2": "Delegar toda comunicação exclusivamente ao Product Owner.",
+    "alt3": "Orientar o time a evitar reuniões com o Dono do Produto.",
+    "alt4": "Assumir todas as decisões técnicas no lugar do time."
+  },
+  {
+   "questao": "Quando uma equipe adota o Scrum, esta deve entregar software funcionando de 4 a 6 meses, dando preferência para períodos mais longos, pois facilita o planejamento das atividades.",
+   "alt1": "Falso",
+   "alt2": "Verdadeiro",
+   "alt3": "Depende da complexidade do projeto",
+   "alt4": "Apenas para entregas incrementais"
+  },
+  {
+  "questao": "Quem pode cancelar uma Sprint? Só há uma alternativa correta.",
+  "alt1": "O Dono do Produto.",
+  "alt2": "O Time de Desenvolvimento.",
+  "alt3": "O Scrum Master.",
+  "alt4": "O Gerente de Projeto."
+  },
+  {
+  "questao": "As práticas das equipes Scrum evoluem constantemente por meio da aplicação de lições aprendidas frequentes.",
+  "alt1": "Verdadeiro",
+  "alt2": "Falso",
+  "alt3": "Depende da Sprint",
+  "alt4": "Somente no final de cada projeto"
+  },
+  {
+  "questao": "No Scrum, quem é responsável pela gestão do Time de Desenvolvimento?",
+  "alt1": "O próprio Time de Desenvolvimento",
+  "alt2": "O Scrum Master",
+  "alt3": "O Gerente de Projetos",
+  "alt4": "O Dono do Produto"
+  },
+  {
+  "questao": "O framework Scrum consiste em um conjunto formado por Times Scrum e seus papéis associados, Eventos com Duração Fixa (Time-Boxes), Artefatos e Regras.",
+  "alt1": "Verdadeiro",
+  "alt2": "Falso",
+  "alt3": "Parcialmente verdadeiro",
+  "alt4": "Depende da organização"
+  },
+  {
+  "questao": "A metodologia de desenvolvimento SCRUM é caracterizada por ser ágil e rápida nas entregas. Um dos elementos-chave do processo SCRUM é o Sprint, que é uma fase que acontece...",
+  "alt1": "recorrentemente, ocorrendo de forma cíclica, várias vezes, até que se atinja o escopo do projeto.",
+  "alt2": "apenas uma vez no início do projeto, com foco na coleta de requisitos.",
+  "alt3": "somente no final de cada entrega para validação do cliente.",
+  "alt4": "quando solicitado pelo cliente, fora do ciclo principal de desenvolvimento."
+  },
+  {
+  "questao": "Um Time de Desenvolvimento, segundo o Scrum, deve ser formado por:",
+  "alt1": "Um conjunto de membros que possuam todas as habilidades necessárias para produzir os requisitos do produto, para transformar a ideia em um produto.",
+  "alt2": "Membros especializados em uma única tecnologia, que dependem de outros times para concluir o projeto.",
+  "alt3": "Um grupo aleatório de colaboradores disponíveis no momento, sem necessidade de habilidades específicas.",
+  "alt4": "Apenas líderes e coordenadores que definem o trabalho que será realizado por terceiros."
+  },
+  {
+  "questao": "A transparência no Scrum é fundamental. Qual das alternativas abaixo representa uma situação onde há transparência?",
+  "alt1": "Na metade de um ciclo de desenvolvimento, a equipe percebeu que não daria conta de entregar tudo o que foi combinado. Imediatamente, convocou uma reunião com o Dono do Produto e Scrum Master para explicar o acontecido e para juntos decidirem que providências tomar.",
+  "alt2": "A equipe percebeu que não entregaria tudo, mas decidiu continuar sem comunicar ninguém para não gerar problemas.",
+  "alt3": "O Scrum Master identificou problemas, mas resolveu esperar até o fim do ciclo para informar o time.",
+  "alt4": "O Dono do Produto decidiu alterar as prioridades sem avisar o Time de Desenvolvimento."
+  },
+  {
+  "questao": "Durante o desenvolvimento do produto, o ambiente de negócio no qual o produto será usado sofre mudanças. Qual é o efeito disto no Backlog do Produto?",
+  "alt1": "Esta situação exige analisar novamente o que o produto precisa ter para ter mais valor para o negócio.",
+  "alt2": "Nada muda, o backlog permanece fixo durante todo o projeto.",
+  "alt3": "O backlog é descartado e um novo é criado do zero.",
+  "alt4": "O time continua com o backlog atual e revisa somente após a entrega final."
+  },
+  {
+  "questao": "Entre os processos de desenvolvimento de software ágeis mais usados no Brasil está o SCRUM. Quais são os pilares do SCRUM que apoiam a implementação de controle de processo empírico?",
+  "alt1": "Transparência, inspeção e adaptação.",
+  "alt2": "Planejamento, execução e entrega.",
+  "alt3": "Velocidade, eficiência e documentação.",
+  "alt4": "Reuniões diárias, papéis bem definidos e retrospectivas."
+  },
+  {
+  "questao": "SCRUM atende aos princípios do Manifesto Ágil porque...",
+  "alt1": "pessoas de negócio e desenvolvedores devem trabalhar diariamente em conjunto por todo o projeto.",
+  "alt2": "documentação completa é mais importante do que software funcionando.",
+  "alt3": "planejamentos extensos e rígidos garantem maior controle de escopo.",
+  "alt4": "tarefas devem ser distribuídas conforme a hierarquia da empresa."
+  },
+  {
+  "questao": "O Scrum Master é uma posição de gerenciamento?",
+  "alt1": "True",
+  "alt2": "False",
+  "alt3": "Apenas durante o planejamento da Sprint",
+  "alt4": "Depende da senioridade do Scrum Master"
+  },
+  {
+  "questao": "O Diretor da empresa pede para o Time de Desenvolvimento adicionar um item muito importante na Sprint atual. O que o Time de Desenvolvimento deve fazer neste caso?",
+  "alt1": "Pedir para que o Dono do Produto converse com o Diretor sobre este item.",
+  "alt2": "Aceitar o pedido, desde que não atrase a entrega.",
+  "alt3": "Adicionar o item imediatamente, pois veio de uma autoridade.",
+  "alt4": "Encaminhar a solicitação para o Scrum Master autorizar."
+  },
+  {
+  "questao": "Quais são os três pilares do Scrum?",
+  "alt1": "Inspeção, Transparência e Adaptação.",
+  "alt2": "Planejamento, Execução e Avaliação.",
+  "alt3": "Colaboração, Foco e Melhoria Contínua.",
+  "alt4": "Documentação, Priorização e Controle."
+  },
+  {
+  "questao": "O Product Owner é um comitê responsável pelo gerenciamento do Backlog do Produto e por garantir o valor do trabalho realizado pelo Time Scrum.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro",
+  "alt3": "Parcialmente verdadeiro",
+  "alt4": "Depende do tamanho da equipe"
+  },
+  {
+  "questao": "Determinado Time de Desenvolvimento não está vendo valor em realizar as reuniões diárias do Scrum e está prestes a parar de fazê-las. O que o Scrum Master deve fazer?",
+  "alt1": "O Scrum Master deve entrar em ação e ensinar os benefícios dessa prática ao time, mostrar o valor que ela tem e os resultados que podem trazer para o próprio time.",
+  "alt2": "Aceitar a decisão do time e substituir a reunião por relatórios escritos diários.",
+  "alt3": "Reduzir a frequência das reuniões para uma vez por semana.",
+  "alt4": "Permitir que o time pare com a prática desde que todos concordem com a decisão."
+  },
+  {
+  "questao": "De que forma o candidato pode realizar o exame PSM I da Scrum.org?",
+  "alt1": "Via internet em qualquer local",  
+  "alt2": "Somente em centros de certificação credenciados",
+  "alt3": "Apenas presencialmente nas sedes da Scrum.org",
+  "alt4": "Por correio, com envio de formulário preenchido"
+  },
+  {
+  "questao": "Qual é a responsabilidade principal de um Scrum Master para manter um Time Scrum desempenhando em nível de produtividade máxima?",
+  "alt1": "Apoiar as decisões do Time de Desenvolvimento e resolver seus impedimentos",
+  "alt2": "Definir as tarefas e prazos de entrega para o Time Scrum",
+  "alt3": "Realizar reuniões individuais com cada membro da equipe",
+  "alt4": "Gerenciar diretamente o trabalho de cada desenvolvedor"
+  },
+  {
+  "questao": "A gerência sênior deseja auditar regularmente se o Time Scrum está seguindo as práticas e princípios do Scrum. Quem está em melhor posição para conduzir uma auditoria?",
+  "alt1": "O Scrum Master",
+  "alt2": "O Gerente de Projetos",
+  "alt3": "O Dono do Produto",
+  "alt4": "O Time de Desenvolvimento"
+  },
+  {
+  "questao": "O Scrum Master é responsável por garantir que o Time Scrum esteja aderindo aos valores do Scrum, às práticas e às regras. Também ajuda o Time Scrum e a organização a adotarem o Scrum e treina e leva o Time Scrum a ser mais produtivo e a desenvolver produtos de maior qualidade.",
+  "alt1": "True",
+  "alt2": "False",
+  "alt3": "Parcialmente verdadeiro",
+  "alt4": "Depende do Product Owner"
+  },
+  {
+  "questao": "O Time de Desenvolvimento deve ter habilidades suficientes para:",
+  "alt1": "Desenvolver, testar, criar/desenhar interfaces gráficas e etc., ou seja, tudo o que é necessário para entregar o software funcionando. Transformar os itens do backlog em incremento de software funcionando e potencialmente utilizável.",
+  "alt2": "Depender do Scrum Master para cada etapa técnica do desenvolvimento.",
+  "alt3": "Criar somente os documentos do projeto, mas não codificar.",
+  "alt4": "Desenhar soluções e aguardar que outro time as implemente."
+  },
+  {
+  "questao": "Um Scrum Master está ensinando o Scrum para um novo Time de Desenvolvimento. O Time de Desenvolvimento decidiu que a reunião de retrospectiva da Sprint é desnecessária. Qual a ação que o Scrum Master deveria tomar neste caso?",
+  "alt1": "Começar a facilitar reuniões de retrospectiva para que elas sejam produtivas e úteis, assim o Time de Desenvolvimento perceber a sua importância.",
+  "alt2": "Aceitar a decisão do time e cancelar definitivamente a reunião de retrospectiva.",
+  "alt3": "Substituir a retrospectiva por reuniões semanais com o gerente do projeto.",
+  "alt4": "Pedir que o Product Owner conduza as reuniões de retrospectiva para dar mais autoridade ao encontro."
+  },
+  {
+  "questao": "Para se inscrever nos exames das certificações Professional Scrum Master NÃO é obrigatório ter participado de um treinamento oficial presencial.",
+  "alt1": "True",
+  "alt2": "False, é obrigatório sim fazer o treinamento presencial.",
+  "alt3": "Depende da instituição onde for prestar o exame.",
+  "alt4": "Somente com autorização do Scrum Master da empresa atual."
+  },
+  {
+  "questao": "Uma equipe está em transição para o Scrum. Eles já tinham uma função chamada Coordenador do Projeto, que facilita as interações, remove impedimentos e atua como o coach do processo da equipe. Como essa função deve ser chamada após a transição?",
+  "alt1": "Scrum Master",
+  "alt2": "Product Owner",
+  "alt3": "Gerente Ágil",
+  "alt4": "Facilitador de Projetos"
+  },
+  {
+  "questao": "Uma empresa implementou o Scrum há 12 meses. Todos estão contentes por estarem entregando softwares funcionando a cada 3 meses e o gerente de projetos sempre reporta ao diretor o quão motivada está a equipe. Diante deste cenário, fica claro que:",
+  "alt1": "A empresa não entendeu o que é Scrum e não está realizando suas práticas corretamente.",
+  "alt2": "A equipe está aplicando o Scrum com pequenas adaptações para maior produtividade.",
+  "alt3": "O gerente de projetos assumiu corretamente o papel de Product Owner.",
+  "alt4": "O Scrum permite entregas a cada 3 meses se a equipe estiver confortável com esse ritmo."
+  },
+  {
+  "questao": "O Dono do Produto determina quantos itens do Backlog do Produto o Time de Desenvolvimento precisa selecionar para uma Sprint.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro, desde que o Scrum Master aprove.",
+  "alt3": "Verdadeiro, pois ele é o responsável pelo backlog.",
+  "alt4": "Falso, essa responsabilidade é do gerente de projetos."
+  },
+  {
+  "questao": "O time de desenvolvedores que trabalha com Scrum há 6 meses decidiu não realizar mais algumas práticas básicas existentes no framework Scrum.",
+  "alt1": "O time de desenvolvedores pode escolher realizar apenas as práticas que considera úteis.",
+  "alt2": "O time de desenvolvedores pode adaptar o Scrum como quiser, desde que os resultados sejam entregues.",
+  "alt3": "O time pode abolir as práticas básicas do Scrum após 6 meses, pois já dominam o framework.",
+  "alt4": "O time de desenvolvedores não pode deixar de fazer quaisquer práticas básicas do Scrum. Eles são de fato auto-organizados, mas precisam fazer isso seguindo as práticas do Scrum."
+  },
+  {
+  "questao": "Qual é o papel responsável pelo processo Scrum que garante que ele é usado corretamente e maximiza os seus benefícios?",
+  "alt1": "Scrum Master",
+  "alt2": "Desenvolvedor Sênior",
+  "alt3": "Gerente de Projeto",
+  "alt4": "Analista de Qualidade"
+  },
+  {
+  "questao": "O Dono do Produto não tem que ser uma única pessoa, mas pode ser um comitê ou pode ser uma responsabilidade compartilhada com vários indivíduos.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro",
+  "alt3": "Depende da empresa",
+  "alt4": "Pode ser decidido pelo Time de Desenvolvimento"
+  },
+  {
+  "questao": "Qual das afirmativas abaixo é FALSA em relação à certificação Professional Scrum Master II?",
+  "alt1": "Esta certificação tem como pré-requisito possuir a certificação PSM I.",
+  "alt2": "É recomendada para quem tem sólida compreensão do framework Scrum.",
+  "alt3": "Avalia habilidades avançadas do Scrum Master.",
+  "alt4": "É uma certificação oficial oferecida pela Scrum.org."
+  },
+  {
+  "questao": "Durante o processo de implantação do Scrum, o diretor da empresa decidiu alterar os nomes das práticas, eventos e papéis do Scrum Guide. Você diria que:",
+  "alt1": "Isso não é correto, pois dificulta a mudança de cultura na empresa, além de dificultar a comunicação e benchmarking com outras empresas que adotam o Scrum.",
+  "alt2": "É aceitável, desde que os nomes escolhidos façam sentido para os colaboradores.",
+  "alt3": "Essa personalização é recomendada para tornar o Scrum mais flexível.",
+  "alt4": "Pode ser feito, contanto que o time de desenvolvimento esteja de acordo."
+  },
+  {
+  "questao": "Entre as opções abaixo, quais são características do Scrum? (selecione três opções)",
+  "alt1": "Desenvolvimento iterativo e incremental, Envolvimento dos usuários, Auto-organização de equipes.",
+  "alt2": "Documentação detalhada, Hierarquia rígida, Planejamento a longo prazo.",
+  "alt3": "Desenvolvimento em cascata, Aprovação por múltiplas camadas, Foco em entregas únicas.",
+  "alt4": "Equipes comandadas por gerentes, Planejamento fechado, Pouca flexibilidade."
+  },
+  {
+  "questao": "Qual das opções abaixo descreve o formato do exame PSM I?",
+  "alt1": "60 minutos de duração, 80 questões de múltipla escolha, necessário acertar 85% das questões para passar.",
+  "alt2": "90 minutos de duração, 100 questões dissertativas, necessário acertar 70% das questões para passar.",
+  "alt3": "45 minutos de duração, 50 questões objetivas, necessário acertar 60% das questões para passar.",
+  "alt4": "120 minutos de duração, 60 questões em vídeo, necessário acertar 75% das questões para passar."
+  },
+  {
+  "questao": "Qual é a razão para o Scrum Master estar presente na Reunião Diária?",
+  "alt1": "Ele não precisa estar sempre presente nesta reunião, ele apenas tem que garantir que o Time de Desenvolvimento está realizando a Reunião Diária.",
+  "alt2": "Ele deve conduzir a reunião e garantir que todos os membros falem dentro de um tempo máximo de 2 minutos.",
+  "alt3": "Ele precisa monitorar cada palavra dita para relatar ao Product Owner.",
+  "alt4": "Ele é o responsável por anotar todos os pontos discutidos e encaminhar ao gerente da empresa."
+  },
+  {
+  "questao": "Dentro do Time de Desenvolvimento, sempre haverá um líder de time, pois além de ser um processo natural, este líder pode ajudar a evoluir mais rápido os membros juniores do time.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro, pois o Scrum exige que sempre exista um líder técnico para coordenar as tarefas.",
+  "alt3": "Verdadeiro, já que a hierarquia dentro do time é essencial para o sucesso do projeto.",
+  "alt4": "Verdadeiro, porque o Scrum Master sempre é o líder técnico do Time de Desenvolvimento."
+  },
+  {
+  "questao": "Uma equipe multifuncional no Scrum consiste em quais tipos de membros de equipe?",
+  "alt1": "Qualquer pessoa com habilidades para realizar o trabalho necessário.",
+  "alt2": "Somente desenvolvedores com mais de cinco anos de experiência.",
+  "alt3": "Apenas especialistas certificados em Scrum.",
+  "alt4": "Profissionais com formação específica em gestão de projetos."
+  },
+  {
+  "questao": "Quem é o proprietário (dono) do Backlog da Sprint?",
+  "alt1": "Todo o Time Scrum",
+  "alt2": "Time de Desenvolvimento",
+  "alt3": "Dono do Produto",
+  "alt4": "Scrum Master"
+  }
+]
