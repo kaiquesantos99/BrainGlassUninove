@@ -16,6 +16,7 @@ public class MenuControl : MonoBehaviour
     public GameObject panGpt; public GameObject[] panTipoGpt; // PanGpt1 ou PanGpt2
     public GameObject panUninove;
     public GameObject panAbout;
+    public GameObject panPool;
 
     void Start()
     {
@@ -51,7 +52,22 @@ public class MenuControl : MonoBehaviour
                 break;
         }
 
-        
+        panGpt.SetActive(false);
+        panUninove.SetActive(false);
+        panPool.SetActive(true);
+    }
+
+    public void TipoDeBola(bool lisa)
+    {
+        if (lisa)
+        {
+            DadosJogo.teamLisa = true;
+        }
+        else
+        {
+            DadosJogo.teamLisa = false;
+        }
+
         SceneManager.LoadScene("Loading");
     }
 

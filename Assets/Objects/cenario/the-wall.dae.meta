@@ -3,7 +3,32 @@ guid: 35d9162d4ee49484dad70c5a9a6e425a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bola
+    second: {fileID: 2100000, guid: a755a680fd025f549a6956e6e9f031da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cano
+    second: {fileID: 2100000, guid: 373eea687dc6e7e41823963090287986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fundoResults
+    second: {fileID: 2100000, guid: 104779ba360a1c14f87ff1a27140e7f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lateralPinos
+    second: {fileID: 2100000, guid: 89863f6eeb5cc9c43932be8bf9cc5374, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pontaPinos
+    second: {fileID: 2100000, guid: 526c8229a4d77ae4caac47201086e599, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -24,6 +24,9 @@ public class QuizController : MonoBehaviour
     public int totQuestoes;
     public bool quebrado;
     public int dinheiro;
+    public int bolaDaVez;
+
+    
 
     // Lista de Questões
     List<Questions> questoes = new List<Questions>();
@@ -35,7 +38,9 @@ public class QuizController : MonoBehaviour
 
     // Objetos - The Wall
     public GameObject ball; private float ballX = 366.816f, ballY = 37.522f;
+    private Renderer ballRender; // Render da bola
     public GameObject[] objResults;
+
 
     // Objeto - Vidro inteiro
     public GameObject vidro;
@@ -47,6 +52,10 @@ public class QuizController : MonoBehaviour
 
     // Objeto que exibe o dinheiro
     public GameObject cash;
+
+    // Objeto que exibe a bola da vez
+    public GameObject objCurrentBall; private Image currentBall;
+    public Sprite[] balls;
 
     // Objeto - Vídeo de morte
     public GameObject objDeadVideo;
@@ -164,6 +173,11 @@ public class QuizController : MonoBehaviour
         txtQtdQuestions = objQtdQuestions.GetComponent<TextMeshProUGUI>();
 
         txtTotQuestions = objTxtTotQuestions.GetComponent<TextMeshProUGUI>();
+
+        ballRender = ball.GetComponent<Renderer>();
+
+        currentBall = objCurrentBall.GetComponent<Image>();
+
 
         // Criar listerner para o fim da cena de introdução e partir para o quiz
         if (sceneIntroduction != null)
@@ -408,6 +422,59 @@ public class QuizController : MonoBehaviour
 
             // Remove a questão atual
             questoes.RemoveAt(questaoAtual);
+
+            // Sorteia a bola da vez
+            System.Random random2 = new System.Random();
+            bolaDaVez = random2.Next(1, 15);
+
+            switch(bolaDaVez)
+            {
+                case 1:
+                    currentBall.sprite = balls[0];
+                    break;
+                case 2:
+                    currentBall.sprite = balls[1];
+                    break;
+                case 3:
+                    currentBall.sprite = balls[2];
+                    break;
+                case 4:
+                    currentBall.sprite = balls[3];
+                    break;
+                case 5:
+                    currentBall.sprite = balls[4];
+                    break;
+                case 6:
+                    currentBall.sprite = balls[5];
+                    break;
+                case 7:
+                    currentBall.sprite = balls[6];
+                    break;
+                case 8:
+                    currentBall.sprite = balls[7];
+                    break;
+                case 9:
+                    currentBall.sprite = balls[8];
+                    break;
+                case 10:
+                    currentBall.sprite = balls[9];
+                    break;
+                case 11:
+                    currentBall.sprite = balls[10];
+                    break;
+                case 12:
+                    currentBall.sprite = balls[11];
+                    break;
+                case 13:
+                    currentBall.sprite = balls[12];
+                    break;
+                case 14:
+                    currentBall.sprite = balls[13];
+                    break;
+                case 15:
+                    currentBall.sprite = balls[14];
+                    break;
+            }
         }
     }
 
@@ -465,6 +532,10 @@ public class QuizController : MonoBehaviour
         aud[0].clip = bolaCaindo;
         aud[0].Play();
         ball.SetActive(true);
+
+        // Define a textura da bola sorteada
+        ball.GetComponent<BallController>().ChangeBallTexture(bolaDaVez);
+
     }
     
     public IEnumerator PlayConsequence(float delay, int conseq)
@@ -583,7 +654,38 @@ public class QuizController : MonoBehaviour
         camTheWall.Priority = 11;
         wallOptions.SetActive(true);
 
-        List<int> conseq = new List<int> {-1, -1, -1, -1, -1, -1, 0,0,0, 1,1,1,1, 2,2};
+        List<int> conseq = new List<int>();
+        if (DadosJogo.teamLisa) // Team Lisa
+        {
+            if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
+            }
+            else if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
+            }
+            else // Bola da vez = bola 8
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
+            }
+        }
+        else // Team Listrado
+        {
+            if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
+            }
+            else if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
+            }
+            else // Bola da vez = bola 8
+            {
+                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
+            }
+        }
+
 
         for (int c = 0; c < 15; c++)
         {
@@ -646,5 +748,6 @@ public class Questions
 public static class DadosJogo
 {
     public static string tipoPerguntas;
+    public static bool teamLisa;
 }
 
