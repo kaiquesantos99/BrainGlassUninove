@@ -245,9 +245,10 @@ public class QuizController : MonoBehaviour
     public void AnswerCheck(int value)
     {
 
-        if (correta == value)
+        if (correta == value) // Acertou
         {
-            switch(value)
+
+            switch (value)
             {
                 case 0:
                     imageBtn1.sprite = oSprite;
@@ -277,10 +278,18 @@ public class QuizController : MonoBehaviour
             dinheiro += 50;
             cash.GetComponent<TextMeshProUGUI>().text = "R$" + dinheiro.ToString();
 
-            // Exibir botão next
-            btnNext.SetActive(true);
+            if (bolaDaVez == DadosJogo.mainBall) // Se a bola principal for igual a bola atual
+            {
+                StartCoroutine(HideQuestionsAfterToHit(2f));
+            }
+            else
+            {
+                // Exibir botão next
+                btnNext.SetActive(true);
+            }
+
         }
-        else
+        else // Errou
         {
             switch (value)
             {
@@ -701,6 +710,31 @@ public class QuizController : MonoBehaviour
         }
     }
 
+    private IEnumerator HideQuestionsAfterToHit(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        quizOptions.SetActive(false);
+        camTheWall.Priority = 11;
+        wallOptions.SetActive(true);
+
+        List<int> conseq = new List<int>();
+        conseq.AddRange(new int[] { 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2 }); // 55% ganhar dinheiro 45% nada
+
+
+        for (int c = 0; c < 15; c++)
+        {
+
+            System.Random random = new System.Random();
+            int aleatorio = random.Next(0, conseq.Count - 1); // Sorteia um índice do list conseq (de 0 a 14)
+
+
+            objResults[c].GetComponent<PontoColisao>().consequencia = conseq[aleatorio]; // Um ponto de colisão da bola recebe uma das consequências da list e armazena no atributo consequencia do script
+            objResults[c].GetComponent<PontoColisao>().AlterarFundo(); // Altera o fundo do ponto de colisão
+            conseq.RemoveAt(aleatorio); // Remove a consequência do list
+
+        }
+    }
+
     void OnTrincandoFinished(PlayableDirector obj)
     {
         cutsceneTrincando.stopped -= OnTrincandoFinished;
@@ -749,5 +783,6 @@ public static class DadosJogo
 {
     public static string tipoPerguntas;
     public static bool teamLisa;
+    public static int mainBall;
 }
 
