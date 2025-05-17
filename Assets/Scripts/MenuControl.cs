@@ -59,6 +59,9 @@ public class MenuControl : MonoBehaviour
             case 6:
                 DadosJogo.tipoPerguntas = "perguntasMetodologiasUni";
                 break;
+            case 7:
+                DadosJogo.tipoPerguntas = "perguntasMetodologiasUni2";
+                break;
         }
 
         panGpt.SetActive(false);

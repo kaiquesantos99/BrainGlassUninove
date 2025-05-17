@@ -1,0 +1,100 @@
+[
+  {
+      "questao": "Qual é o papel do dono do produto na reunião de planejamento do sprint?",
+      "alt1": "Definir as prioridades do backlog",
+      "alt2": "Executar as tarefas técnicas do sprint",
+      "alt3": "Avaliar o desempenho da equipe",
+      "alt4": "Documentar os testes de aceitação"
+  },
+    {
+  "questao": "Por que é importante revisar o backlog da sprint regularmente?",
+  "alt1": "Para garantir que a equipe esteja no caminho certo e ajustar prioridades se necessário",
+  "alt2": "Para delegar tarefas administrativas ao Scrum Master",
+  "alt3": "Para encerrar o sprint antes do prazo",
+  "alt4": "Para definir penalidades para atrasos"
+    },
+    {
+  "questao": "Quais são os três pilares do Scrum?",
+  "alt1": "Inspeção, Transparência e Adaptação",
+  "alt2": "Planejamento, Execução e Entrega",
+  "alt3": "Design, Desenvolvimento e Testes",
+  "alt4": "Hierarquia, Controle e Documentação"
+    },
+    {
+  "questao": "O Dono do Produto determina quantos itens do Backlog do Produto o Time de Desenvolvimento precisa selecionar para uma Sprint.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro",
+  "alt3": "Depende do Product Owner e do Scrum Master",
+  "alt4": "Somente o Scrum Master pode decidir"
+    },
+    {
+  "questao": "O Scrum Master é responsável por garantir que o Time Scrum esteja aderindo aos valores do Scrum, às práticas e às regras. Também ajuda o Time Scrum e a organização a adotarem o Scrum e treina e leva o Time Scrum a ser mais produtivo e a desenvolver produtos de maior qualidade.",
+  "alt1": "True",
+  "alt2": "False",
+  "alt3": "Apenas o Product Owner tem essa responsabilidade",
+  "alt4": "Isso é função exclusiva do gerente de projetos"
+    },
+    {
+  "questao": "Quando uma equipe adota o Scrum, esta deve entregar software funcionando de 4 a 6 meses, dando preferência para períodos mais longos, pois facilita o planejamento das atividades.",
+  "alt1": "Falso",
+  "alt2": "Verdadeiro, o Scrum prioriza entregas em longos intervalos",
+  "alt3": "Depende do time e da ferramenta de versionamento utilizada",
+  "alt4": "Verdadeiro, pois é o tempo mínimo para o backlog se completar"
+    },
+    {
+  "questao": "As práticas das equipes Scrum evoluem constantemente por meio da aplicação de lições aprendidas frequentes.",
+  "alt1": "Verdadeiro",
+  "alt2": "Falso, as práticas do Scrum são fixas e imutáveis",
+  "alt3": "Falso, pois as equipes não revisam suas práticas com frequência",
+  "alt4": "Falso, apenas o Scrum Master pode sugerir mudanças nas práticas"
+    },
+    {
+  "questao": "O framework Scrum consiste em um conjunto formado por Times Scrum e seus papéis associados, Eventos com Duração Fixa (Time-Boxes), Artefatos e Regras.",
+  "alt1": "True",
+  "alt2": "False",
+  "alt3": "Depende da metodologia",
+  "alt4": "Apenas papéis e eventos, sem regras definidas"
+    },
+    {
+  "questao": "Quem é responsável por definir a visão do produto em Scrum?",
+  "alt1": "Dono do produto",
+  "alt2": "Scrum Master",
+  "alt3": "Time de Desenvolvimento",
+  "alt4": "Cliente final"
+    },
+    {
+  "questao": "Qual é a principal responsabilidade de um Scrum Master em uma equipe ágil?",
+  "alt1": "Facilitar a comunicação e remover impedimentos",
+  "alt2": "Aprovar entregas finais",
+  "alt3": "Definir as tarefas da equipe",
+  "alt4": "Controlar o tempo dos sprints"
+    },
+    {
+  "questao": "Quem é responsável por maximizar o valor do produto?",
+  "alt1": "O Dono do Produto",
+  "alt2": "O Scrum Master",
+  "alt3": "O Time de Desenvolvimento",
+  "alt4": "O Gerente de Projeto"
+    },
+    {
+  "questao": "Qual é a diferença entre backlog do produto e backlog da sprint?",
+  "alt1": "O backlog do produto contém todas as funcionalidades desejadas, enquanto o backlog da sprint contém tarefas para a sprint atual",
+  "alt2": "O backlog da sprint contém funcionalidades desejadas para o produto inteiro",
+  "alt3": "Ambos são iguais, apenas com nomes diferentes",
+  "alt4": "O backlog do produto é revisado diariamente, o da sprint não"
+    },
+    {
+  "questao": "Assinale a alternativa que apresenta uma das características do Scrum referente ao Scrum Team (Time Scrum).",
+  "alt1": "É auto-organizável.",
+  "alt2": "É composto apenas por desenvolvedores seniores.",
+  "alt3": "Segue ordens diretas do gerente de projetos.",
+  "alt4": "Trabalha de forma hierárquica e supervisionada constantemente."
+    },
+    {
+  "questao": "Qual é a responsabilidade principal de um Scrum Master para manter um Time Scrum desempenhando em nível de produtividade máxima?",
+  "alt1": "Apoiar as decisões do Time de Desenvolvimento e resolver seus impedimentos.",
+  "alt2": "Assumir o controle das tarefas e redistribuí-las conforme necessário.",
+  "alt3": "Delegar todas as decisões ao Dono do Produto.",
+  "alt4": "Focar exclusivamente em garantir que todas as reuniões ocorram no prazo."
+    }
+]

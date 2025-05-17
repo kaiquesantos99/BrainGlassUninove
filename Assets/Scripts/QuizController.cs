@@ -666,33 +666,50 @@ public class QuizController : MonoBehaviour
         List<int> conseq = new List<int>();
         if (DadosJogo.teamLisa) // Team Lisa
         {
-            if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
-            {
-                conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
-            }
-            else if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
-            {
-                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
-            }
-            else // Bola da vez = bola 8
+            if (bolaDaVez == DadosJogo.mainBall) // Se errou e a bola era a principal
             {
                 conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
             }
+            else
+            {
+                if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
+                }
+                else if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
+                }
+                else // Bola da vez = bola 8
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
+                }
+            }
+
+            
         }
         else // Team Listrado
         {
-            if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
-            {
-                conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
-            }
-            else if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
-            {
-                conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
-            }
-            else // Bola da vez = bola 8
+            if (bolaDaVez == DadosJogo.mainBall) // Se errou e a bola era a principal
             {
                 conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
             }
+            else
+            {
+                if (bolaDaVez > 8 && bolaDaVez <= 15) // Bola da vez = time listrada
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2 }); // 60% vantagem 40% desvantagem
+                }
+                else if (bolaDaVez > 0 && bolaDaVez < 8) // Bola da vez = time lisa
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, 0, 0, 0, 1, 1, 1, 1, 2, 2 }); // 60% desvantagem 40% vantagem
+                }
+                else // Bola da vez = bola 8
+                {
+                    conseq.AddRange(new int[] { -1, -1, -1, -1, -1, -1, -1, -1, -1, 0, 0, 0, 0, 1, 2 }); // 80% desvantagem 20% vantagem
+                }
+            }
+            
         }
 
 
