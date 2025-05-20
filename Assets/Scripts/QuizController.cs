@@ -37,7 +37,7 @@ public class QuizController : MonoBehaviour
     private Cinemachine.CinemachineVirtualCamera camTheWall;
 
     // Objetos - The Wall
-    public GameObject ball; private float ballX = 366.816f, ballY = 37.522f;
+    public GameObject ball; private float ballZ = 11.918f, ballY = 37.48f;
     private Renderer ballRender; // Render da bola
     public GameObject[] objResults;
 
@@ -489,7 +489,7 @@ public class QuizController : MonoBehaviour
 
     public void BallPosition(int position)
     {
-        float zAleatorio = 0.0f;
+        float xAleatorio = 0.0f;
 
         // Scale
         float xyzScale = UnityEngine.Random.Range(0.1367179f, 0.3197531f);
@@ -497,29 +497,29 @@ public class QuizController : MonoBehaviour
         switch (position)
         {
             case 1:
-                zAleatorio = UnityEngine.Random.Range(-4.242f, -4.108f);
+                xAleatorio = UnityEngine.Random.Range(325.196f, 325.578f);
                 break;
             case 2:
-                zAleatorio = UnityEngine.Random.Range(-5.133f, -4.997f);
+                xAleatorio = UnityEngine.Random.Range(-5.133f, -4.997f);
                 break;
             case 3:
-                zAleatorio = UnityEngine.Random.Range(-6.027f, -5.894f);
+                xAleatorio = UnityEngine.Random.Range(-6.027f, -5.894f);
                 break;
             case 4:
-                zAleatorio = UnityEngine.Random.Range(-6.917f, -6.778f);
+                xAleatorio = UnityEngine.Random.Range(-6.917f, -6.778f);
                 break;
             case 5:
-                zAleatorio = UnityEngine.Random.Range(-7.821f, -7.679f);
+                xAleatorio = UnityEngine.Random.Range(-7.821f, -7.679f);
                 break;
             case 6:
-                zAleatorio = UnityEngine.Random.Range(-8.706f, -8.569f);
+                xAleatorio = UnityEngine.Random.Range(-8.706f, -8.569f);
                 break;
             case 7:
-                zAleatorio = UnityEngine.Random.Range(-9.596f, -9.463f);
+                xAleatorio = UnityEngine.Random.Range(-9.596f, -9.463f);
                 break;
         }
 
-        ball.transform.position = new Vector3(ballX, ballY, zAleatorio);
+        ball.transform.position = new Vector3(xAleatorio, ballY, ballZ);
         ball.transform.localScale = new Vector3(xyzScale, xyzScale, xyzScale);
         objCamBall.GetComponent<Cinemachine.CinemachineVirtualCamera>().Priority = 11;
         wallOptions.SetActive(false);
