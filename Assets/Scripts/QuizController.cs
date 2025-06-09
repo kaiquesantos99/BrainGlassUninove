@@ -497,25 +497,25 @@ public class QuizController : MonoBehaviour
         switch (position)
         {
             case 1:
-                xAleatorio = UnityEngine.Random.Range(325.196f, 325.578f);
+                xAleatorio = UnityEngine.Random.Range(325.249f, 325.697f);
                 break;
             case 2:
-                xAleatorio = UnityEngine.Random.Range(-5.133f, -4.997f);
+                xAleatorio = UnityEngine.Random.Range(326.144f, 326.605f);
                 break;
             case 3:
-                xAleatorio = UnityEngine.Random.Range(-6.027f, -5.894f);
+                xAleatorio = UnityEngine.Random.Range(327.03f, 327.491f);
                 break;
             case 4:
-                xAleatorio = UnityEngine.Random.Range(-6.917f, -6.778f);
+                xAleatorio = UnityEngine.Random.Range(327.931f, 328.364f);
                 break;
             case 5:
-                xAleatorio = UnityEngine.Random.Range(-7.821f, -7.679f);
+                xAleatorio = UnityEngine.Random.Range(328.822f, 329.274f);
                 break;
             case 6:
-                xAleatorio = UnityEngine.Random.Range(-8.706f, -8.569f);
+                xAleatorio = UnityEngine.Random.Range(329.71f, 330.162f);
                 break;
             case 7:
-                xAleatorio = UnityEngine.Random.Range(-9.596f, -9.463f);
+                xAleatorio = UnityEngine.Random.Range(330.614f, 331.062f);
                 break;
         }
 
