@@ -1,0 +1,78 @@
+[
+  {
+    "questao": "O que ocorre quando utilizamos o comando malloc em C para alocar memória?",
+    "alt1": "Aloca espaço na memória heap e retorna um ponteiro para o início do bloco alocado",
+    "alt2": "Aloca espaço na pilha para variáveis locais",
+    "alt3": "Aloca espaço na memória ROM",
+    "alt4": "Aloca espaço para arquivos no disco"
+  },
+  {
+    "questao": "Qual alternativa descreve corretamente o conceito de ponteiro em programação?",
+    "alt1": "Uma variável que armazena o endereço de memória de outra variável",
+    "alt2": "Uma variável que armazena exclusivamente números inteiros",
+    "alt3": "Um comando para liberar memória",
+    "alt4": "Um bloco de código condicional"
+  },
+  {
+    "questao": "O que significa o valor armazenado em p após a execução desse código?
+				int *p;
+				int x = 10;
+				p = &x;",
+    "alt1": "O endereço de memória onde está armazenado o valor 10",
+    "alt2": "O valor 10",
+    "alt3": "O valor 0",
+    "alt4": "Um endereço aleatório de memória"
+  },
+  {
+    "questao": "Qual das alternativas apresenta um algoritmo de ordenação eficiente para listas muito grandes,
+				com complexidade média O(n log n)?",
+    "alt1": "Merge Sort",
+    "alt2": "Bubble Sort",
+    "alt3": "Insertion Sort",
+    "alt4": "Selection Sort"
+  },
+  {
+    "questao": "Sobre o algoritmo Bubble Sort, é correto afirmar que:",
+    "alt1": "Compara elementos adjacentes e faz trocas até a lista estar ordenada",
+    "alt2": "Sua complexidade média é O(n log n)",
+    "alt3": "É muito eficiente para listas grandes",
+    "alt4": "Utiliza recursão para dividir o problema"
+  },
+  {
+    "questao": "Em uma árvore binária de busca (BST), qual regra é correta para a inserção de novos
+				elementos?",
+    "alt1": "Elementos menores que o nó atual vão para a esquerda; maiores vão para a direita",
+    "alt2": "O novo elemento é inserido em qualquer posição livre",
+    "alt3": "Todos os elementos são inseridos à direita",
+    "alt4": "Não há regras para inserção"
+  },
+  {
+    "questao": "A principal vantagem de utilizar uma BST balanceada em comparação com um array não
+				ordenado é:",
+    "alt1": "Permitir buscas, inserções e remoções mais rápidas",
+    "alt2": "Reduzir o uso de memória",
+    "alt3": "Facilitar o armazenamento em disco",
+    "alt4": "Garantir que todos os elementos sejam únicos"
+  },
+  {
+    "questao": "Qual estrutura de dados permite percorrer seus elementos tanto do início para o fim quanto do
+				fim para o início, devido à presença de apontadores para o nó anterior e posterior?",
+    "alt1": "Lista Duplamente Encadeada",
+    "alt2": "Pilha",
+    "alt3": "Lista Simplesmente Encadeada",
+    "alt4": "Árvore Binária"
+  },
+  {
+    "questao": "O que deve ser feito após usar malloc para evitar vazamento de memória no programa em C?",
+    "alt1": "Usar o comando free para liberar a memória alocada",
+    "alt2": "Utilizar o comando clear",
+    "alt3": "Fechar o terminal",
+    "alt4": "Não é necessário nenhum procedimento"
+  },
+  {
+    "questao": "Assinale a alternativa que melhor representa uma boa prática ao usar ponteiros em C:",
+    "alt1": "Sempre liberar a memória alocada com free após o uso",
+    "alt2": "Utilizar ponteiros apenas para variáveis globais",
+    "alt3": "Ignorar verificações de ponteiros nulos",
+    "alt4": "Acessar posições de memória sem inicializar o ponteiro"
+  }

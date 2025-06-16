@@ -1,0 +1,276 @@
+[
+	
+	{
+  "questao": "Qual é a principal característica da estrutura organizacional funcional?",
+  "alt1": "Divisão por departamentos especializados como vendas, finanças e marketing",
+  "alt2": "Foco em produtos com equipes específicas para cada um",
+  "alt3": "Divisão por tipos de clientes atendidos",
+  "alt4": "Formação de equipes temporárias para projetos"
+	},
+	{
+  "questao": "Quando uma empresa adota a organização por produto, qual é seu principal objetivo?",
+  "alt1": "Focar nas necessidades específicas de cada produto ou serviço",
+  "alt2": "Dividir as atividades apenas por processos internos",
+  "alt3": "Atender diferentes tipos de clientes simultaneamente",
+  "alt4": "Abolir a hierarquia funcional da empresa"
+	},
+	{
+  "questao": "Na estrutura organizacional por processos, qual é o foco principal?",
+  "alt1": "Atender às necessidades dos clientes de forma integrada entre os departamentos",
+  "alt2": "Dividir a empresa por produtos que ela oferece",
+  "alt3": "Eliminar qualquer tipo de hierarquia na empresa",
+  "alt4": "Focar somente nas atividades administrativas e financeiras"
+	},
+	{
+  "questao": "Na abordagem funcional, qual é a principal característica?",
+  "alt1": "Gestão verticalizada, baseada em hierarquias e departamentos",
+  "alt2": "Foco total na satisfação do cliente por meio de processos",
+  "alt3": "Eliminação dos departamentos na organização",
+  "alt4": "Prioriza equipes multidisciplinares e temporárias"
+	},
+	{
+  "questao": "O que é o conceito principal da abordagem por processos?",
+  "alt1": "Foco na entrega de valor ao cliente por meio da visão horizontal da organização",
+  "alt2": "Organizar os funcionários apenas por seus departamentos",
+  "alt3": "Delegação de tarefas seguindo a hierarquia tradicional",
+  "alt4": "Cada setor trabalha isoladamente para melhorar sua própria produtividade"
+	},
+	{
+  "questao": "O que é um Sistema ERP dentro da abordagem por processos?",
+  "alt1": "Um software que integra e automatiza processos de negócios em uma base de dados única",
+  "alt2": "Um sistema que elimina a necessidade de processos nas empresas",
+  "alt3": "Um software voltado apenas para a área financeira",
+  "alt4": "Um sistema que trabalha de forma isolada em cada departamento"
+	},
+	{
+  "questao": "Qual é a principal característica dos processos primários?",
+  "alt1": "Entregam valor diretamente ao cliente",
+  "alt2": "Apoiam apenas os processos de gerenciamento",
+  "alt3": "Fazem parte exclusivamente dos setores administrativos",
+  "alt4": "São processos internos que não impactam o cliente"
+	},
+	{
+  "questao": "O que é BPM (Business Process Management)?",
+  "alt1": "Uma disciplina gerencial focada na melhoria contínua dos processos ponta a ponta",
+  "alt2": "Um software que controla apenas o financeiro da empresa",
+  "alt3": "Uma metodologia usada apenas por indústrias de grande porte",
+  "alt4": "Um sistema que elimina todos os departamentos da organização"
+	},
+	{
+  "questao": "Qual fator é considerado crítico para o sucesso na implantação de BPM?",
+  "alt1": "Apoio da alta direção e alinhamento com a estratégia da empresa",
+  "alt2": "Trabalhar de forma isolada por departamentos",
+  "alt3": "Focar apenas na aquisição de tecnologia sem mudança de cultura",
+  "alt4": "Executar processos uma única vez sem necessidade de melhorias"
+	},
+	{
+  "questao": "O que significa 'handoff' no contexto de BPM?",
+  "alt1": "A transferência de atividades de um setor para outro dentro de um processo",
+  "alt2": "A eliminação de etapas do processo para reduzir custos",
+  "alt3": "Um sistema de controle financeiro da empresa",
+  "alt4": "A criação de um novo produto com base em processos automatizados"
+	},
+	{
+  "questao": "Qual é a diferença entre fluxo de processo e fluxo de trabalho?",
+  "alt1": "Fluxo de processo é interfuncional e fluxo de trabalho é intrafuncional",
+  "alt2": "Ambos são iguais e não possuem diferenças",
+  "alt3": "Fluxo de processo é feito apenas pela equipe de TI",
+  "alt4": "Fluxo de trabalho ocorre entre vários departamentos da empresa"
+	},
+	{
+  "questao": "O que significa dizer que o BPM é uma disciplina gerencial?",
+  "alt1": "Que BPM ajuda a empresa a atingir seus objetivos através do gerenciamento de processos",
+  "alt2": "Que BPM é um software de gestão empresarial",
+  "alt3": "Que BPM serve apenas para gerenciar equipes de vendas",
+  "alt4": "Que BPM elimina totalmente a necessidade de departamentos na empresa"
+	},
+	{
+  "questao": "O que é o Ciclo de Vida do BPM?",
+  "alt1": "É um conjunto de atividades que garante a melhoria contínua e alinhamento dos processos à estratégia da empresa",
+  "alt2": "É um sistema de controle financeiro usado pelas empresas",
+  "alt3": "É uma etapa isolada que ocorre uma única vez na empresa",
+  "alt4": "É um método exclusivo para empresas de tecnologia"
+	},
+{
+  "questao": "Quais são as fases básicas do ciclo PDCA dentro do BPM?",
+  "alt1": "Planejar, Executar, Verificar e Agir",
+  "alt2": "Analisar, Vender, Distribuir e Controlar",
+  "alt3": "Produzir, Documentar, Redesenhar e Implantar",
+  "alt4": "Gerenciar, Financiamento, Produção e Venda"
+	},
+	{
+  "questao": "Durante a fase de 'Implantação do Novo Processo', o que é essencial?",
+  "alt1": "Treinar e acompanhar as pessoas responsáveis pela execução dos processos",
+  "alt2": "Focar apenas na contratação de tecnologia de ponta",
+  "alt3": "Eliminar todos os processos antigos imediatamente",
+  "alt4": "Ignorar o desempenho e deixar os processos rodando automaticamente"
+	},
+	{
+  "questao": "Para que serve a modelagem de processos de negócios?",
+  "alt1": "Para entender, analisar e melhorar os processos de uma organização",
+  "alt2": "Apenas para criar sites e aplicativos",
+  "alt3": "Serve exclusivamente para controle financeiro",
+  "alt4": "É usada apenas para o setor de marketing"
+	},
+	{
+  "questao": "O que representa a notação IDEF?",
+  "alt1": "Uma representação gráfica que mostra entradas, mecanismos, ferramentas e saídas dos processos",
+  "alt2": "Um diagrama que mostra somente os funcionários da empresa",
+  "alt3": "Uma ferramenta de vendas utilizada no varejo",
+  "alt4": "Um fluxograma de controle financeiro empresarial"
+	},
+	{
+  "questao": "Qual é o principal uso do Diagrama de Atividades na UML?",
+  "alt1": "Modelar processos de negócio ou fluxos de atividades dentro de sistemas",
+  "alt2": "Controlar exclusivamente dados bancários da empresa",
+  "alt3": "Desenvolver planilhas financeiras",
+  "alt4": "Executar processos automaticamente sem intervenção humana"
+	},
+	{
+  "questao": "Qual é o principal objetivo do BPMN?",
+  "alt1": "Fornecer uma notação padronizada e fácil de entender para modelagem de processos de negócios",
+  "alt2": "Criar sistemas de controle financeiro",
+  "alt3": "Elaborar campanhas de marketing",
+  "alt4": "Desenvolver códigos de programação"
+	},
+	{
+  "questao": "O que são 'Swinlanes' (Raias) na notação BPMN?",
+  "alt1": "Elementos gráficos que representam quem faz o que dentro de um processo",
+  "alt2": "Símbolos utilizados para representar decisões",
+  "alt3": "Conectores que ligam departamentos diferentes",
+  "alt4": "Documentos físicos do processo"
+	},
+	{
+  "questao": "Quais são os principais elementos que compõem um diagrama BPMN?",
+  "alt1": "Objetos de fluxo, objetos de dados, artefatos, raias (Swinlanes) e conectores",
+  "alt2": "Planilhas, relatórios, gráficos e dashboards",
+  "alt3": "Somente diagramas de fluxo de caixa",
+  "alt4": "Somente elementos financeiros e fiscais"
+	},
+	{
+  "questao": "Qual é o principal objetivo do BPMN?",
+  "alt1": "Fornecer uma notação padronizada e fácil de entender para modelagem de processos de negócios",
+  "alt2": "Criar sistemas de controle financeiro",
+  "alt3": "Elaborar campanhas de marketing",
+  "alt4": "Desenvolver códigos de programação"
+	},
+	{
+  "questao": "O que são 'Swinlanes' (Raias) na notação BPMN?",
+  "alt1": "Elementos gráficos que representam quem faz o que dentro de um processo",
+  "alt2": "Símbolos utilizados para representar decisões",
+  "alt3": "Conectores que ligam departamentos diferentes",
+  "alt4": "Documentos físicos do processo"
+	},
+	{
+  "questao": "Quais são os principais elementos que compõem um diagrama BPMN?",
+  "alt1": "Objetos de fluxo, objetos de dados, artefatos, raias (Swinlanes) e conectores",
+  "alt2": "Planilhas, relatórios, gráficos e dashboards",
+  "alt3": "Somente diagramas de fluxo de caixa",
+  "alt4": "Somente elementos financeiros e fiscais"
+	},
+	{
+  "questao": "O que significa analisar processos AS-IS?",
+  "alt1": "Analisar como os processos estão atualmente, identificando gargalos, erros e melhorias",
+  "alt2": "Criar processos novos a partir do zero",
+  "alt3": "Executar processos automaticamente sem análise",
+  "alt4": "Focar apenas nos processos financeiros"
+	},
+	{
+  "questao": "Qual é o principal objetivo do uso de padrões na coleta de informações durante a análise de processos?",
+  "alt1": "Garantir que todos coletem e organizem informações de forma consistente",
+  "alt2": "Permitir que cada colaborador modele processos da forma que quiser",
+  "alt3": "Eliminar a necessidade de validação das informações",
+  "alt4": "Focar apenas na documentação financeira da empresa"
+	},
+	{
+  "questao": "O que é a 'paralisia por análise' no contexto da análise de processos?",
+  "alt1": "Quando a equipe fica presa em uma etapa da análise e não consegue avançar",
+  "alt2": "Quando a empresa elimina todos os seus processos",
+  "alt3": "Quando a análise é feita apenas por softwares automáticos",
+  "alt4": "Quando a empresa ignora a etapa de análise e passa direto para execução"
+	},
+	{
+  "questao": "O que representa o desenho de processos AS-IS?",
+  "alt1": "O modelo de como os processos funcionam atualmente na organização",
+  "alt2": "O desenho de processos futuros que ainda não foram implantados",
+  "alt3": "A criação de novos produtos na empresa",
+  "alt4": "A análise de concorrentes no mercado"
+	},
+	{
+  "questao": "Por que é importante modelar o processo atual (AS-IS)?",
+  "alt1": "Para entender como o processo funciona hoje e identificar pontos de melhoria",
+  "alt2": "Para desenvolver apenas relatórios financeiros",
+  "alt3": "Para criar sistemas de vendas online",
+  "alt4": "Para fazer o controle dos estoques da empresa"
+	},
+	{
+  "questao": "O que pode ser feito durante a análise do processo AS-IS?",
+  "alt1": "Identificar gargalos, redundâncias, trabalhos desnecessários e propor melhorias",
+  "alt2": "Excluir todos os processos antigos sem análise",
+  "alt3": "Implementar imediatamente qualquer sugestão sem discussão",
+  "alt4": "Focar apenas no aumento dos lucros sem olhar os processos"
+	},
+	{
+  "questao": "O que é o redesenho de processos TO-BE?",
+  "alt1": "É a criação de um novo modelo de processo, buscando melhorias com base no processo atual (AS-IS)",
+  "alt2": "É a eliminação de todos os processos antigos sem análise",
+  "alt3": "É apenas a documentação financeira da empresa",
+  "alt4": "É o processo de recrutamento e seleção de funcionários"
+	},
+	{
+  "questao": "Qual é uma das principais recomendações ao redesenhar um processo?",
+  "alt1": "Desafiar o processo atual, buscando eliminar desperdícios, erros e aumentar a produtividade",
+  "alt2": "Focar apenas em mudar o setor financeiro",
+  "alt3": "Contratar mais funcionários para executar manualmente todas as tarefas",
+  "alt4": "Aumentar a quantidade de papelada nos processos"
+	},
+	{
+  "questao": "Por que é importante a participação das equipes no desenvolvimento do TO-BE?",
+  "alt1": "Porque quem participa conhece o processo e pode propor melhorias práticas e criativas",
+  "alt2": "Para que todos concordem em manter os processos como estão",
+  "alt3": "Para criar mais burocracia e dificultar as mudanças",
+  "alt4": "Para excluir etapas importantes dos processos"
+	},
+	{
+  "questao": "Qual é o principal objetivo da simulação de processos AS-IS e TO-BE?",
+  "alt1": "Comparar o desempenho dos processos antes de sua implantação, identificando melhorias e possíveis gargalos",
+  "alt2": "Criar campanhas de marketing",
+  "alt3": "Desenvolver softwares financeiros",
+  "alt4": "Contratar mais funcionários sem análise prévia"
+	},
+	{
+  "questao": "O que são parâmetros utilizados na simulação de processos?",
+  "alt1": "Dados como tempo de ciclo, custos, quantidade de execuções e pontos de decisão",
+  "alt2": "Somente os lucros gerados pela empresa",
+  "alt3": "Dados relacionados apenas ao setor de vendas",
+  "alt4": "Imagens e vídeos dos processos"
+	},
+	{
+  "questao": "Qual é um dos principais benefícios da simulação de processos?",
+  "alt1": "Permitir descobrir gargalos, testar melhorias e prever o desempenho do processo sem afetar a operação real",
+  "alt2": "Aumentar os custos operacionais intencionalmente",
+  "alt3": "Desenvolver softwares de redes sociais",
+  "alt4": "Eliminar todos os processos físicos da empresa"
+	},
+	{
+  "questao": "O que são indicadores de desempenho no gerenciamento de processos?",
+  "alt1": "Ferramentas que permitem medir, acompanhar e analisar os resultados dos processos",
+  "alt2": "Documentos usados apenas para controle financeiro",
+  "alt3": "Relatórios de vendas sem relação com processos",
+  "alt4": "Apenas gráficos decorativos para apresentações"
+	},
+	{
+  "questao": "Quais são as quatro principais dimensões para medir o desempenho de um processo?",
+  "alt1": "Tempo, custo, capacidade e qualidade",
+  "alt2": "Marketing, vendas, estoque e RH",
+  "alt3": "Lucro, investimentos, dívidas e receita",
+  "alt4": "Planejamento, contratos, reuniões e e-mails"
+	},
+	{
+  "questao": "Qual é a diferença entre métrica e indicador?",
+  "alt1": "Métrica é uma informação calculada e indicador é a interpretação dessa métrica comparada a um valor de referência",
+  "alt2": "Não há diferença, ambos são sinônimos",
+  "alt3": "Métrica é usada só para processos financeiros e indicador só para processos operacionais",
+  "alt4": "Métrica é um tipo de software e indicador é um tipo de hardware"
+	}
+]

@@ -42,25 +42,31 @@ public class MenuControl : MonoBehaviour
         switch(value)
         {
             case 1:
-                DadosJogo.tipoPerguntas = "perguntasPesquisaOrdenacao";
+                DadosJogo.tipoPerguntas = "PesquisaOrdenacao";
                 break;
             case 2:
-                DadosJogo.tipoPerguntas = "perguntasProjeto";
+                DadosJogo.tipoPerguntas = "Projeto";
                 break;
             case 3:
-                DadosJogo.tipoPerguntas = "perguntasTecnicasProgramacao";
+                DadosJogo.tipoPerguntas = "TecnicasDeProgramacao";
                 break;
             case 4:
                 DadosJogo.tipoPerguntas = "perguntasMetodologiasAgeis";
                 break;
             case 5:
-                DadosJogo.tipoPerguntas = "perguntasProcessoNegocio";
+                DadosJogo.tipoPerguntas = "ProcessosNegocio";
                 break;
             case 6:
                 DadosJogo.tipoPerguntas = "perguntasMetodologiasUni";
                 break;
             case 7:
                 DadosJogo.tipoPerguntas = "perguntasMetodologiasUni2";
+                break;
+            case 8:
+                DadosJogo.tipoPerguntas = "EngenhariaSoftware";
+                break;
+            case 9:
+                DadosJogo.tipoPerguntas = "Interacao";
                 break;
         }
 

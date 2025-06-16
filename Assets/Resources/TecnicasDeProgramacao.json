@@ -1,0 +1,340 @@
+[
+	{
+  "questao": "Qual é uma das principais vantagens de desenvolver aplicações Web em comparação com aplicações desktop?",
+  "alt1": "A manutenção é feita diretamente no servidor, sem precisar atualizar cada máquina dos usuários",
+  "alt2": "A necessidade de instalar o sistema em cada dispositivo cliente",
+  "alt3": "Os aplicativos web só funcionam em um único navegador",
+  "alt4": "Não é possível acessar os aplicativos web por dispositivos móveis"
+	},
+	{
+  "questao": "Qual é a principal função do CLR (Common Language Runtime) no .NET Framework?",
+  "alt1": "Gerenciar a execução dos códigos, incluindo memória, segurança e exceções",
+  "alt2": "Criar interfaces gráficas para os usuários",
+  "alt3": "Gerenciar exclusivamente bancos de dados externos",
+  "alt4": "Executar apenas scripts em JavaScript dentro da aplicação"
+	},
+	{
+  "questao": "O que caracteriza a arquitetura de uma aplicação Web baseada em cliente-servidor?",
+  "alt1": "O cliente, geralmente um navegador, faz uma requisição e o servidor processa e responde com dados e conteúdo",
+  "alt2": "O cliente executa toda a lógica e não precisa de servidor",
+  "alt3": "O servidor envia diretamente o código fonte da aplicação para o cliente executar",
+  "alt4": "A aplicação é instalada exclusivamente no computador do cliente"
+	},
+	{
+  "questao": "Qual versão do Visual Studio é gratuita e indicada para estudantes e desenvolvedores individuais?",
+  "alt1": "Visual Studio Community",
+  "alt2": "Visual Studio Professional",
+  "alt3": "Visual Studio Enterprise",
+  "alt4": "Visual Studio Ultimate"
+	},
+	{
+  "questao": "Antes de instalar o Visual Studio, o que é recomendado verificar no computador?",
+  "alt1": "Se há espaço suficiente em disco e se o Windows está atualizado",
+  "alt2": "Se há conexão com impressoras locais",
+  "alt3": "Se o antivírus está desativado permanentemente",
+  "alt4": "Se o navegador padrão está configurado como Internet Explorer"
+	},
+	{
+  "questao": "O que são IDEs (Ambiente Integrado de Desenvolvimento) como o Visual Studio?",
+  "alt1": "Ferramentas que oferecem recursos para programar, testar e depurar aplicações",
+  "alt2": "Apenas editores de texto comuns para escrever códigos",
+  "alt3": "Sistemas operacionais desenvolvidos pela Microsoft",
+  "alt4": "Apenas navegadores de internet para testes"
+	},
+	{
+  "questao": "O que é um algoritmo na lógica computacional?",
+  "alt1": "Uma sequência de passos lógicos para resolver um problema ou atingir um objetivo",
+  "alt2": "Um software exclusivo para cálculos matemáticos",
+  "alt3": "Uma linguagem de programação usada para criar aplicativos móveis",
+  "alt4": "Um tipo de banco de dados utilizado para armazenar informações"
+	},
+	{
+  "questao": "O que significa a etapa de 'Processamento' no fluxo computacional?",
+  "alt1": "É a fase em que os dados de entrada são tratados, manipulados e transformados para gerar o resultado esperado",
+  "alt2": "É o momento de desligar o computador após a entrada de dados",
+  "alt3": "É quando os dados são impressos no papel sem nenhum cálculo",
+  "alt4": "É a etapa onde o usuário faz o download de arquivos da internet"
+	},
+	{
+  "questao": "Por que a linguagem C# é considerada uma boa linguagem para começar a programar?",
+  "alt1": "Por ter sintaxe simples, ser orientada a objetos e ter amplo suporte da Microsoft",
+  "alt2": "Porque ela não possui regras e não exige sintaxe correta",
+  "alt3": "Porque ela só funciona em smartphones e é limitada",
+  "alt4": "Porque ela foi feita exclusivamente para criar páginas HTML simples"
+	},
+	{
+  "questao": "O que é uma variável na linguagem C#?",
+  "alt1": "Um espaço na memória utilizado para armazenar dados durante a execução do programa",
+  "alt2": "Um componente físico do computador",
+  "alt3": "Um aplicativo externo usado na programação",
+  "alt4": "Uma pasta onde salvamos arquivos do projeto"
+	},
+	{
+  "questao": "O que acontece se tentarmos converter um valor decimal (double) para inteiro (int) usando conversão explícita?",
+  "alt1": "A parte decimal é perdida, ficando apenas a parte inteira do número",
+  "alt2": "O valor decimal se multiplica por dois automaticamente",
+  "alt3": "O valor se converte em texto (string)",
+  "alt4": "O programa gera um erro e não permite a conversão"
+	},
+	{
+  "questao": "Qual é a função do operador '+' na linguagem C#?",
+  "alt1": "Serve tanto para somar números quanto para concatenar textos (strings)",
+  "alt2": "É utilizado apenas para dividir valores numéricos",
+  "alt3": "Remove dados da memória",
+  "alt4": "Cria novas variáveis automaticamente"
+	},
+	{
+  "questao": "Qual é a função da estrutura de decisão IF em um algoritmo?",
+  "alt1": "Permitir que o programa tome decisões com base em condições lógicas",
+  "alt2": "Executar repetidamente uma ação até que uma condição seja falsa",
+  "alt3": "Gerar números aleatórios dentro do programa",
+  "alt4": "Imprimir informações no papel automaticamente"
+	},
+	{
+  "questao": "Quando usamos o laço de repetição FOR?",
+  "alt1": "Quando sabemos antecipadamente quantas vezes a repetição deve ocorrer",
+  "alt2": "Quando queremos que o programa execute apenas uma vez",
+  "alt3": "Quando não sabemos quantas repetições serão necessárias",
+  "alt4": "Quando precisamos comparar dois números"
+	},
+	{
+  "questao": "Qual é a diferença entre WHILE e DO WHILE?",
+  "alt1": "WHILE testa a condição antes de executar e DO WHILE executa pelo menos uma vez antes de testar a condição",
+  "alt2": "WHILE é usado só para somar valores e DO WHILE só para subtrair",
+  "alt3": "Não existe diferença, ambos funcionam da mesma forma",
+  "alt4": "WHILE serve apenas para operações matemáticas, enquanto DO WHILE para textos"
+	},
+	{
+  "questao": "Qual a principal diferença entre uma página estática e uma página dinâmica?",
+  "alt1": "Páginas estáticas não possuem interatividade e páginas dinâmicas permitem interação e atualização de conteúdo em tempo real",
+  "alt2": "Páginas estáticas são mais coloridas que as dinâmicas",
+  "alt3": "Páginas dinâmicas não precisam de internet para funcionar",
+  "alt4": "Páginas estáticas sempre usam bancos de dados"
+	},
+	{
+  "questao": "Qual das alternativas é uma tecnologia utilizada para tornar uma página dinâmica?",
+  "alt1": "PHP, ASP.NET e JSP",
+  "alt2": "Paint, Word e Excel",
+  "alt3": "Instagram, Facebook e Twitter",
+  "alt4": "Mouse, teclado e monitor"
+	},
+	{
+  "questao": "O que é o Front-End no desenvolvimento de aplicações Web?",
+  "alt1": "É a parte visual que o usuário interage, usando tecnologias como HTML, CSS e JavaScript",
+  "alt2": "É o servidor que executa o processamento dos dados",
+  "alt3": "É o banco de dados que guarda as informações do site",
+  "alt4": "É a infraestrutura de rede utilizada para acessar o site"
+	},
+	{
+  "questao": "Qual a principal função do HTML5 no desenvolvimento de páginas web?",
+  "alt1": "Estruturar o conteúdo da página utilizando tags",
+  "alt2": "Aplicar estilos, cores e formatos nos elementos",
+  "alt3": "Fazer cálculos e processar dados no servidor",
+  "alt4": "Enviar e-mails automáticos para os clientes"
+	},
+	{
+  "questao": "No CSS, qual é a função principal?",
+  "alt1": "Definir a aparência e o layout da página, como cores, fontes e tamanhos",
+  "alt2": "Processar dados no banco de dados",
+  "alt3": "Executar funções matemáticas no backend",
+  "alt4": "Enviar informações entre servidor e cliente"
+	},
+	{
+  "questao": "Sobre os formulários em HTML, qual é a tag correta para criar um campo de entrada de texto?",
+  "alt1": "<input>",
+  "alt2": "<form>",
+  "alt3": "<textarea>",
+  "alt4": "<label>"
+	},
+	{
+  "questao": "No padrão de arquitetura MVC, qual é a principal responsabilidade da camada MODEL?",
+  "alt1": "Exibir informações para o usuário",
+  "alt2": "Controlar o fluxo de dados entre interface e processamento",
+  "alt3": "Gerenciar e acessar os dados, incluindo as regras de negócio e banco de dados",
+  "alt4": "Criar efeitos visuais e animações na interface"
+	},
+	{
+  "questao": "Sobre frameworks, marque a alternativa correta:",
+  "alt1": "Framework é uma linguagem de programação que substitui o HTML",
+  "alt2": "Framework é um conjunto de ferramentas e códigos prontos para facilitar o desenvolvimento de sistemas",
+  "alt3": "Framework é uma ferramenta usada apenas para criar bancos de dados",
+  "alt4": "Framework serve exclusivamente para criar páginas estáticas"
+	},
+	{
+  "questao": "Marque a alternativa que melhor define um Padrão de Projeto (Design Pattern):",
+  "alt1": "É um conjunto de códigos prontos para serem usados diretamente sem modificação",
+  "alt2": "É uma regra fixa de como todo programa deve ser escrito",
+  "alt3": "É uma solução reutilizável para problemas comuns no desenvolvimento de software, servindo como um guia de boas práticas",
+  "alt4": "É uma ferramenta gráfica utilizada para desenhar interfaces"
+	},
+	{
+  "questao": "No desenvolvimento de aplicações Web utilizando ASP.NET no Visual Studio, qual a principal função do servidor IIS?",
+  "alt1": "Criar códigos automáticos em C#",
+  "alt2": "Executar aplicações web, recebendo requisições dos navegadores e respondendo com os conteúdos processados",
+  "alt3": "Compilar projetos mobile em Android e iOS",
+  "alt4": "Desenvolver exclusivamente aplicações desktop"
+	},
+	{
+  "questao": "Na estrutura de um projeto ASP.NET utilizando o padrão MVC, onde fica localizado o arquivo responsável pela interface visual da página inicial?",
+  "alt1": "Controllers/HomeController.cs",
+  "alt2": "Models/Index.cs",
+  "alt3": "Views/Home/Index.cshtml",
+  "alt4": "App_Start/RouteConfig.cs"
+	},
+	{
+  "questao": "Ao criar um projeto MVC no Visual Studio, qual é a responsabilidade da camada Controller?",
+  "alt1": "Gerenciar a interface visual que o usuário enxerga",
+  "alt2": "Controlar o fluxo de dados entre o Model e a View, lidando com as requisições feitas pelos usuários",
+  "alt3": "Armazenar dados no banco de dados diretamente",
+  "alt4": "Criar efeitos visuais, responsividade e estilos CSS"
+	},
+	{
+  "questao": "No contexto do desenvolvimento de um sistema de cadastro utilizando ASP.NET MVC, qual é a principal função do banco de dados?",
+  "alt1": "Executar o design da interface do sistema",
+  "alt2": "Armazenar, consultar, atualizar e excluir dados de forma estruturada",
+  "alt3": "Criar efeitos visuais utilizando CSS e JavaScript",
+  "alt4": "Gerenciar a navegação entre as páginas do site"
+	},
+	{
+  "questao": "Ao criar a tabela 'tb_pessoa' no SQL Server para o projeto Cadastro MVC, qual comando SQL é usado para definir que a coluna 'PessoaID' seja chave primária e auto incremento?",
+  "alt1": "PRIMARY KEY AUTOINCREMENT",
+  "alt2": "PessoaID INT NOT NULL AUTOINCREMENT",
+  "alt3": "PessoaID INT PRIMARY KEY NOT NULL IDENTITY(1,1)",
+  "alt4": "KEY(PessoaID) AUTO_INCREMENT"
+	},
+	{
+  "questao": "Qual subconjunto da linguagem SQL é utilizado para realizar operações como inserir, atualizar e excluir dados em tabelas?",
+  "alt1": "DDL - Data Definition Language",
+  "alt2": "DML - Data Manipulation Language",
+  "alt3": "DQL - Data Query Language",
+  "alt4": "DCL - Data Control Language"
+	},
+	{
+  "questao": "No padrão MVC utilizado no desenvolvimento do projeto em ASP.NET, qual é a principal responsabilidade do Controller?",
+  "alt1": "Apresentar os dados ao usuário e renderizar as interfaces gráficas.",
+  "alt2": "Gerenciar as ações do usuário, receber os dados da View e repassar para o Model.",
+  "alt3": "Armazenar e gerenciar os dados no banco de dados diretamente.",
+  "alt4": "Criar a estrutura visual do site usando HTML e CSS."
+	},
+	{
+  "questao": "No código do PessoaModel, qual é a função do comando 'sqlCmd.Parameters.AddWithValue' dentro do método Salvar()?",
+  "alt1": "Cria uma tabela no banco de dados.",
+  "alt2": "Fecha a conexão com o banco após inserir os dados.",
+  "alt3": "Define os parâmetros da query SQL, atribuindo os valores digitados pelo usuário.",
+  "alt4": "Executa a consulta SELECT para listar os dados na tela."
+	},
+	{
+  "questao": "Ao configurar a interface do site no arquivo '_Layout.cshtml', qual é a função da tag '@RenderBody()'?",
+  "alt1": "Renderiza o cabeçalho do site com CSS e scripts.",
+  "alt2": "Define o menu de navegação e os links principais.",
+  "alt3": "Indica o local onde o conteúdo específico de cada página será inserido dentro do layout principal.",
+  "alt4": "Carrega as configurações do banco de dados no site."
+	},
+	{
+  "questao": "No desenvolvimento de uma aplicação ASP.NET MVC, qual é a função principal do método 'Listar()' dentro do Model?",
+  "alt1": "Inserir novos dados no banco de dados.",
+  "alt2": "Excluir registros do banco de dados.",
+  "alt3": "Recuperar os dados da tabela do banco de dados e retorná-los em um DataTable.",
+  "alt4": "Alterar o layout da interface da aplicação."
+	},
+	{
+  "questao": "No arquivo 'PessoaController.cs', o que faz o comando 'return View(pModel.Listar());' dentro do método Index()?",
+  "alt1": "Apaga os dados do banco de dados e atualiza a página.",
+  "alt2": "Envia os dados recuperados pelo método Listar() do Model para a View Index.",
+  "alt3": "Altera o banco de dados e redireciona o usuário para outra página.",
+  "alt4": "Fecha a conexão com o banco e encerra a aplicação."
+	},
+	{
+  "questao": "Na View 'Index.cshtml' que exibe os dados, qual é a função da estrutura de repetição 'for' utilizada no código?",
+  "alt1": "Executar comandos SQL diretamente na View.",
+  "alt2": "Percorrer as linhas da tabela recuperada do banco e gerar dinamicamente as linhas da tabela HTML.",
+  "alt3": "Apagar registros do banco de dados automaticamente.",
+  "alt4": "Executar o método Salvar() para cada linha da tabela."
+	},
+	{
+  "questao": "Qual é a principal função do padrão MVC em uma aplicação web?",
+  "alt1": "Separar a aplicação em Model, View e Controller para organizar o código.",
+  "alt2": "Unificar todo o código em um único arquivo.",
+  "alt3": "Criar apenas o design da interface.",
+  "alt4": "Fazer o backup automático do banco de dados."
+	},
+	{
+  "questao": "No ASP.NET MVC, qual camada é responsável por se comunicar diretamente com o banco de dados?",
+  "alt1": "Model",
+  "alt2": "View",
+  "alt3": "Controller",
+  "alt4": "Bootstrap"
+	},
+	{
+  "questao": "No SQL, qual comando é usado para inserir dados em uma tabela?",
+  "alt1": "INSERT INTO",
+  "alt2": "SELECT",
+  "alt3": "DELETE",
+  "alt4": "UPDATE"
+	},
+	{
+  "questao": "No ASP.NET MVC, qual cláusula SQL é usada no método de exclusão para garantir que apenas um registro específico seja apagado?",
+  "alt1": "WHERE",
+  "alt2": "SELECT",
+  "alt3": "FROM",
+  "alt4": "ORDER BY"
+	},
+	{
+  "questao": "No padrão MVC usando ASP.NET, qual camada é responsável por se conectar ao banco de dados e executar a exclusão de um registro?",
+  "alt1": "Model",
+  "alt2": "Controller",
+  "alt3": "View",
+  "alt4": "Layout"
+	},
+	{
+  "questao": "O que pode ser uma boa prática em vez de excluir um registro definitivamente de um banco, especialmente em sistemas sensíveis como hospitalares?",
+  "alt1": "Marcar o registro como cancelado ou oculto",
+  "alt2": "Deletar todos os registros relacionados também",
+  "alt3": "Executar um comando DROP TABLE",
+  "alt4": "Apagar o banco de dados inteiro"
+	},
+	{
+  "questao": "Qual é o principal benefício das URLs amigáveis em uma aplicação web?",
+  "alt1": "Facilitar a indexação pelos mecanismos de busca e melhorar a experiência do usuário",
+  "alt2": "Deixar a página mais pesada",
+  "alt3": "Aumentar o uso de caracteres especiais",
+  "alt4": "Desabilitar o acesso aos mecanismos de busca"
+	},
+	{
+  "questao": "No ASP.Net MVC, onde são definidas as rotas padrão da aplicação?",
+  "alt1": "No arquivo Startup.cs",
+  "alt2": "Dentro da View Index.cshtml",
+  "alt3": "No Model do projeto",
+  "alt4": "No arquivo web.config"
+	},
+	{
+  "questao": "Qual parte da rota controla qual Controller e qual Action será executada na URL?",
+  "alt1": "O template da rota, como {controller}/{action}/{id?}",
+  "alt2": "O arquivo CSS da aplicação",
+  "alt3": "O conteúdo da View",
+  "alt4": "O banco de dados"
+	},
+	{
+  "questao": "Qual atributo é utilizado no ASP.NET para obrigar o preenchimento de um campo em um formulário?",
+  "alt1": "[Required]",
+  "alt2": "[Obligatory]",
+  "alt3": "[Validate]",
+  "alt4": "[Mandatory]"
+	},
+	{
+  "questao": "Para validar se um campo de e-mail possui um formato correto no ASP.NET, qual anotação é utilizada?",
+  "alt1": "[RegularExpression]",
+  "alt2": "[EmailCheck]",
+  "alt3": "[StringValidation]",
+  "alt4": "[FormatCheck]"
+	},
+	{
+  "questao": "Qual é a melhor prática em relação às validações em formulários?",
+  "alt1": "Realizar validação tanto no Front-End quanto no Back-End",
+  "alt2": "Fazer validação apenas no Front-End",
+  "alt3": "Fazer validação apenas no Back-End",
+  "alt4": "Não fazer validação, deixar pro usuário cuidar"
+	}
+
+
+]

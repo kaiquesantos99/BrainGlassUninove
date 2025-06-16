@@ -1,0 +1,143 @@
+[
+	{
+  "questao": "Segundo Pressman (2010) software pode ser conceituado como:",
+  "alt1": "Instruções (programas de computador) que, quando executadas, produzem a função e o desempenho desejados.",
+  "alt2": "Programas que são executados somente em desktops e servidores.",
+  "alt3": "Os Sistemas Operacionais (SO) que controlam as máquinas.",
+  "alt4": "Somente as Estruturas de dados que permitem o armazenamento dos dados."
+	},
+	{
+  "questao": "De acordo com Leite (2007) o processo de desenvolvimento de software é composto por 4 grupos de atividades respectivamente:",
+  "alt1": "Especificação, Desenvolvimento, Validação, Evolução (ou retirada).",
+  "alt2": "Projeto, Implementação, Gestão de Riscos, Revisões Técnicas Formais.",
+  "alt3": "Especificação, Controle e Rastreamento do Projeto, Gestão de Reusabilidade, Evolução (ou retirada).",
+  "alt4": "Projeto, Desenvolvimento, Revisões Técnicas Formais, Evolução (ou retirada)."
+	},
+	{
+  "questao": "O Modelo Cascata é composto pelas seguintes etapas respectivamente:",
+  "alt1": "Especificação, Planejamento, Modelagem, Construção e Implantação.",
+  "alt2": "Especificação, Prototipação, Análise de Riscos, Construção e Implantação.",
+  "alt3": "Especificação, Prototipação, Modelagem, Construção e Implantação.",
+  "alt4": "Especificação, Análise de Riscos, Modelagem, Construção e Implantação."
+	},
+	{
+  "questao": "Selecione a alternativa incorreta a respeito dos problemas identificados durante a Crise do Software.",
+  "alt1": "Os softwares desenvolvidos não eram confiáveis e eram de difícil manutenção, ou seja, sempre havia garantia da qualidade do software.",
+  "alt2": "Os softwares desenvolvidos não eram confiáveis e eram de difícil manutenção, ou seja, a qualidade deixava a desejar.",
+  "alt3": "Os custos eram muito maiores do que os inicialmente estimados.",
+  "alt4": "Nenhuma das anteriores."
+	},
+	{
+  "questao": "O conjunto de atividades e resultados associados que resulta em um produto de software recebe o nome de:",
+  "alt1": "Processo de Software.",
+  "alt2": "Implantação de software.",
+  "alt3": "Engenharia de Software.",
+  "alt4": "Manutenção de Software."
+	},
+	{
+  "questao": "A Engenharia de Software:",
+  "alt1": "Tem como foco principal estabelecer uma abordagem sistemática de desenvolvimento, através de ferramentas e técnicas apropriadas, dependendo do problema a ser abordado, considerando restrições e recursos disponíveis.",
+  "alt2": "Não tem como método a abordagem estruturada para o desenvolvimento de software, pois, baseia-se exclusivamente nos modelos de software, notações, regras e técnicas de desenvolvimento.",
+  "alt3": "Tendo como foco apenas o tratamento dos aspectos de construção de software, subsidia a Engenharia de Sistemas no tratamento dos sistemas baseados em computadores, incluindo hardware e software.",
+  "alt4": "Se confunde com a Ciência da Computação quando ambas tratam do desenvolvimento de teorias, fundamentações e práticas de desenvolvimento de software."
+	},
+	{
+  "questao": "Na Engenharia de Software, a satisfação de requisitos funcionais e de desempenho explicitamente declarados, normas de desenvolvimento explicitamente documentadas e características implícitas que são esperadas em todo o software desenvolvido profissionalmente, denomina-se:",
+  "alt1": "Qualidade de Software",
+  "alt2": "Métricas de Software",
+  "alt3": "Teste de Software",
+  "alt4": "Engenharia de Software"
+	},
+	{
+  "questao": "No que diz respeito à Engenharia de Software, um processo é um conjunto de atividades e resultados associados, cujo objetivo é o desenvolvimento e a produção do software. Existem quatro atividades fundamentais de processo, duas das quais são definidas a seguir. I -  O software é modificado para se adaptar às mudanças dos requisitos do cliente e do mercado. II - O software é testado para garantir que o produto gerado é o que o cliente deseja. As atividades I e II são denominadas, respectivamente:",
+  "alt1": "Evolução do Software e Validação do Software",
+  "alt2": "Evolução do Software e Homologação do Software",
+  "alt3": "Especificação do Software e Validação do Software",
+  "alt4": "Especificação do Software e Homologação do Software"
+	},
+	{
+  "questao": "No contexto da engenharia de software, o processo conhecido como engenharia de requisitos permite ao engenheiro de software:",
+  "alt1": "Usar o modelo de casos de uso para especificar os requisitos funcionais do produto de software",
+  "alt2": "Remover as dependências entre os requisitos do sistema e as regras de negócio",
+  "alt3": "Eliminar a volatilidade dos requisitos que foram levantados para o produto de software",
+  "alt4": "Postergar a definição do escopo inicial do sistema para etapas posteriores do desenvolvimento"
+	},
+	{
+  "questao": "As atividades do modelo espiral de Engenharia de Software são:",
+  "alt1": "Planejamento, Análise dos Riscos, Engenharia e Avaliação feita pelo cliente",
+  "alt2": "Planejamento, Eliminação dos Riscos, Análise de Contingência e Avaliação feita pelo cliente",
+  "alt3": "Planejamento, Projeto, Análise dos Riscos e Engenharia",
+  "alt4": "Projeto, Análise dos Benefícios, Engenharia e Avaliação feita pelo gestor"
+	},
+	{
+  "questao": "Selecione a alternativa correta a respeito dos grupos de atividades do processo de desenvolvimento de software.",
+  "alt1": "A etapa de desenvolvimento ou de produção do software inclui as atividades de projeto e implementação do software.",
+  "alt2": "Projeto conceitual: envolve a elaboração das formas como ele vai interagir para realizar suas tarefas, a escolha dos objetos de interfaces (botões, menus, caixas de texto, etc.), o layout de janelas e telas, dentre outros. A interface deve garantir uma usabilidade satisfatória do software e é um fator fundamental de seu sucesso.",
+  "alt3": "Projeto dos algoritmos e estruturas de dados: refere-se à elaboração de uma visão macroscópica do software em relação aos componentes que interagem entre si. São exemplos de visões arquitetônicas, a visão conceitual, visão de módulos, visão de código e visão de execução.",
+  "alt4": "Projeto da arquitetura do software: envolve a elaboração das ideias e conceitos básicos que determinam os elementos fundamentais do software a ser desenvolvido."
+	},
+	{
+  "questao": "Assinale a alternativa correta a respeito do modelo cascata.",
+  "alt1": "As atividades de análise são executadas na etapa de construção.",
+  "alt2": "As atividades de projeto são executadas na etapa de especificação.",
+  "alt3": "As atividades de análise são executadas na etapa de modelagem.",
+  "alt4": "As atividades de codificação são executadas na etapa de implantação."
+	},
+	{
+  "questao": "Selecione a alternativa correta a respeito dos problemas identificados durante a Crise do Software.",
+  "alt1": "Nenhuma das anteriores.",
+  "alt2": "Os softwares desenvolvidos não eram confiáveis e eram de difícil manutenção, ou seja, sempre havia garantia da qualidade do software.",
+  "alt3": "Os softwares desenvolvidos não eram confiáveis e eram de difícil manutenção, ou seja, a qualidade deixava a desejar.",
+  "alt4": "Devido a pouca exigência de requisitos, os softwares não tinham problemas com atrasos."
+	},
+	{
+  "questao": "Selecione a alternativa incorreta a respeito das Aplicações do software.",
+  "alt1": "Software de sistema: maior área de aplicação de software. Está na categoria de software de aplicação que resolvem necessidades específicas do negócio, como controle de reservas de voos, sistemas de pagamento, de controle de estoque, etc.",
+  "alt2": "Software embutido: produtos 'inteligentes'. São programas armazenados em ROMs – Read Only Memories, como controle de teclado em um forno de microondas, funções digitais em um automóvel – controle de combustível, mostradores do painel, sistemas de frenagem, etc.",
+  "alt3": "Software para inteligência artificial: faz uso de algoritmos não numéricos para resolver problemas complexos, como sistemas de reconhecimento de padrões (de imagem e de voz), redes neurais artificiais, sistemas de controle de robôs, etc.",
+  "alt4": "Software de tempo real: monitora, analisa e controla eventos do mundo real à medida em que eles ocorrem. Exemplos: sistema de radar aeroespacial, teclado que gera inputs de teclas pressionadas para um sistema microprocessado, sensor de temperatura que gera um input para um micro-controlador, sistema de controle de voos, dentre outros."
+	},
+	{
+  "questao": "Selecione a alternativa incorreta a respeito das principais atividades executadas na etapa de análise na abordagem estruturada.",
+  "alt1": "Maneira que módulos serão reunidos de forma a formar o sistema que está sendo desenvolvido.",
+  "alt2": "Estabelecimento das restrições e desempenho desejado para o sistema.",
+  "alt3": "Definição das propriedades que o sistema deve possuir para atender às necessidades do usuário.",
+  "alt4": "Nenhuma das anteriores."
+	},
+	{
+  "questao": "Selecione a alternativa correta a respeito das principais atividades executadas na etapa de projeto na abordagem estruturada.",
+  "alt1": "Maneira que módulos serão reunidos de forma a formar o sistema que está sendo desenvolvido.",
+  "alt2": "Definição das funções que o sistema deve desempenhar.",
+  "alt3": "Determinação dos módulos, restrições e desempenho desejado para o sistema.",
+  "alt4": "Definição das propriedades que serão necessárias pelos módulos."
+	},
+	{
+  "questao": "Marque a alternativa correta a respeito do encapsulamento na abordagem orientada a objetos.",
+  "alt1": "Protege os dados do objeto do uso arbitrário e não intencional.",
+  "alt2": "Especifica a maneira pela qual os dados de um objeto são manipulados.",
+  "alt3": "Especifica uma estrutura de dados e os métodos operacionais permissíveis, que se aplicam a cada um de seus objetos.",
+  "alt4": "É qualquer coisa, real ou abstrata, a respeito da qual armazenamos dados e os métodos que os manipulam."
+	},
+	{
+  "questao": "O Modelo baseado em protótipos descartáveis é composto pelas etapas:",
+  "alt1": "Especificação, Modelagem Plano Rápido, Projeto Rápido, Construção do Protótipo e Entrega e Feedback.",
+  "alt2": "Especificação, Modelagem Plano Rápido, Gestão dos Riscos, Construção e Entrega.",
+  "alt3": "Especificação, Gerenciamento do Escopo, Gerenciamento dos Riscos, Construção e Entrega e Feedback.",
+  "alt4": "Especificação, Gerenciamento do Tempo, Projeto Rápido, Protótipo e Entrega e Feedback."
+	},
+	{
+  "questao": "Assinale a alternativa correta a respeito das definições de software, conforme a norma NBR ISO 9000-3. De acordo com a norma NBR ISO 9000-3 as definições de software e seus componentes e processos:",
+  "alt1": "Produto de software: conjunto completo de programas de computador, procedimentos e documentação correlata, assim como dados designados para entrega a um usuário.",
+  "alt2": "Fase: todas as atividades a serem realizadas para a criação de um produto de software.",
+  "alt3": "Item de software: todas as atividades a serem realizadas para a criação de um produto de software.",
+  "alt4": "Desenvolvimento: qualquer parte identificável de um produto de software em etapa intermediária ou na etapa final de desenvolvimento."
+	},
+	{
+  "questao": "Qual dos seguintes elementos é considerado um aspecto crucial na definição de qualidade de software, de acordo com Pressman (2006)?",
+  "alt1": "A conformidade com requisitos funcionais e de desempenho declarados.",
+  "alt2": "A popularidade do software entre os usuários.",
+  "alt3": "A estética visual da interface do usuário.",
+  "alt4": "A quantidade de funcionalidades oferecidas pelo software."
+	}
+
+]
